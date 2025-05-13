@@ -294,3 +294,16 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 | Object Storage   | Amazon S3                                |
 | Monitoring       | CloudWatch, SNS, Datadog                 |
 | Data Pipeline    | Kinesis + S3 + Glue + Redshift           |
+
+---
+## ⚠️ Challenges & Solutions
+
+- **Data Realism**: Faker-generated data lacked business patterns.  
+  ✅ Added logic to mimic seasonality and customer behavior.
+
+- **Sentiment Distribution**: Uniform sentiment scores skewed insights.  
+  ✅ Introduced controlled randomization to better simulate real-world support data.
+
+- **Anomaly & Trend Detection**: Hard to define thresholds on synthetic data.  
+  ✅ Used rule-based logic with statistical thresholds based on generated averages.
+---
