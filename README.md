@@ -164,7 +164,55 @@ This approach ensures testability, repeatability, and easy extension.
 
 
 ---
+## 🔄 Data Pipeline: Table Overview
 
+The application uses synthetic data across four main tables:
+
+---
+
+### 1. `customers`
+
+- Simulated using Faker (name, region, industry).
+- Stored with unique `customer_id`.
+- Used in customer profiles and segmentation.
+
+---
+
+### 2. `products`
+
+- Includes category, cost, and sales price.
+- Used for sales analysis and recommendations.
+- Linked to both sales and support data.
+
+---
+
+### 3. `sales_transactions`
+
+- Connects customers and products.
+- Includes `transaction_date` and `sale_amount`.
+- Drives sales charts, LTV, and product insights.
+
+---
+
+### 4. `support_tickets`
+
+- Contains `sentiment_score`, `status`, and links to products/customers.
+- Used for churn risk, sentiment tracking, and anomaly detection.
+
+---
+
+### Data Flow Summary
+
+```text
+[ generate_data.py ] → CSV files
+     ↓
+[ ingest_to_db.py ] → Loads into SQLite
+     ↓
+[ FastAPI backend ] → Provides APIs
+     ↓
+[ React frontend ] → Renders dashboards and AI insights
+```
+---
 
 ## ☁️ Cloud Deployment and Scalability
 
