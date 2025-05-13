@@ -1,6 +1,5 @@
 pandas
 numpy
 scipy
-sqlite3
 fastapi
 uvicorn

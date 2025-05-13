@@ -14,12 +14,15 @@ app.add_middleware(
 )
 app.include_router(insights_router, tags=["Insights Dashboard"])
 
+
 def main():
     uvicorn.run(
         "main:app",
         host="0.0.0.0",
         port=config.PORT,
-        reload=True,
+        reload=False if config.ENV == "prod" else True,
     )
+
+
 if __name__ == "__main__":
     main()
