@@ -18,7 +18,7 @@ export default function CustomerView() {
 
   // Fetch detailed profile for a selected customer
   const fetchProfile = async (id: string) => {
-    const res = await axios.get(`${import.meta.env.VITE_API_URL}customers/${id}/profile`);
+    const res = await axios.get(`${import.meta.env.VITE_API_URL}customers/${id}`);
     setSelected(res.data);
   };
 

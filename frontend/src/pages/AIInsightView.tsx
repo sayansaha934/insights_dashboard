@@ -20,7 +20,7 @@ export default function AIInsightView() {
     setLoading(true);
     setError(null);
     try {
-      const res = await axios.get(`${import.meta.env.VITE_API_URL}insights/anomalous_customers`);
+      const res = await axios.get(`${import.meta.env.VITE_API_URL}insights/anomalies`);
       setAnomalousCustomers(res.data);
     } catch (err) {
       setError("Failed to fetch anomalous customers");
@@ -34,7 +34,7 @@ export default function AIInsightView() {
     setLoading(true);
     setError(null);
     try {
-      const res = await axios.get(`${import.meta.env.VITE_API_URL}insights/trending_products`);
+      const res = await axios.get(`${import.meta.env.VITE_API_URL}insights/trends`);
       setTrendingProducts(res.data);
     } catch (err) {
       setError("Failed to fetch trending products");

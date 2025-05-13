@@ -38,7 +38,7 @@ export default function ProductView() {
     setLoadingProductDetails(true);
     setError(null);
     try {
-      const res = await axios.get(`${import.meta.env.VITE_API_URL}products/${productId}/profile`);
+      const res = await axios.get(`${import.meta.env.VITE_API_URL}products/${productId}`);
       setProductDetails(res.data);
       setSelectedProductId(productId);
     } catch (error) {

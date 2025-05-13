@@ -4,6 +4,7 @@ import json
 
 class Config(BaseModel):
     DB_PATH: str
+    PORT: int
 
 
 def get_config():
