@@ -1,0 +1,21 @@
+supplier_id,supplier_name,product_id,lead_time_days,reliability_score
+1,Williams-Martin,1,23,0.81
+2,Moore-Perez,24,5,0.78
+3,Levy Ltd,2,16,0.91
+4,Bailey-Rich,18,10,0.86
+5,"Maldonado, Berry and Richardson",16,7,0.87
+6,Flores-Thomas,18,12,0.8
+7,"Rodriguez, Hardy and Martinez",15,9,0.96
+8,"Rush, Allen and Cooper",20,30,0.96
+9,Baker-Bennett,6,3,0.86
+10,Rivera Ltd,15,10,0.95
+11,Conway-Wilson,18,12,0.84
+12,"Stevens, Snyder and Farmer",25,21,0.85
+13,"Thompson, Potts and Nolan",24,6,0.96
+14,"Allen, Townsend and Thompson",20,28,0.81
+15,Love-Cruz,20,8,0.8
+16,"Harris, Hernandez and Patel",3,22,0.99
+17,"Carter, Roberts and Murphy",27,13,0.76
+18,"Mcclain, Allen and Gibbs",22,16,0.93
+19,Torres-Mitchell,5,20,0.78
+20,Rodriguez-Gonzalez,14,21,0.8

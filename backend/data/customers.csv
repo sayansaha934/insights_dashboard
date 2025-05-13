@@ -1,0 +1,101 @@
+customer_id,customer_name,industry,region,join_date
+1,Gilbert-Benton,Technology,North,2022-10-17
+2,Brown PLC,Healthcare,South,2024-11-03
+3,"Patton, Martin and Nolan",Finance,South,2024-11-21
+4,Clark-Gonzalez,Technology,Central,2023-09-17
+5,Allen Group,Technology,Central,2023-11-08
+6,Thomas-Collins,Retail,North,2023-04-13
+7,Donaldson and Sons,Technology,North,2025-01-05
+8,"Le, Smith and Galloway",Finance,South,2022-07-13
+9,Norris Group,Manufacturing,Central,2025-04-10
+10,Pena Inc,Technology,Central,2022-05-17
+11,Johns LLC,Finance,Central,2023-01-22
+12,Hurley LLC,Retail,South,2024-04-14
+13,"Graham, Brown and Liu",Retail,Central,2024-07-14
+14,Adams Inc,Healthcare,North,2023-11-08
+15,Gardner-Flores,Finance,West,2024-01-19
+16,"Burke, Lawrence and Barajas",Healthcare,East,2022-05-17
+17,"Lindsey, Little and Daniels",Finance,South,2024-05-13
+18,"Wiggins, Kaiser and Parker",Healthcare,North,2022-09-05
+19,Melton Inc,Technology,West,2023-05-05
+20,Williams Group,Technology,East,2022-11-17
+21,Myers Ltd,Healthcare,Central,2023-08-13
+22,Baker Inc,Healthcare,North,2024-12-05
+23,Hart and Sons,Retail,Central,2023-03-01
+24,Vazquez-Acevedo,Technology,West,2023-10-21
+25,"Collins, Foster and Lopez",Technology,Central,2022-10-11
+26,Key PLC,Healthcare,Central,2025-04-05
+27,"Lewis, Kelley and Harris",Healthcare,Central,2025-02-03
+28,Coleman and Sons,Finance,North,2024-06-25
+29,"Franklin, Phillips and Welch",Technology,South,2024-12-20
+30,"Cruz, Potts and Nielsen",Healthcare,North,2025-03-14
+31,Garcia-Smith,Finance,North,2024-01-02
+32,"Shields, Mitchell and Lee",Retail,East,2022-11-22
+33,Walters-Huff,Retail,East,2024-11-13
+34,Hall-Jimenez,Finance,East,2022-09-24
+35,"Castaneda, Ferguson and Owens",Healthcare,South,2025-01-05
+36,Vasquez-Calderon,Healthcare,North,2024-11-10
+37,"Baker, Schroeder and Cobb",Manufacturing,South,2022-10-31
+38,"James, Wells and Anderson",Manufacturing,South,2025-01-24
+39,Schaefer-Owens,Finance,West,2024-02-02
+40,Parker LLC,Retail,East,2024-03-18
+41,Myers-Johnson,Manufacturing,South,2023-09-05
+42,Mills Inc,Healthcare,North,2022-10-09
+43,Hill PLC,Finance,North,2023-03-15
+44,"Wilson, Mcdonald and Powers",Healthcare,West,2025-02-13
+45,"Hayden, Valdez and Meyer",Healthcare,North,2024-10-27
+46,"Peters, Robinson and Jones",Finance,Central,2023-03-02
+47,"Cook, Rodriguez and Moreno",Healthcare,South,2022-06-09
+48,Oconnor-Dawson,Retail,West,2023-11-27
+49,Sullivan-Obrien,Retail,South,2024-07-06
+50,"Hickman, Daugherty and Mitchell",Healthcare,South,2022-08-13
+51,"Russo, Williams and Alvarez",Finance,Central,2024-07-16
+52,"Reilly, Miller and Mitchell",Manufacturing,East,2023-10-01
+53,Thomas LLC,Manufacturing,West,2024-02-24
+54,"Mcintyre, Barnes and Mitchell",Manufacturing,West,2024-02-21
+55,Morales-Mason,Healthcare,South,2025-03-23
+56,"Wagner, Hughes and Carr",Finance,Central,2024-09-05
+57,Nguyen and Sons,Retail,North,2022-07-11
+58,Ortiz-Mercado,Technology,North,2024-10-26
+59,"Thomas, Carter and Leach",Finance,South,2024-07-23
+60,Perez-Morton,Retail,Central,2025-04-11
+61,Hart Inc,Technology,West,2024-01-15
+62,Lynn-Williams,Retail,Central,2024-09-24
+63,Frank LLC,Retail,Central,2022-06-26
+64,Smith and Sons,Healthcare,Central,2022-12-15
+65,Ross Group,Technology,North,2023-12-20
+66,Hill PLC,Manufacturing,East,2022-06-05
+67,Guerra-Nelson,Healthcare,North,2024-01-28
+68,"Allen, Bailey and Gomez",Healthcare,West,2022-12-06
+69,Smith-Anderson,Finance,West,2023-10-01
+70,"Kim, Stafford and Wagner",Technology,East,2025-04-07
+71,"Simpson, Bailey and Richards",Manufacturing,South,2023-06-16
+72,Jacobs and Sons,Manufacturing,North,2022-05-14
+73,Hansen Group,Healthcare,Central,2025-01-06
+74,"Brown, Foster and Dyer",Manufacturing,South,2024-03-02
+75,"Myers, Perkins and Wilson",Finance,East,2024-05-26
+76,"Richardson, Martinez and Murphy",Finance,Central,2022-07-09
+77,"Fuller, Proctor and Snyder",Manufacturing,North,2022-08-07
+78,"Mitchell, Hurst and Mccarthy",Manufacturing,East,2022-07-21
+79,Clark-Zuniga,Retail,North,2023-05-10
+80,Delgado-Rasmussen,Technology,East,2023-07-20
+81,Simmons-Smith,Healthcare,South,2024-02-14
+82,Mcdaniel and Sons,Technology,South,2024-11-28
+83,"Hernandez, Roach and Garcia",Manufacturing,North,2024-07-24
+84,Miles-Johnson,Technology,West,2023-12-05
+85,Allen-Green,Technology,Central,2024-04-20
+86,Moore Inc,Finance,South,2025-05-03
+87,Martinez-Richmond,Retail,Central,2024-12-11
+88,"English, Brown and Weeks",Finance,East,2023-04-09
+89,Jackson-Velasquez,Manufacturing,Central,2023-07-27
+90,Baxter-Scott,Retail,South,2022-07-10
+91,Foster Inc,Manufacturing,South,2023-02-09
+92,Lopez-Miller,Healthcare,West,2025-02-19
+93,Cooley Group,Healthcare,West,2024-06-03
+94,Moran Inc,Manufacturing,West,2023-02-10
+95,Harper LLC,Technology,South,2024-12-12
+96,"Young, Mitchell and Davis",Finance,North,2024-03-02
+97,Russell and Sons,Healthcare,North,2024-09-04
+98,Anderson LLC,Manufacturing,Central,2025-03-22
+99,"Dawson, Boyer and Cole",Finance,Central,2022-11-24
+100,Phelps Inc,Finance,North,2025-04-26

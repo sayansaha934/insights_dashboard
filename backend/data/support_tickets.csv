@@ -1,0 +1,501 @@
+ticket_id,customer_id,product_id,issue_type,status,creation_date,resolution_date,sentiment_score
+1,12,12,Login Issue,In Progress,2024-10-22,2024-11-09,0.86
+2,2,10,Feature Request,Open,2025-04-20,2025-05-04,0.72
+3,72,29,Product Defect,Closed,2024-08-08,2024-08-16,0.69
+4,22,5,Bug Report,In Progress,2025-01-10,2025-01-19,0.49
+5,9,6,Bug Report,Resolved,2024-11-02,2024-11-16,0.3
+6,10,12,Payment Failure,Resolved,2024-06-26,2024-07-05,0.59
+7,26,15,Payment Failure,In Progress,2024-11-02,2024-11-06,0.01
+8,51,11,Product Defect,Resolved,2024-09-02,2024-09-29,0.8
+9,43,15,Feature Request,Closed,2024-10-19,2024-10-30,0.3
+10,78,23,Feature Request,In Progress,2024-12-25,2025-01-01,0.18
+11,51,11,Feature Request,Closed,2025-01-04,2025-01-14,0.33
+12,36,27,Feature Request,In Progress,2025-04-03,2025-04-29,0.11
+13,73,7,Product Defect,Closed,2024-08-25,2024-09-13,0.68
+14,71,1,Feature Request,Closed,2024-09-15,2024-10-09,0.44
+15,38,27,Login Issue,Resolved,2024-11-15,2024-12-08,0.67
+16,18,21,Payment Failure,In Progress,2025-04-24,2025-05-04,0.66
+17,92,14,Feature Request,Open,2024-11-22,2024-12-18,0.45
+18,77,16,Feature Request,Resolved,2024-07-26,2024-08-14,0.54
+19,47,23,Product Defect,Open,2024-11-03,2024-12-02,0.11
+20,32,22,Bug Report,Closed,2025-02-21,2025-03-15,0.65
+21,6,19,Feature Request,In Progress,2024-05-10,2024-05-31,0.97
+22,56,4,Login Issue,In Progress,2025-01-17,2025-01-18,0.22
+23,96,17,Product Defect,Closed,2024-06-28,2024-07-16,0.45
+24,51,15,Product Defect,Closed,2024-10-15,2024-11-09,0.34
+25,4,16,Bug Report,Resolved,2024-06-21,2024-06-25,0.92
+26,11,4,Payment Failure,In Progress,2025-01-07,2025-02-03,0.31
+27,59,26,Product Defect,Resolved,2025-03-30,2025-04-06,0.35
+28,13,15,Feature Request,In Progress,2024-12-02,2024-12-26,0.07
+29,6,26,Login Issue,Open,2025-01-26,2025-02-18,0.85
+30,83,4,Payment Failure,Closed,2024-09-18,2024-10-10,0.52
+31,71,6,Product Defect,Resolved,2025-02-28,2025-03-11,0.96
+32,30,26,Payment Failure,Closed,2024-07-25,2024-08-07,0.64
+33,56,13,Product Defect,Closed,2024-06-08,2024-06-09,0.45
+34,55,13,Payment Failure,Closed,2024-09-06,2024-09-07,0.28
+35,91,26,Login Issue,Open,2025-01-06,2025-02-01,0.8
+36,69,6,Bug Report,Closed,2024-09-17,2024-09-29,0.46
+37,34,22,Feature Request,In Progress,2024-09-05,2024-10-03,0.6
+38,79,13,Login Issue,In Progress,2024-07-17,2024-08-05,0.35
+39,59,20,Bug Report,Open,2024-08-22,2024-08-28,0.67
+40,41,4,Bug Report,Open,2024-10-14,2024-10-22,0.18
+41,89,5,Feature Request,Resolved,2025-02-05,2025-02-22,0.6
+42,74,13,Payment Failure,Resolved,2025-04-30,2025-05-14,0.64
+43,89,30,Payment Failure,Closed,2024-08-03,2024-08-24,0.49
+44,18,6,Feature Request,Open,2024-06-16,2024-06-27,0.87
+45,2,16,Payment Failure,Resolved,2025-04-27,2025-05-02,0.96
+46,65,21,Feature Request,Resolved,2025-01-10,2025-01-26,0.42
+47,57,16,Login Issue,Open,2024-10-09,2024-10-15,0.8
+48,29,10,Bug Report,Closed,2025-04-15,2025-04-17,0.54
+49,22,25,Product Defect,Resolved,2025-01-27,2025-02-11,0.55
+50,15,19,Bug Report,In Progress,2025-02-17,2025-02-21,0.54
+51,97,2,Feature Request,Closed,2024-08-25,2024-09-19,0.99
+52,14,24,Payment Failure,In Progress,2025-02-22,2025-03-21,0.87
+53,5,15,Bug Report,Open,2024-11-19,2024-11-28,0.44
+54,16,25,Payment Failure,Closed,2024-09-14,2024-10-10,0.81
+55,76,23,Product Defect,Resolved,2024-08-26,2024-09-07,0.17
+56,18,26,Payment Failure,Open,2024-07-28,2024-08-04,0.57
+57,69,9,Product Defect,Closed,2025-05-04,2025-05-24,0.32
+58,91,10,Product Defect,In Progress,2024-06-20,2024-06-30,0.95
+59,66,29,Login Issue,Closed,2025-03-26,2025-04-17,0.96
+60,53,30,Bug Report,Closed,2025-03-26,2025-03-28,0.7
+61,17,8,Bug Report,Closed,2024-11-28,2024-12-03,0.76
+62,87,13,Payment Failure,In Progress,2024-08-19,2024-09-04,0.63
+63,49,15,Login Issue,Resolved,2024-09-09,2024-09-12,0.52
+64,36,23,Bug Report,Resolved,2024-10-09,2024-11-08,0.95
+65,42,19,Login Issue,Resolved,2024-10-08,2024-10-09,0.63
+66,90,12,Login Issue,Resolved,2024-12-25,2025-01-22,0.22
+67,55,27,Feature Request,In Progress,2024-07-20,2024-07-27,0.32
+68,37,11,Product Defect,Closed,2025-04-25,2025-05-13,0.57
+69,63,26,Login Issue,Open,2024-08-15,2024-08-26,0.1
+70,59,1,Payment Failure,Resolved,2024-09-12,2024-09-16,0.46
+71,55,7,Payment Failure,In Progress,2024-07-08,2024-07-31,0.16
+72,36,3,Bug Report,In Progress,2024-06-26,2024-07-17,0.08
+73,86,29,Payment Failure,Open,2024-07-09,2024-07-30,0.4
+74,40,24,Payment Failure,Resolved,2024-05-23,2024-06-15,0.66
+75,91,4,Payment Failure,Resolved,2024-11-07,2024-11-08,0.08
+76,76,8,Feature Request,Open,2025-04-02,2025-04-19,0.01
+77,44,27,Feature Request,Closed,2024-08-16,2024-08-20,0.48
+78,30,13,Login Issue,Open,2025-01-23,2025-01-26,0.31
+79,39,5,Payment Failure,Closed,2024-12-28,2025-01-10,0.07
+80,73,1,Payment Failure,Resolved,2024-07-23,2024-08-12,0.35
+81,28,21,Payment Failure,Resolved,2024-08-29,2024-09-22,0.62
+82,57,28,Login Issue,Open,2025-01-26,2025-02-02,0.14
+83,16,19,Feature Request,In Progress,2024-07-24,2024-08-17,0.96
+84,41,26,Payment Failure,In Progress,2025-01-24,2025-01-29,0.64
+85,32,18,Product Defect,In Progress,2025-05-08,2025-05-28,0.78
+86,89,1,Bug Report,Closed,2024-08-11,2024-09-08,0.52
+87,66,7,Feature Request,In Progress,2025-03-12,2025-04-05,0.65
+88,31,16,Login Issue,Closed,2024-10-13,2024-10-26,0.5
+89,77,3,Login Issue,In Progress,2024-05-10,2024-05-27,0.93
+90,17,13,Product Defect,Resolved,2025-01-09,2025-02-06,0.37
+91,88,6,Feature Request,Open,2024-11-12,2024-12-07,0.02
+92,9,1,Payment Failure,Open,2025-03-22,2025-03-31,0.92
+93,51,17,Product Defect,Resolved,2024-11-01,2024-11-11,0.42
+94,52,3,Product Defect,Closed,2024-09-21,2024-10-12,0.28
+95,40,3,Payment Failure,Closed,2025-01-15,2025-02-01,0.54
+96,51,19,Login Issue,In Progress,2024-06-19,2024-07-10,0.7
+97,94,28,Login Issue,Closed,2024-08-06,2024-08-14,0.09
+98,56,4,Product Defect,Open,2024-09-02,2024-09-17,0.31
+99,95,22,Payment Failure,Open,2025-04-26,2025-05-20,0.01
+100,18,23,Payment Failure,Resolved,2024-07-02,2024-07-03,0.95
+101,67,17,Bug Report,Closed,2024-06-09,2024-07-05,0.37
+102,96,25,Bug Report,Open,2024-07-17,2024-08-14,0.77
+103,4,11,Feature Request,In Progress,2024-07-01,2024-07-27,0.52
+104,34,23,Login Issue,Resolved,2024-09-22,2024-10-11,0.46
+105,47,2,Product Defect,Closed,2025-02-27,2025-03-15,0.37
+106,33,25,Product Defect,Open,2024-08-28,2024-09-01,0.23
+107,66,1,Login Issue,Closed,2024-07-14,2024-07-16,0.05
+108,47,13,Payment Failure,Closed,2024-09-21,2024-10-21,0.93
+109,5,18,Feature Request,Closed,2024-06-03,2024-06-29,0.32
+110,54,30,Bug Report,In Progress,2024-09-12,2024-10-06,0.83
+111,74,12,Product Defect,Open,2024-09-09,2024-09-13,0.18
+112,67,2,Login Issue,Resolved,2024-07-28,2024-08-10,0.87
+113,100,28,Bug Report,Open,2024-10-28,2024-11-07,0.55
+114,2,12,Bug Report,In Progress,2024-10-15,2024-10-22,0.74
+115,32,15,Product Defect,Resolved,2025-01-27,2025-02-08,1.0
+116,100,7,Product Defect,Closed,2024-07-19,2024-08-12,0.15
+117,53,1,Product Defect,In Progress,2024-12-11,2024-12-19,0.64
+118,89,29,Bug Report,Open,2024-09-27,2024-09-28,0.76
+119,49,28,Bug Report,Open,2025-03-27,2025-04-20,0.21
+120,31,14,Login Issue,Closed,2024-07-19,2024-08-04,0.71
+121,12,2,Payment Failure,Resolved,2024-07-20,2024-08-19,0.7
+122,48,15,Login Issue,Open,2024-12-01,2024-12-25,0.51
+123,82,27,Login Issue,Open,2025-02-04,2025-02-17,0.43
+124,17,8,Bug Report,In Progress,2024-07-12,2024-07-22,0.93
+125,51,23,Bug Report,In Progress,2025-04-09,2025-05-06,0.45
+126,30,3,Payment Failure,Open,2024-12-15,2024-12-22,0.16
+127,22,15,Bug Report,Resolved,2024-09-27,2024-10-12,0.12
+128,46,25,Feature Request,In Progress,2024-11-05,2024-11-12,0.46
+129,16,3,Bug Report,Open,2025-05-03,2025-05-09,0.22
+130,42,5,Payment Failure,In Progress,2025-01-30,2025-02-02,0.4
+131,7,22,Bug Report,Closed,2024-10-27,2024-11-06,0.03
+132,52,28,Product Defect,Closed,2024-09-15,2024-09-30,0.09
+133,14,26,Payment Failure,Open,2025-04-27,2025-05-23,0.01
+134,100,8,Payment Failure,Resolved,2024-05-31,2024-06-05,0.37
+135,81,21,Product Defect,In Progress,2025-04-09,2025-04-12,0.92
+136,10,1,Payment Failure,Resolved,2024-07-05,2024-07-08,0.81
+137,12,29,Bug Report,Open,2024-08-14,2024-09-11,0.04
+138,60,2,Product Defect,Resolved,2024-08-01,2024-08-07,0.82
+139,51,16,Feature Request,Resolved,2024-09-24,2024-09-25,0.17
+140,28,30,Bug Report,In Progress,2024-05-19,2024-05-25,0.45
+141,20,2,Product Defect,Closed,2024-06-19,2024-07-09,0.65
+142,64,14,Product Defect,Resolved,2024-10-10,2024-11-08,0.06
+143,36,13,Feature Request,Closed,2024-12-23,2024-12-28,0.64
+144,68,8,Product Defect,Open,2024-07-17,2024-08-07,0.99
+145,92,12,Product Defect,Resolved,2024-05-29,2024-06-14,0.34
+146,73,17,Feature Request,In Progress,2025-03-16,2025-03-27,0.18
+147,41,20,Login Issue,In Progress,2025-03-01,2025-03-09,0.06
+148,61,17,Product Defect,Closed,2025-01-08,2025-01-20,0.97
+149,13,8,Payment Failure,In Progress,2024-08-29,2024-09-20,0.53
+150,95,2,Payment Failure,Resolved,2025-05-05,2025-05-30,0.35
+151,23,6,Product Defect,In Progress,2025-04-10,2025-04-18,0.81
+152,90,12,Product Defect,Open,2025-03-19,2025-04-18,0.7
+153,46,19,Payment Failure,Closed,2025-03-24,2025-04-12,0.84
+154,64,18,Payment Failure,Resolved,2025-02-13,2025-02-23,0.04
+155,8,8,Payment Failure,Open,2024-05-27,2024-06-16,0.53
+156,1,11,Product Defect,Closed,2024-07-16,2024-08-15,0.81
+157,44,23,Bug Report,Open,2024-07-08,2024-07-14,0.02
+158,76,23,Payment Failure,Open,2024-11-03,2024-12-03,0.85
+159,47,3,Feature Request,Open,2024-08-23,2024-09-04,0.34
+160,42,5,Feature Request,Resolved,2025-03-02,2025-03-08,0.65
+161,23,23,Product Defect,In Progress,2024-06-16,2024-07-04,0.22
+162,76,27,Feature Request,In Progress,2025-02-26,2025-03-04,0.73
+163,38,5,Login Issue,Resolved,2025-03-05,2025-03-11,0.85
+164,99,19,Payment Failure,In Progress,2024-11-19,2024-11-21,0.92
+165,79,8,Product Defect,Open,2024-11-01,2024-11-22,0.94
+166,19,11,Login Issue,Closed,2024-06-09,2024-07-03,0.35
+167,41,6,Login Issue,In Progress,2024-10-28,2024-11-18,0.45
+168,34,7,Login Issue,In Progress,2025-01-08,2025-01-16,0.26
+169,14,24,Login Issue,Resolved,2024-10-12,2024-10-13,0.44
+170,54,6,Feature Request,Resolved,2025-04-09,2025-05-08,0.88
+171,45,18,Login Issue,Resolved,2024-07-12,2024-07-25,0.79
+172,74,21,Payment Failure,Closed,2024-08-08,2024-09-02,0.45
+173,5,10,Bug Report,In Progress,2025-03-29,2025-03-30,0.95
+174,10,11,Feature Request,Closed,2025-03-10,2025-03-16,0.73
+175,71,29,Bug Report,Resolved,2024-06-19,2024-06-22,0.7
+176,56,21,Product Defect,Resolved,2025-02-11,2025-02-17,0.16
+177,13,11,Payment Failure,Resolved,2025-01-30,2025-02-06,0.7
+178,93,30,Product Defect,In Progress,2024-08-13,2024-09-06,0.66
+179,39,8,Login Issue,Resolved,2024-12-19,2024-12-23,0.57
+180,63,5,Bug Report,Open,2024-08-12,2024-08-14,0.43
+181,38,27,Product Defect,Resolved,2024-10-22,2024-11-13,0.2
+182,4,7,Bug Report,Open,2024-06-16,2024-06-22,0.47
+183,15,10,Feature Request,Resolved,2025-04-28,2025-05-24,0.49
+184,85,9,Product Defect,Resolved,2024-05-12,2024-05-15,0.18
+185,49,12,Feature Request,Open,2025-02-09,2025-02-15,0.26
+186,60,9,Bug Report,Open,2025-01-11,2025-01-19,0.15
+187,90,22,Login Issue,In Progress,2025-02-15,2025-02-19,0.81
+188,53,25,Payment Failure,Open,2024-07-13,2024-08-01,0.84
+189,67,14,Feature Request,Closed,2025-02-19,2025-03-09,0.48
+190,11,13,Login Issue,Closed,2025-04-18,2025-05-17,0.12
+191,97,15,Payment Failure,Closed,2024-09-27,2024-10-03,0.81
+192,17,2,Login Issue,Resolved,2025-01-24,2025-02-07,0.2
+193,81,5,Product Defect,In Progress,2024-11-17,2024-12-14,0.32
+194,94,30,Login Issue,Open,2024-12-28,2025-01-23,0.39
+195,51,18,Bug Report,Resolved,2024-05-26,2024-06-06,0.92
+196,2,26,Product Defect,Resolved,2024-10-27,2024-11-19,0.11
+197,20,5,Product Defect,Open,2024-12-25,2025-01-13,0.92
+198,73,25,Bug Report,In Progress,2024-07-06,2024-07-10,0.88
+199,34,13,Feature Request,Resolved,2024-11-08,2024-11-29,0.04
+200,36,13,Product Defect,Resolved,2024-12-12,2024-12-17,0.04
+201,43,23,Login Issue,Resolved,2024-12-14,2024-12-22,0.92
+202,48,1,Bug Report,In Progress,2024-07-09,2024-07-20,0.28
+203,63,28,Login Issue,Closed,2025-03-16,2025-04-08,0.13
+204,96,15,Bug Report,In Progress,2024-07-27,2024-08-21,0.73
+205,78,21,Payment Failure,Resolved,2024-11-17,2024-11-20,0.21
+206,53,24,Product Defect,In Progress,2025-01-23,2025-02-08,0.82
+207,66,26,Login Issue,In Progress,2024-11-16,2024-11-22,0.71
+208,52,5,Product Defect,Open,2025-02-04,2025-03-01,0.17
+209,26,27,Payment Failure,Open,2024-09-21,2024-09-23,0.46
+210,47,23,Bug Report,In Progress,2025-04-30,2025-05-07,0.82
+211,65,13,Login Issue,Open,2025-03-04,2025-03-25,0.24
+212,63,20,Payment Failure,Resolved,2025-04-02,2025-04-17,0.59
+213,45,12,Bug Report,Open,2024-06-02,2024-06-08,0.29
+214,50,2,Product Defect,Closed,2024-06-25,2024-07-01,0.86
+215,83,8,Payment Failure,In Progress,2024-09-28,2024-10-20,0.65
+216,66,1,Login Issue,Resolved,2024-12-28,2025-01-25,0.91
+217,83,6,Login Issue,Closed,2024-12-20,2025-01-09,0.25
+218,40,23,Bug Report,Resolved,2024-11-20,2024-12-13,0.9
+219,45,15,Payment Failure,Resolved,2024-11-02,2024-11-11,0.3
+220,67,27,Feature Request,Open,2024-05-10,2024-05-30,0.01
+221,85,27,Bug Report,In Progress,2025-03-18,2025-04-14,0.3
+222,14,16,Bug Report,In Progress,2024-11-22,2024-11-25,0.64
+223,36,9,Bug Report,Closed,2024-12-13,2025-01-03,0.15
+224,98,8,Login Issue,Resolved,2024-07-07,2024-08-05,0.66
+225,88,5,Login Issue,Resolved,2024-07-02,2024-07-26,1.0
+226,34,30,Feature Request,Resolved,2024-11-15,2024-11-29,0.74
+227,75,23,Payment Failure,In Progress,2024-12-01,2024-12-20,0.73
+228,29,22,Feature Request,In Progress,2024-10-28,2024-11-15,0.51
+229,22,27,Product Defect,Closed,2025-03-03,2025-03-25,0.29
+230,61,5,Bug Report,Closed,2025-04-29,2025-05-23,0.95
+231,43,21,Payment Failure,In Progress,2025-02-06,2025-02-09,0.22
+232,40,14,Bug Report,In Progress,2024-10-17,2024-11-12,0.26
+233,38,15,Login Issue,Resolved,2024-09-09,2024-10-07,0.05
+234,82,19,Product Defect,Open,2025-02-13,2025-03-04,0.47
+235,25,17,Feature Request,In Progress,2025-01-03,2025-01-07,0.41
+236,20,5,Bug Report,Resolved,2025-05-10,2025-05-17,0.99
+237,59,5,Payment Failure,Open,2025-05-04,2025-05-15,0.49
+238,81,6,Login Issue,Open,2025-04-17,2025-04-28,0.45
+239,27,25,Payment Failure,Closed,2025-04-09,2025-05-04,0.49
+240,98,25,Payment Failure,Resolved,2024-06-30,2024-07-03,0.63
+241,52,14,Feature Request,Open,2024-08-10,2024-08-26,0.04
+242,26,24,Login Issue,In Progress,2025-01-28,2025-02-09,0.76
+243,68,7,Login Issue,Closed,2025-04-20,2025-04-21,0.23
+244,45,10,Login Issue,Resolved,2024-09-23,2024-09-28,0.5
+245,40,6,Login Issue,In Progress,2025-04-15,2025-04-18,0.95
+246,59,24,Product Defect,In Progress,2024-05-13,2024-05-30,0.43
+247,88,5,Feature Request,In Progress,2024-06-19,2024-06-30,0.75
+248,22,30,Feature Request,Open,2024-07-21,2024-08-20,0.23
+249,94,5,Login Issue,Closed,2024-06-18,2024-06-25,0.12
+250,92,21,Login Issue,Resolved,2024-09-25,2024-10-21,0.88
+251,33,25,Product Defect,Open,2024-07-08,2024-07-26,0.59
+252,7,22,Login Issue,Open,2024-08-26,2024-08-30,0.69
+253,54,15,Login Issue,In Progress,2024-06-21,2024-07-04,0.47
+254,20,7,Login Issue,In Progress,2024-07-08,2024-07-31,0.42
+255,13,22,Bug Report,Closed,2024-12-10,2024-12-27,0.42
+256,14,17,Product Defect,Open,2024-08-23,2024-09-16,0.28
+257,14,16,Product Defect,Closed,2024-07-01,2024-07-08,0.78
+258,67,7,Feature Request,In Progress,2025-04-06,2025-04-18,0.16
+259,71,16,Payment Failure,Resolved,2024-11-09,2024-12-09,0.33
+260,1,1,Login Issue,Open,2024-12-22,2025-01-13,0.84
+261,86,16,Login Issue,Open,2024-10-06,2024-10-11,0.72
+262,13,29,Payment Failure,Resolved,2024-07-23,2024-08-01,0.99
+263,38,9,Login Issue,Open,2024-05-26,2024-06-10,0.81
+264,6,28,Bug Report,In Progress,2024-05-14,2024-05-24,0.43
+265,15,4,Login Issue,Open,2025-04-12,2025-05-10,0.85
+266,85,21,Bug Report,In Progress,2025-03-01,2025-03-07,0.89
+267,80,9,Login Issue,In Progress,2025-04-29,2025-05-28,0.81
+268,24,4,Feature Request,Resolved,2024-05-13,2024-05-26,0.27
+269,50,23,Feature Request,Resolved,2024-07-11,2024-08-08,0.65
+270,22,4,Login Issue,Closed,2025-05-10,2025-05-15,0.1
+271,76,16,Product Defect,Resolved,2024-10-05,2024-10-31,0.18
+272,49,25,Product Defect,Open,2025-04-24,2025-05-06,0.86
+273,94,29,Feature Request,Resolved,2025-02-20,2025-02-25,0.11
+274,53,15,Login Issue,In Progress,2024-12-01,2024-12-03,0.65
+275,2,23,Product Defect,Closed,2024-12-06,2025-01-03,0.98
+276,86,28,Product Defect,Open,2024-09-12,2024-09-23,0.43
+277,94,8,Bug Report,Resolved,2024-06-29,2024-07-15,0.15
+278,72,29,Login Issue,Open,2025-02-23,2025-03-15,0.64
+279,21,17,Feature Request,Resolved,2024-05-13,2024-06-10,0.87
+280,10,25,Bug Report,Closed,2025-02-11,2025-02-27,0.33
+281,36,2,Payment Failure,Resolved,2024-11-22,2024-12-09,0.4
+282,31,3,Feature Request,Resolved,2024-11-04,2024-11-19,0.09
+283,64,15,Login Issue,Resolved,2025-01-11,2025-01-22,0.75
+284,3,4,Feature Request,Open,2025-03-27,2025-04-09,0.56
+285,1,27,Product Defect,In Progress,2024-05-21,2024-05-24,0.89
+286,72,7,Feature Request,In Progress,2024-05-31,2024-06-21,0.36
+287,7,27,Feature Request,In Progress,2024-08-15,2024-08-23,0.56
+288,80,20,Bug Report,Resolved,2025-02-26,2025-03-14,0.11
+289,98,22,Login Issue,In Progress,2024-05-16,2024-05-24,0.36
+290,82,26,Product Defect,In Progress,2024-10-28,2024-11-07,0.7
+291,6,29,Feature Request,Closed,2025-01-31,2025-02-06,0.82
+292,96,24,Login Issue,In Progress,2025-01-11,2025-01-25,0.61
+293,25,4,Feature Request,Closed,2024-05-16,2024-06-15,0.46
+294,25,23,Login Issue,Resolved,2024-09-15,2024-09-26,0.05
+295,82,27,Product Defect,Open,2024-06-28,2024-07-20,0.77
+296,58,15,Product Defect,Closed,2024-07-08,2024-07-30,0.96
+297,1,17,Login Issue,Resolved,2025-03-08,2025-04-01,0.84
+298,62,30,Payment Failure,Closed,2024-06-04,2024-06-21,0.73
+299,17,4,Product Defect,In Progress,2024-12-02,2024-12-15,0.5
+300,50,14,Payment Failure,In Progress,2024-12-12,2025-01-01,0.4
+301,44,10,Payment Failure,Closed,2025-05-01,2025-05-16,0.41
+302,90,29,Product Defect,In Progress,2024-11-10,2024-12-04,0.84
+303,71,28,Product Defect,Closed,2024-11-08,2024-11-19,0.2
+304,80,23,Bug Report,Closed,2024-12-12,2024-12-22,0.98
+305,84,6,Product Defect,In Progress,2024-07-22,2024-08-08,0.71
+306,98,12,Feature Request,Resolved,2025-02-19,2025-03-09,0.67
+307,69,10,Feature Request,Open,2024-08-27,2024-09-25,0.52
+308,4,13,Login Issue,Open,2025-01-16,2025-01-21,0.2
+309,97,26,Bug Report,In Progress,2024-11-20,2024-11-26,0.15
+310,8,23,Bug Report,Closed,2024-09-17,2024-10-13,0.75
+311,5,12,Feature Request,Open,2025-05-09,2025-06-05,0.62
+312,87,24,Payment Failure,Resolved,2024-09-26,2024-10-14,0.24
+313,90,10,Login Issue,Resolved,2024-07-25,2024-08-17,0.39
+314,88,11,Login Issue,Open,2024-11-24,2024-12-12,0.74
+315,26,20,Feature Request,Closed,2025-04-30,2025-05-28,0.91
+316,91,23,Bug Report,Closed,2024-11-05,2024-11-26,0.78
+317,25,10,Payment Failure,Open,2024-07-19,2024-08-03,0.19
+318,23,24,Login Issue,Resolved,2024-07-20,2024-08-06,0.04
+319,36,18,Payment Failure,Closed,2024-10-28,2024-11-06,0.58
+320,33,1,Feature Request,Closed,2024-10-03,2024-10-14,0.04
+321,42,20,Product Defect,In Progress,2024-06-07,2024-06-09,0.49
+322,74,18,Login Issue,In Progress,2024-08-20,2024-09-01,0.53
+323,24,17,Product Defect,Closed,2025-01-26,2025-01-29,0.42
+324,69,13,Bug Report,Closed,2024-12-30,2025-01-02,0.88
+325,85,11,Bug Report,In Progress,2024-06-04,2024-06-15,0.22
+326,97,20,Feature Request,Open,2024-12-22,2025-01-08,0.11
+327,45,15,Product Defect,Closed,2024-08-02,2024-08-10,0.96
+328,88,29,Feature Request,Open,2025-04-03,2025-04-14,0.39
+329,70,24,Login Issue,In Progress,2024-06-21,2024-07-01,0.51
+330,66,15,Login Issue,In Progress,2024-07-18,2024-08-03,0.9
+331,25,11,Login Issue,Open,2024-09-02,2024-09-19,0.17
+332,99,18,Login Issue,Open,2025-02-22,2025-03-12,0.21
+333,81,25,Feature Request,Open,2025-02-12,2025-02-19,0.21
+334,90,29,Feature Request,Open,2025-04-03,2025-04-27,0.75
+335,20,1,Bug Report,Open,2024-07-02,2024-07-17,0.09
+336,7,6,Bug Report,Open,2024-12-19,2025-01-14,0.57
+337,30,30,Feature Request,Resolved,2025-03-02,2025-03-11,0.45
+338,52,14,Login Issue,Resolved,2024-06-03,2024-06-14,0.67
+339,69,1,Product Defect,Open,2024-11-11,2024-12-02,0.76
+340,75,2,Login Issue,In Progress,2024-11-25,2024-12-18,0.93
+341,14,10,Bug Report,Open,2024-06-29,2024-07-25,0.28
+342,57,13,Login Issue,Resolved,2024-07-24,2024-08-06,0.16
+343,29,5,Feature Request,In Progress,2024-05-11,2024-06-04,0.96
+344,19,10,Bug Report,Open,2024-09-01,2024-09-23,0.55
+345,72,5,Login Issue,Open,2024-12-30,2025-01-03,0.57
+346,51,18,Login Issue,In Progress,2025-01-25,2025-02-12,0.21
+347,95,29,Bug Report,Closed,2024-10-18,2024-11-11,0.41
+348,83,28,Payment Failure,Closed,2025-02-01,2025-02-18,0.18
+349,79,27,Payment Failure,Open,2024-11-06,2024-11-15,0.18
+350,73,28,Product Defect,Resolved,2025-02-26,2025-02-28,0.64
+351,10,10,Login Issue,In Progress,2024-07-28,2024-08-19,0.1
+352,93,19,Bug Report,In Progress,2024-12-18,2025-01-03,0.13
+353,84,8,Bug Report,Open,2025-02-15,2025-02-19,0.9
+354,41,16,Bug Report,In Progress,2025-01-28,2025-02-12,0.69
+355,20,19,Bug Report,In Progress,2025-04-30,2025-05-19,0.96
+356,22,1,Payment Failure,Closed,2024-12-31,2025-01-11,0.71
+357,83,14,Bug Report,Closed,2024-10-22,2024-10-31,0.68
+358,43,29,Feature Request,Resolved,2024-06-17,2024-07-03,0.36
+359,40,16,Login Issue,Closed,2024-12-12,2024-12-30,0.65
+360,11,27,Payment Failure,Closed,2024-10-22,2024-10-31,0.26
+361,81,3,Login Issue,Open,2024-06-02,2024-06-26,0.85
+362,81,1,Product Defect,Resolved,2024-11-29,2024-12-26,0.77
+363,28,30,Product Defect,In Progress,2024-12-14,2024-12-16,0.54
+364,70,16,Payment Failure,In Progress,2025-03-02,2025-03-23,0.39
+365,99,19,Bug Report,Closed,2024-07-30,2024-08-23,0.46
+366,66,3,Bug Report,Open,2024-10-16,2024-10-29,0.66
+367,79,22,Product Defect,Closed,2024-06-30,2024-07-06,0.45
+368,23,19,Payment Failure,Resolved,2024-07-31,2024-08-19,0.94
+369,6,8,Feature Request,Closed,2024-05-23,2024-06-17,0.06
+370,48,8,Payment Failure,In Progress,2024-11-06,2024-11-08,0.39
+371,59,29,Login Issue,In Progress,2024-07-15,2024-07-17,0.1
+372,67,21,Bug Report,In Progress,2024-05-23,2024-06-19,0.58
+373,73,6,Feature Request,In Progress,2024-12-21,2025-01-03,0.59
+374,10,17,Feature Request,Closed,2024-06-29,2024-07-08,0.52
+375,46,27,Bug Report,Resolved,2024-07-03,2024-07-31,0.79
+376,78,1,Payment Failure,Resolved,2025-03-10,2025-03-27,0.17
+377,10,17,Bug Report,Closed,2024-09-13,2024-10-04,0.15
+378,21,12,Login Issue,Closed,2024-08-19,2024-09-08,0.41
+379,43,24,Feature Request,Resolved,2024-12-02,2024-12-06,0.48
+380,76,6,Feature Request,Open,2025-04-02,2025-04-23,0.24
+381,17,19,Payment Failure,Closed,2024-12-23,2025-01-11,0.63
+382,6,29,Payment Failure,Open,2025-05-03,2025-05-22,0.17
+383,24,17,Product Defect,Open,2024-05-23,2024-06-05,0.88
+384,94,22,Bug Report,Open,2025-02-21,2025-03-20,0.22
+385,78,16,Feature Request,Closed,2024-09-18,2024-10-16,0.22
+386,53,20,Product Defect,Closed,2024-08-15,2024-08-20,0.62
+387,66,9,Bug Report,Resolved,2024-07-11,2024-07-17,0.6
+388,9,8,Feature Request,Closed,2024-10-02,2024-10-15,0.11
+389,26,17,Product Defect,Resolved,2025-02-02,2025-03-02,0.83
+390,78,4,Feature Request,Open,2025-04-12,2025-04-18,0.88
+391,69,17,Login Issue,Open,2025-03-31,2025-04-25,0.48
+392,17,29,Product Defect,Open,2024-11-20,2024-12-10,0.9
+393,100,22,Feature Request,Resolved,2025-02-26,2025-03-19,0.37
+394,6,23,Feature Request,Closed,2024-07-28,2024-08-14,0.94
+395,62,26,Feature Request,In Progress,2024-08-22,2024-09-16,0.59
+396,95,30,Product Defect,Open,2024-09-21,2024-10-16,0.43
+397,33,16,Payment Failure,Open,2025-04-07,2025-05-02,0.28
+398,70,14,Payment Failure,Open,2025-02-02,2025-02-11,0.71
+399,1,19,Login Issue,Open,2024-10-02,2024-10-19,0.38
+400,27,23,Bug Report,Resolved,2024-11-19,2024-12-15,0.36
+401,20,14,Product Defect,In Progress,2025-02-23,2025-03-16,0.26
+402,69,14,Bug Report,In Progress,2025-01-25,2025-02-13,0.99
+403,51,25,Feature Request,Resolved,2024-11-04,2024-11-11,0.18
+404,72,18,Bug Report,In Progress,2024-08-16,2024-09-01,0.58
+405,100,23,Payment Failure,Open,2025-02-21,2025-03-06,0.75
+406,58,26,Payment Failure,Open,2024-11-24,2024-12-17,0.21
+407,52,26,Product Defect,Open,2024-06-08,2024-06-19,0.16
+408,82,1,Login Issue,Closed,2024-10-12,2024-11-07,0.47
+409,77,14,Login Issue,In Progress,2024-12-13,2024-12-16,0.22
+410,11,20,Feature Request,Resolved,2024-10-11,2024-10-13,0.61
+411,67,10,Product Defect,Open,2024-07-05,2024-07-28,0.95
+412,23,21,Feature Request,Open,2024-09-22,2024-10-08,0.2
+413,85,30,Product Defect,In Progress,2024-05-28,2024-06-23,0.19
+414,77,17,Payment Failure,Closed,2025-01-31,2025-02-17,0.67
+415,47,8,Login Issue,Closed,2024-05-26,2024-06-16,0.09
+416,36,25,Bug Report,Resolved,2025-02-27,2025-03-12,0.41
+417,26,17,Login Issue,Open,2024-10-14,2024-10-15,0.55
+418,93,27,Product Defect,In Progress,2025-04-04,2025-04-22,0.35
+419,36,8,Payment Failure,Resolved,2024-12-24,2025-01-13,0.93
+420,74,1,Payment Failure,Resolved,2024-11-27,2024-12-06,0.51
+421,72,3,Bug Report,In Progress,2025-01-05,2025-01-22,0.95
+422,66,9,Product Defect,In Progress,2024-08-14,2024-09-12,0.69
+423,49,19,Payment Failure,In Progress,2025-02-13,2025-03-01,0.96
+424,59,22,Product Defect,Open,2024-09-20,2024-10-05,0.48
+425,34,3,Payment Failure,Closed,2025-02-25,2025-03-10,0.8
+426,53,12,Product Defect,Open,2024-09-02,2024-09-19,0.7
+427,34,8,Login Issue,Resolved,2024-07-20,2024-07-30,0.67
+428,44,3,Payment Failure,Resolved,2024-08-04,2024-08-22,0.31
+429,28,29,Bug Report,Closed,2024-10-27,2024-11-15,0.95
+430,88,30,Payment Failure,Resolved,2025-02-21,2025-03-23,0.74
+431,31,24,Bug Report,Closed,2024-12-29,2025-01-06,0.23
+432,32,27,Bug Report,Closed,2025-04-06,2025-04-26,0.78
+433,16,30,Feature Request,Open,2025-02-07,2025-02-10,0.76
+434,70,2,Feature Request,In Progress,2025-04-12,2025-05-10,0.62
+435,64,29,Product Defect,In Progress,2025-02-11,2025-03-12,0.49
+436,98,30,Bug Report,Resolved,2024-07-23,2024-08-09,0.22
+437,74,5,Product Defect,Resolved,2025-04-10,2025-04-12,0.48
+438,70,2,Bug Report,Resolved,2024-11-01,2024-11-18,0.86
+439,100,6,Login Issue,Resolved,2025-02-22,2025-03-09,0.32
+440,2,1,Payment Failure,Resolved,2024-08-11,2024-09-02,0.58
+441,42,12,Bug Report,Closed,2024-07-30,2024-08-19,0.55
+442,31,9,Product Defect,In Progress,2025-05-06,2025-05-22,0.37
+443,64,14,Feature Request,In Progress,2024-11-02,2024-11-09,0.37
+444,52,9,Payment Failure,Closed,2024-12-23,2025-01-07,0.98
+445,88,8,Login Issue,In Progress,2025-05-07,2025-06-03,0.8
+446,72,14,Feature Request,Closed,2025-03-17,2025-04-14,0.15
+447,95,5,Login Issue,Closed,2024-08-21,2024-09-06,0.42
+448,18,29,Product Defect,In Progress,2025-01-06,2025-02-03,0.79
+449,39,9,Product Defect,Open,2025-05-08,2025-05-26,0.4
+450,89,6,Payment Failure,In Progress,2025-02-06,2025-02-08,0.48
+451,81,4,Bug Report,In Progress,2024-10-16,2024-10-31,0.36
+452,72,18,Bug Report,In Progress,2024-06-21,2024-07-21,0.02
+453,16,12,Product Defect,Closed,2024-08-09,2024-09-06,0.58
+454,84,21,Payment Failure,In Progress,2025-04-28,2025-05-16,0.36
+455,87,17,Feature Request,Open,2025-01-22,2025-02-07,0.38
+456,37,15,Payment Failure,Closed,2024-07-26,2024-08-16,0.64
+457,44,14,Product Defect,Resolved,2024-11-04,2024-11-25,0.85
+458,10,3,Bug Report,Closed,2024-06-10,2024-06-16,0.31
+459,84,10,Bug Report,Resolved,2024-11-06,2024-11-29,0.27
+460,57,25,Bug Report,Resolved,2025-03-28,2025-04-25,0.41
+461,24,28,Payment Failure,Closed,2025-04-30,2025-05-01,0.66
+462,96,23,Login Issue,Closed,2024-06-19,2024-07-13,0.17
+463,14,4,Feature Request,Open,2025-01-09,2025-01-12,0.03
+464,51,17,Login Issue,Open,2024-05-14,2024-06-08,0.26
+465,20,3,Feature Request,In Progress,2024-11-02,2024-11-23,0.23
+466,95,10,Payment Failure,Closed,2024-12-24,2025-01-08,0.53
+467,22,1,Bug Report,In Progress,2024-10-17,2024-10-19,0.86
+468,60,28,Bug Report,Resolved,2025-02-10,2025-02-28,0.14
+469,90,18,Product Defect,Resolved,2024-09-08,2024-09-14,0.63
+470,82,29,Feature Request,In Progress,2025-04-26,2025-05-15,0.91
+471,62,18,Login Issue,Resolved,2024-06-09,2024-06-17,0.31
+472,53,9,Bug Report,Open,2024-06-06,2024-06-11,0.0
+473,98,28,Bug Report,In Progress,2024-05-22,2024-05-27,0.47
+474,2,23,Feature Request,Resolved,2024-09-12,2024-10-12,0.3
+475,99,14,Bug Report,Closed,2024-11-29,2024-12-25,0.8
+476,71,12,Feature Request,Resolved,2024-07-25,2024-08-01,0.39
+477,21,23,Feature Request,Resolved,2024-05-25,2024-06-18,0.22
+478,11,14,Payment Failure,In Progress,2024-11-16,2024-12-07,0.28
+479,96,18,Bug Report,Resolved,2025-04-26,2025-05-22,0.19
+480,9,6,Bug Report,Open,2024-12-24,2024-12-29,0.64
+481,80,15,Product Defect,Resolved,2024-05-15,2024-05-24,0.19
+482,3,5,Product Defect,Open,2024-05-15,2024-05-17,0.19
+483,14,10,Payment Failure,Resolved,2024-08-23,2024-09-01,0.73
+484,30,3,Login Issue,Resolved,2025-04-25,2025-04-30,0.22
+485,54,10,Feature Request,In Progress,2024-06-13,2024-07-09,0.46
+486,5,11,Payment Failure,Open,2025-04-16,2025-04-19,0.27
+487,51,3,Feature Request,Closed,2025-04-01,2025-04-19,0.19
+488,33,27,Login Issue,Open,2024-12-16,2024-12-29,0.97
+489,92,8,Feature Request,Closed,2024-12-26,2025-01-08,0.74
+490,5,7,Login Issue,Closed,2025-04-29,2025-05-14,0.47
+491,88,10,Bug Report,Closed,2025-05-01,2025-05-31,0.63
+492,6,24,Product Defect,Open,2024-10-07,2024-11-06,0.25
+493,82,10,Bug Report,Open,2024-08-25,2024-09-01,0.86
+494,28,4,Feature Request,In Progress,2024-10-21,2024-10-29,0.02
+495,36,19,Feature Request,Closed,2025-01-23,2025-01-27,0.01
+496,6,19,Feature Request,Closed,2025-01-30,2025-02-25,0.37
+497,12,8,Feature Request,Open,2024-06-08,2024-06-14,0.69
+498,44,30,Login Issue,Open,2025-02-21,2025-03-18,0.36
+499,20,23,Login Issue,Closed,2024-10-27,2024-11-14,0.49
+500,41,18,Bug Report,Resolved,2024-06-29,2024-07-25,0.73
