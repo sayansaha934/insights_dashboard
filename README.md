@@ -212,11 +212,9 @@ This application is designed to support scalability, fault tolerance, and ease o
 ### 🏗️ Architecture Overview
 
 #### 1. **Frontend**
-- **Tech**: React (with Vite or CRA)
+- **Tech**: React
 - **Deployment**:
-  - Host via **AWS S3** with **CloudFront CDN** for global distribution.
-  - Alternatively, deploy via **Vercel** or **Netlify** for built-in CI/CD.
-- **Scalability**: Auto-scales with user demand due to static assets + CDN.
+  - Deploy via **Vercel** or **Netlify** for built-in CI/CD.
 
 #### 2. **Backend API**
 - **Tech**: FastAPI (Python)
@@ -230,7 +228,6 @@ This application is designed to support scalability, fault tolerance, and ease o
 - **Development**: SQLite
 - **Production**: 
   - **Amazon RDS (PostgreSQL/MySQL)** - managed database.
-  - **Amazon Aurora Serverless** - scales with workload.
 
 #### 4. **AI/ML Insights**
 - **Lightweight rules**: Handled within FastAPI.
@@ -244,27 +241,7 @@ This application is designed to support scalability, fault tolerance, and ease o
 #### 6. **Monitoring & Alerts**
 - **CloudWatch** for metrics and logs.
 - Use **SNS** for alerting.
-- Optional integration with **Datadog**, **New Relic**, or **Prometheus**.
-
----
-
-### 🐳 Dockerization
-
-The app is containerized for portability and consistency:
-
-```Dockerfile
-FROM python:3.11-slim
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install -r requirements.txt
-COPY . .
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
-```
-
-- Containers can be deployed via:
-  - **AWS Fargate**
-  - **Amazon ECS**
-  - **Amazon EKS (Kubernetes)**
+- Optional integration with **New Relic**
 
 ---
 
@@ -277,23 +254,9 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 **Future Enhancements**:
 - Real-time data ingestion with **Kinesis** or **Kafka**
 - Store raw events in **S3 (data lake)**
-- Transform using **AWS Glue** or **dbt**
-- Use **Redshift** or **Athena** for analytics
-- Schedule processing with **AWS Step Functions** or **Apache Airflow (MWAA)**
-
----
-
-### ✅ Summary Table
-
-| Component        | Scalable Solution (AWS)                  |
-|------------------|------------------------------------------|
-| Frontend         | S3 + CloudFront / Vercel                 |
-| Backend API      | Lambda / Fargate / EKS (FastAPI)         |
-| Database         | RDS / Aurora Serverless                  |
-| AI/ML Insights   | SageMaker / Lambda                       |
-| Object Storage   | Amazon S3                                |
-| Monitoring       | CloudWatch, SNS, Datadog                 |
-| Data Pipeline    | Kinesis + S3 + Glue + Redshift           |
+- Transform using **AWS Glue**
+- Use **Redshift** for analytics
+- Schedule processing with **Apache Airflow**
 
 ---
 ## ⚠️ Challenges & Solutions
