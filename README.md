@@ -68,9 +68,102 @@
    npm run dev
    ```
 
----
+
 
 ✅ You're all set! Access the frontend at `http://localhost:5173`.
+
+---
+## 🏗️ Architecture & Design Explanation
+
+### 1. Overall Architecture
+
+This is a **full-stack dashboard application** designed to offer contextual business insights using synthetic customer, sales, and support data. The architecture follows a **modular and scalable design** with the following components:
+
+- **Backend**: Python + FastAPI  
+- **Frontend**: React + Vite  
+- **Database**: SQLite (local, easily replaceable with a managed DB)  
+- **AI/ML Features**: Rule-based logic for recommendations and anomaly detection
+
+---
+
+### 2. Data Models
+
+The SQLite database consists of the following core tables:
+
+- **`customers`**: Basic customer info (ID, name, industry, region, etc.)
+- **`products`**: Product metadata including category and pricing
+- **`sales_transactions`**: Each purchase record linking customers and products
+- **`support_tickets`**: Support interactions with sentiment scores
+
+Each table is designed to mimic realistic enterprise CRM and support system data.
+
+---
+
+### 3. API Design (FastAPI)
+
+The backend uses **RESTful APIs** exposed via FastAPI. Key endpoints include:
+
+- `GET /customers` - List all customers
+- `GET /customers/{id}` – Fetch detailed customer profile with insights
+- `GET /products` - List all products
+- `GET /products/{id}` – Fetch product details, performance  and frequently bought together
+- `GET /overview` – Dashboard-level statistics  
+- `GET /anomalies` – Detect customers with unusual ticket sentiment  
+- `GET /trends` – Highlight products with sales spikes or drops  
+
+Responses are JSON-structured and optimized for frontend use with minimal transformation needed.
+
+---
+
+### 4. UI Components (React + Vite)
+
+The frontend is built using **React (with Vite for fast dev builds)** and structured into modular, reusable components:
+
+- **Customer View**: Profile, sales history, ticket sentiment, AI insights  
+- **Product View**: Sales and support data, customer relationships, frequently bought together
+- **Overview Page**: Key business stats, trend charts, alerts  
+- **Reusable charts** using `Recharts`  
+- **Insight cards** with visual highlights for trends and risks  
+
+Design follows **dashboard best practices**: clean layout, focused KPIs, visual feedback.
+
+---
+
+### 5. AI/ML Feature Logic
+
+All AI/ML features use **lightweight rule-based or statistical logic**, enabling explainability and fast execution:
+
+- **Recommendations**:  
+  - "Frequently bought together" based on co-occurrence in sales transactions.
+
+- **Anomaly Detection**:  
+  - Customers with significantly higher proportions of negative sentiment tickets are flagged.
+
+- **Trend Highlighting**:  
+  - Products with >X% change in monthly sales (positive or negative) are highlighted as trending up/down.
+
+These rules are implemented using Pandas logic on transaction history.
+
+---
+
+### 6. Synthetic Data Generation Strategy
+
+Data is generated using **Faker** and **custom logic** to ensure realistic variety:
+
+- Customers vary by industry, region, and behavior  
+- Product pricing reflects margin variations (used in AI insights)  
+- Sales timestamps simulate activity spikes and lulls  
+- Support ticket sentiments are sampled from realistic score distributions  
+
+Two scripts handle this:
+
+- `generate_data.py`: Creates CSVs using Faker and logic  
+- `ingest_to_db.py`: Loads CSVs into SQLite with schema constraints  
+
+This approach ensures testability, repeatability, and easy extension.
+
+
+---
 
 
 ## ☁️ Cloud Deployment and Scalability
