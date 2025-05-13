@@ -307,3 +307,25 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 - **Anomaly & Trend Detection**: Hard to define thresholds on synthetic data.  
   ✅ Used rule-based logic with statistical thresholds based on generated averages.
 ---
+## 💡 Additional Considerations
+
+### Enhancing the Dashboard for ContexQ's Clients
+- **Personalized Insights**: Tailor dashboards per client segment (e.g., Retail vs. Tech) for more relevant metrics.
+- **Role-Based Views**: Allow Sales, Support, and Leadership to see contextual data suited to their goals.
+- **Alerts & Notifications**: Integrate real-time alerts for anomalies or churn risks.
+
+### Integrating New Data Sources / AI Features
+- **CRM & Social Media**: Pull in engagement data to correlate support sentiment with public perception.
+- **Product Usage Metrics**: Use telemetry data (e.g., login frequency, feature usage) to strengthen churn prediction.
+- **AI Features**:
+  - **Churn Propensity Modeling**
+  - **Customer Lifetime Value Prediction**
+  - **Smart Ticket Routing** using sentiment and topic analysis
+
+### Solving Specific Business Problems
+- **Customer Retention**: Early warning via AI-based churn signals helps preempt loss.
+- **Sales Optimization**: Cross-sell recommendations improve revenue per customer.
+- **Support Efficiency**: Analyzing ticket trends enables better resource allocation and FAQ generation.
+
+
+---
