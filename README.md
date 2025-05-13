@@ -155,14 +155,6 @@ Data is generated using **Faker** and **custom logic** to ensure realistic varie
 - Sales timestamps simulate activity spikes and lulls  
 - Support ticket sentiments are sampled from realistic score distributions  
 
-Two scripts handle this:
-
-- `generate_data.py`: Creates CSVs using Faker and logic  
-- `ingest_to_db.py`: Loads CSVs into SQLite with schema constraints  
-
-This approach ensures testability, repeatability, and easy extension.
-
-
 ---
 ## 🔄 Data Pipeline: Table Overview
 
@@ -172,7 +164,6 @@ The application uses synthetic data across four main tables:
 
 ### 1. `customers`
 
-- Simulated using Faker (name, region, industry).
 - Stored with unique `customer_id`.
 - Used in customer profiles and segmentation.
 
@@ -180,7 +171,6 @@ The application uses synthetic data across four main tables:
 
 ### 2. `products`
 
-- Includes category, cost, and sales price.
 - Used for sales analysis and recommendations.
 - Linked to both sales and support data.
 
@@ -189,7 +179,6 @@ The application uses synthetic data across four main tables:
 ### 3. `sales_transactions`
 
 - Connects customers and products.
-- Includes `transaction_date` and `sale_amount`.
 - Drives sales charts, LTV, and product insights.
 
 ---
