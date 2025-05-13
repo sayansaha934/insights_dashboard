@@ -1,225 +1,70 @@
-import { useEffect, useState } from "react"
-import axios from "axios"
-import {
-  BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, LineChart, Line, PieChart, Pie, Cell,
-} from "recharts"
-import { IoArrowBack } from "react-icons/io5" // Import back icon
-
-const COLORS = ['#3b82f6', '#f97316', '#10b981', '#ef4444']
+import { useEffect, useState } from "react";
+import axios from "axios";
+import { IoArrowBack } from "react-icons/io5";
+import ProductList from "../components/ProductList";
+import ProductProfile from "../components/ProductProfile";
 
 export default function ProductView() {
-  const [products, setProducts] = useState([])
-  const [search, setSearch] = useState("")
-  const [selectedProductId, setSelectedProductId] = useState<string | null>(null)
-  const [productDetails, setProductDetails] = useState<any>(null)
-  const [loadingProducts, setLoadingProducts] = useState(false)
-  const [loadingProductDetails, setLoadingProductDetails] = useState(false)
-  const [error, setError] = useState<string | null>(null)
+  const [products, setProducts] = useState([]);
+  const [search, setSearch] = useState("");
+  const [selectedProductId, setSelectedProductId] = useState<string | null>(null);
+  const [productDetails, setProductDetails] = useState<any>(null);
+  const [loadingProducts, setLoadingProducts] = useState(false);
+  const [loadingProductDetails, setLoadingProductDetails] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
+  // Fetch product list based on search input
   useEffect(() => {
-    fetchProducts()
-  }, [search])
+    fetchProducts();
+  }, [search]);
 
   const fetchProducts = async () => {
-    setLoadingProducts(true)
-    setError(null)
+    setLoadingProducts(true);
+    setError(null);
     try {
       const res = await axios.get(`${import.meta.env.VITE_API_URL}products`, {
         params: { search },
-      })
-      setProducts(res.data)
+      });
+      setProducts(res.data);
     } catch (error) {
-      setError("Failed to fetch products")
+      setError("Failed to fetch products");
     } finally {
-      setLoadingProducts(false)
+      setLoadingProducts(false);
     }
-  }
+  };
 
+  // Fetch detailed profile for a selected product
   const fetchProductProfile = async (productId: string) => {
-    setLoadingProductDetails(true)
-    setError(null)
+    setLoadingProductDetails(true);
+    setError(null);
     try {
-      const res = await axios.get(`${import.meta.env.VITE_API_URL}products/${productId}/profile`)
-      setProductDetails(res.data)
-      setSelectedProductId(productId)
+      const res = await axios.get(`${import.meta.env.VITE_API_URL}products/${productId}/profile`);
+      setProductDetails(res.data);
+      setSelectedProductId(productId);
     } catch (error) {
-      setError("Failed to fetch product details")
+      setError("Failed to fetch product details");
     } finally {
-      setLoadingProductDetails(false)
+      setLoadingProductDetails(false);
     }
-  }
+  };
 
   return (
     <div className="p-4 h-screen w-full">
       {productDetails && productDetails.product ? (
-        <div className="space-y-6">
-          <button
-            onClick={() => setProductDetails(null)}
-            className="flex items-center text-blue-500"
-          >
-            <IoArrowBack className="mr-2" /> {/* Back icon */}
-            Back
-          </button>
-          <h2 className="text-3xl font-bold">{productDetails.product.product_name}</h2>
-
-          {/* Product Details */}
-          <div className="space-y-2">
-            <p><strong>Category:</strong> {productDetails.product.category}</p>
-            <p><strong>Cost Price:</strong> ₹{productDetails.product.cost_price}</p>
-            <p><strong>Sales Price:</strong> ₹{productDetails.product.sales_price}</p>
-          </div>
-
-          {/* Sales Performance */}
-          <div className="mt-4">
-            <h3 className="font-semibold text-xl">Sales Performance</h3>
-            <p>Total Sales: {productDetails.sales_summary.total_sales}</p>
-            <p>Total Revenue: ₹{productDetails.sales_summary.total_revenue.toFixed(2)}</p>
-            <p>Average Sale Value: ₹{productDetails.sales_summary.avg_sale_value.toFixed(2)}</p>
-          </div>
-
-          {/* Support Issues */}
-          <div className="mt-4">
-            <h3 className="font-semibold text-xl">Support Issues</h3>
-            <p>Total Issues: {productDetails.support_summary.total_issues}</p>
-            <p>Avg. Sentiment Score: {productDetails.support_summary.avg_sentiment?.toFixed(2)}</p>
-            <p>Open Issues: {productDetails.support_summary.open_issues}</p>
-          </div>
-
-          {/* Sales Over Time */}
-          <div className="mt-4">
-            <h3 className="font-semibold text-xl">Sales Over Time</h3>
-            <ResponsiveContainer width="100%" height={300}>
-              <LineChart data={productDetails.charts.sales_over_time}>
-                <XAxis dataKey="date" />
-                <YAxis />
-                <Tooltip />
-                <Line type="monotone" dataKey="amount" stroke="#3b82f6" />
-              </LineChart>
-            </ResponsiveContainer>
-          </div>
-
-          {/* Sentiment Over Time */}
-          <div className="mt-4">
-            <h3 className="font-semibold text-xl">Sentiment Over Time</h3>
-            <ResponsiveContainer width="100%" height={300}>
-              <LineChart data={productDetails.charts.sentiment_over_time}>
-                <XAxis dataKey="date" />
-                <YAxis />
-                <Tooltip />
-                <Line type="monotone" dataKey="score" stroke="#10b981" />
-              </LineChart>
-            </ResponsiveContainer>
-          </div>
-
-          {/* Support Status Breakdown */}
-          <div className="mt-4">
-            <h3 className="font-semibold text-xl">Support Status Breakdown</h3>
-            <ResponsiveContainer width="100%" height={300}>
-              <PieChart>
-                <Pie
-                  data={productDetails.charts.support_status_breakdown}
-                  dataKey="count"
-                  nameKey="status"
-                  cx="50%"
-                  cy="50%"
-                  outerRadius={100}
-                  fill="#8884d8"
-                  label
-                >
-                  {productDetails.charts.support_status_breakdown.map((entry, index) => (
-                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-                  ))}
-                </Pie>
-                <Tooltip />
-              </PieChart>
-            </ResponsiveContainer>
-          </div>
-
-          {/* Top Customers */}
-          <div className="mt-4">
-            <h3 className="font-semibold text-xl">Top Customers</h3>
-            <table className="table-auto w-full border-collapse border border-gray-300">
-              <thead>
-                <tr className="bg-gray-100">
-                  <th className="border border-gray-300 px-4 py-2 text-left">Customer Name</th>
-                  <th className="border border-gray-300 px-4 py-2 text-left">Purchase Count</th>
-                </tr>
-              </thead>
-              <tbody>
-                {productDetails.top_customers.map((customer: any) => (
-                  <tr key={customer.customer_id} className="hover:bg-blue-50">
-                    <td className="border border-gray-300 px-4 py-2">{customer.customer_name}</td>
-                    <td className="border border-gray-300 px-4 py-2">{customer.purchase_count}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-
-          {/* Frequently Bought Together */}
-          <div className="mt-4">
-            <h3 className="font-semibold text-xl">Frequently Bought Together</h3>
-            <table className="table-auto w-full border-collapse border border-gray-300">
-              <thead>
-                <tr className="bg-gray-100">
-                  <th className="border border-gray-300 px-4 py-2 text-left">Product Name</th>
-                  <th className="border border-gray-300 px-4 py-2 text-left">Category</th>
-                  <th className="border border-gray-300 px-4 py-2 text-left">Sales Price</th>
-                </tr>
-              </thead>
-              <tbody>
-                {productDetails.frequently_bought_together.map((product: any) => (
-                  <tr key={product.product_id} className="hover:bg-blue-50">
-                    <td className="border border-gray-300 px-4 py-2">{product.product_name}</td>
-                    <td className="border border-gray-300 px-4 py-2">{product.category}</td>
-                    <td className="border border-gray-300 px-4 py-2">₹{product.sales_price}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </div>
+        <ProductProfile
+          productDetails={productDetails}
+          onBack={() => setProductDetails(null)}
+        />
       ) : (
-        <div>
-          <h1 className="text-3xl font-bold mb-4">Product List</h1>
-          <input
-            type="text"
-            placeholder="Search products..."
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            className="border px-3 py-2 rounded w-full mb-4"
-          />
-
-          {loadingProducts ? (
-            <div className="text-center py-4">Loading products...</div>
-          ) : error ? (
-            <div className="text-center text-red-500 py-4">{error}</div>
-          ) : (
-            <table className="table-auto w-full border-collapse border border-gray-300">
-              <thead>
-                <tr className="bg-gray-100">
-                  <th className="border border-gray-300 px-4 py-2 text-left">Product Name</th>
-                  <th className="border border-gray-300 px-4 py-2 text-left">Category</th>
-                  <th className="border border-gray-300 px-4 py-2 text-left">Sales Price</th>
-                </tr>
-              </thead>
-              <tbody>
-                {products.map((p: any) => (
-                  <tr
-                    key={p.product_id}
-                    className="hover:bg-blue-50 cursor-pointer"
-                    onClick={() => fetchProductProfile(p.product_id)}
-                  >
-                    <td className="border border-gray-300 px-4 py-2">{p.product_name}</td>
-                    <td className="border border-gray-300 px-4 py-2">{p.category}</td>
-                    <td className="border border-gray-300 px-4 py-2">₹{p.sales_price}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          )}
-        </div>
+        <ProductList
+          products={products}
+          search={search}
+          setSearch={setSearch}
+          loading={loadingProducts}
+          error={error}
+          onSelect={fetchProductProfile}
+        />
       )}
     </div>
-  )
+  );
 }
