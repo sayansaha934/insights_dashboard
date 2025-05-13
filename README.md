@@ -1,3 +1,78 @@
+## 🚀 How to Generate Data
+
+1. Navigate to the backend directory:
+   ```bash
+   cd backend
+   ```
+
+2. Generate synthetic data:
+   ```bash
+   python generate_data.py
+   ```
+
+3. Ingest generated data into the database:
+   ```bash
+   python ingest_to_db.py
+   ```
+
+---
+
+## 🧩 How to Run the Application
+
+### 🛠️ Backend (FastAPI)
+
+1. Navigate to the backend directory:
+   ```bash
+   cd backend
+   ```
+
+2. Create a `env.json` file and add the following variables:
+   ```json
+   {
+     "DB_PATH": "path/to/your/database.db",
+     "PORT": 8000
+   }
+   ```
+
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Start the FastAPI server:
+   ```bash
+   python main.py
+   ```
+
+---
+
+### 💻 Frontend (React + Vite)
+
+1. Navigate to the frontend directory:
+   ```bash
+   cd frontend
+   ```
+
+2. Create a `.env` file and add your backend API URL:
+   ```env
+   VITE_API_URL=http://localhost:8000
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+---
+
+✅ You're all set! Access the frontend at `http://localhost:5173`.
+
+
 ## ☁️ Cloud Deployment and Scalability
 
 This application is designed to support scalability, fault tolerance, and ease of deployment using modern cloud infrastructure principles. Below is an outline of how the system can be deployed and scaled on **AWS** using managed and serverless services.
