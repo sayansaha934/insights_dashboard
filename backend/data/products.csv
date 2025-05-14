@@ -39,13 +39,8 @@ product_id,product_name,category,cost_price,sales_price
 38,TV Stand,Furniture,674.97,1073.2
 39,Shoe Rack,Furniture,323.02,704.18
 40,Wardrobe,Furniture,81.82,147.28
-41,Accounting Software,Software,998.47,2486.19
-42,Photo Editor Pro,Software,82.53,122.14
-43,Antivirus Suite,Software,272.55,656.85
-44,Video Conferencing Tool,Software,882.06,2064.02
-45,Cloud Storage App,Software,375.83,529.92
-46,Electric Kettle,Home Appliances,835.41,1762.72
-47,Microwave Oven,Home Appliances,615.56,1526.59
-48,Air Purifier,Home Appliances,657.44,795.5
-49,Vacuum Cleaner,Home Appliances,818.93,1302.1
-50,Water Dispenser,Home Appliances,666.75,1613.53
+41,Electric Kettle,Home Appliances,998.47,2486.19
+42,Microwave Oven,Home Appliances,82.53,122.14
+43,Air Purifier,Home Appliances,272.55,656.85
+44,Vacuum Cleaner,Home Appliances,882.06,2064.02
+45,Water Dispenser,Home Appliances,375.83,529.92

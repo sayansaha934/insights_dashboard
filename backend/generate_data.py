@@ -53,11 +53,6 @@ PRODUCTS = [
     {"name": "TV Stand", "category": "Furniture"},
     {"name": "Shoe Rack", "category": "Furniture"},
     {"name": "Wardrobe", "category": "Furniture"},
-    {"name": "Accounting Software", "category": "Software"},
-    {"name": "Photo Editor Pro", "category": "Software"},
-    {"name": "Antivirus Suite", "category": "Software"},
-    {"name": "Video Conferencing Tool", "category": "Software"},
-    {"name": "Cloud Storage App", "category": "Software"},
     {"name": "Electric Kettle", "category": "Home Appliances"},
     {"name": "Microwave Oven", "category": "Home Appliances"},
     {"name": "Air Purifier", "category": "Home Appliances"},
@@ -68,7 +63,7 @@ PRODUCTS = [
 
 # 1. Customers
 def generate_customers(n=100):
-    regions = ["North", "South", "East", "West", "Central"]
+    regions = ["North America", "Europe", "Asia-Pacific", "South America", "Africa"]
     industries = [
         "Retail",
         "Technology",
@@ -84,7 +79,7 @@ def generate_customers(n=100):
         customers.append(
             {
                 "customer_id": i,
-                "customer_name": fake.name(),
+                "customer_name": fake.company(),
                 "region": random.choice(regions),
                 "join_date": fake.date_between(start_date="-3y", end_date="today"),
                 "industry": random.choice(industries),
@@ -116,7 +111,7 @@ def generate_products():
 
 
 # 3. Sales Transactions
-def generate_sales(customers, products, n=2000):
+def generate_sales(customers, products, n=2000, trend_bias=0):
     sales = []
     frequently_bought_together = [
         (1, 2),  # Wireless Earbuds and Smartphone
@@ -126,10 +121,15 @@ def generate_sales(customers, products, n=2000):
         (23, 24),  # Gourmet Chocolate and Cooking Oil
         (31, 32),  # Office Chair and Study Desk
         (33, 34),  # Bookshelf and Sofa Set
-        (45, 46),  # Video Conferencing Tool and Cloud Storage App
         (47, 48),  # Electric Kettle and Microwave Oven
         (49, 50),  # Air Purifier and Vacuum Cleaner
     ]
+    
+    # Assign positive or negative trend to products
+    product_ids = products["product_id"].tolist()
+    positive_trend_products = set(random.sample(product_ids, int(len(product_ids) * 0.6)))
+    negative_trend_products = set(product_ids) - positive_trend_products
+
     for i in range(1, n + 1):
         customer = random.choice(customers["customer_id"].tolist())
         product = random.choice(products["product_id"].tolist())
@@ -137,11 +137,22 @@ def generate_sales(customers, products, n=2000):
         product_price = products.loc[
             products["product_id"] == product, "sales_price"
         ].values[0]
-        # Simulate sales trends with time-based multiplier
-        transaction_date = fake.date_between(start_date="-2y", end_date="today")
+        # Ensure transaction_date is after customer's join_date
+        customer_join_date = customers.loc[
+            customers["customer_id"] == customer, "join_date"
+        ].values[0]
+        transaction_date = fake.date_between(
+            start_date=customer_join_date, end_date="today"
+        )
         transaction_date = datetime.combine(transaction_date, datetime.min.time())  # Ensure datetime object
+        
+        # Simulate sales trends with time-based multiplier and trend_bias
         days_since_start = (transaction_date - datetime.strptime("2021-01-01", "%Y-%m-%d")).days
-        trend_multiplier = 1 + (days_since_start / 730) * random.uniform(-0.5, 0.5)  # +/- 50% over 2 years
+        if product in positive_trend_products:
+            trend_multiplier = 1 + (days_since_start / 730) * random.uniform(0, 0.5 + trend_bias)
+        else:  # Negative trend
+            trend_multiplier = 1 + (days_since_start / 730) * random.uniform(-0.5 + trend_bias, 0)
+        
         adjusted_quantity = max(1, round(quantity * trend_multiplier))
         sales.append(
             {
@@ -242,7 +253,7 @@ def generate_suppliers(products, n=20):
 if __name__ == "__main__":
     customers_df = generate_customers(n=100)  # 100 customers
     products_df = generate_products()  # 50 products
-    generate_sales(customers_df, products_df, n=2000)  # 2000 transactions
+    generate_sales(customers_df, products_df, n=2000, trend_bias=0.2)  # Adjust trend_bias for positive trends
     generate_support_tickets(customers_df, products_df, n=1500)  # 1500 tickets
     generate_suppliers(products_df, n=20)  # 20 suppliers
     print("✅Synthetic data generated in /data folder.")

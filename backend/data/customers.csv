@@ -1,101 +1,101 @@
 customer_id,customer_name,region,join_date,industry
-1,Troy Larsen,North,2024-04-11,Retail
-2,Tamara Underwood,East,2023-10-22,Finance
-3,Jodi Washington,South,2022-08-31,Healthcare
-4,Sean Harper,North,2023-07-09,Technology
-5,Sarah Jackson,Central,2025-03-11,Hospitality
-6,Stacy Li,North,2022-11-26,Retail
-7,Mrs. Jessica Smith,North,2023-03-10,Finance
-8,Christine Romero,South,2024-04-02,Retail
-9,Carolyn Miller,Central,2022-08-02,Finance
-10,James Carter,Central,2023-03-21,Hospitality
-11,Karen Goodwin,South,2023-12-30,Transportation
-12,Charles Santiago,Central,2025-04-13,Education
-13,Luis Anderson,North,2023-03-24,Healthcare
-14,Cristina Kennedy MD,West,2024-12-08,Manufacturing
-15,Frank Daniels,East,2024-01-17,Healthcare
-16,Sean Ramirez,South,2022-05-21,Manufacturing
-17,Rebecca Pacheco,North,2023-03-29,Technology
-18,Taylor Anderson,West,2024-06-10,Technology
-19,Edward Brown,East,2024-11-15,Manufacturing
-20,Jeremy Gomez,Central,2024-06-22,Education
-21,Jill Clark,North,2023-08-20,Transportation
-22,Kathryn Wall,Central,2023-12-03,Technology
-23,James Ramirez,West,2023-02-18,Technology
-24,Samantha Joseph,Central,2024-08-01,Education
-25,Johnathan Schneider,Central,2025-04-27,Manufacturing
-26,Jorge Merritt,Central,2024-03-21,Finance
-27,Heidi Stanley,North,2025-01-10,Retail
-28,Heidi Myers,South,2023-02-05,Education
-29,John Edwards,North,2022-08-27,Finance
-30,Paula Phillips,North,2022-07-22,Hospitality
-31,Nicole Ayers,East,2024-12-18,Transportation
-32,Joshua Dodson,East,2023-02-08,Healthcare
-33,Colleen Phillips,East,2025-02-24,Manufacturing
-34,Scott Jones,South,2022-10-31,Education
-35,Patty Reilly DVM,North,2022-11-16,Healthcare
-36,Maria Newman,Central,2023-01-08,Finance
-37,Bonnie Powers,South,2023-08-09,Transportation
-38,Holly Mcgrath,West,2024-07-07,Education
-39,Paul Butler,Central,2024-09-29,Finance
-40,David Nash,East,2024-01-15,Retail
-41,Brenda Avila,South,2024-03-01,Retail
-42,Brittany Jacobs MD,East,2024-12-31,Hospitality
-43,Jose Friedman,East,2024-01-10,Technology
-44,Kathy Potts,South,2024-07-07,Manufacturing
-45,Erik Smith,South,2022-06-22,Transportation
-46,Paula Wade,West,2023-10-08,Transportation
-47,Kyle Gordon,South,2023-05-05,Education
-48,Jared Kelley,South,2024-03-31,Finance
-49,Sarah Stanton,Central,2022-06-23,Education
-50,Jason Duncan,Central,2023-04-15,Hospitality
-51,Darryl Thornton,Central,2024-08-13,Hospitality
-52,Cynthia Sweeney,East,2024-05-31,Finance
-53,Deborah Salazar,South,2024-09-05,Transportation
-54,Stacey Wilkinson,North,2024-06-06,Retail
-55,Alexander Johnson,North,2024-11-27,Healthcare
-56,Angela White,South,2023-05-10,Hospitality
-57,Anna Perez,Central,2024-05-29,Technology
-58,Denise Young,West,2025-02-27,Hospitality
-59,Sara Robbins,Central,2023-11-28,Transportation
-60,George Macias,Central,2023-10-31,Education
-61,Jasmine Mendoza,Central,2023-09-18,Retail
-62,Jennifer Hester,North,2023-11-21,Education
-63,Zachary Adams,East,2025-04-25,Technology
-64,Elizabeth Fitzgerald,East,2022-05-20,Hospitality
-65,Bryan Jones,South,2022-08-16,Transportation
-66,Lisa Webb,North,2025-02-02,Education
-67,Caitlin Green,Central,2023-12-07,Healthcare
-68,Stephen Cook,Central,2022-10-12,Technology
-69,Justin Harrell,East,2023-04-21,Finance
-70,Jessica Wang,South,2024-04-08,Manufacturing
-71,Stephanie Greer,South,2023-12-04,Retail
-72,Caroline Joyce,Central,2025-02-11,Manufacturing
-73,Erika Everett,West,2023-09-27,Retail
-74,Kyle Howell,North,2022-08-27,Manufacturing
-75,Christopher Scott,East,2025-03-18,Finance
-76,Christina Summers,North,2024-10-21,Finance
-77,Lindsey Christensen,Central,2024-04-16,Technology
-78,Paula Zimmerman,North,2023-09-19,Transportation
-79,Amy Cruz,North,2025-04-13,Healthcare
-80,Isaac Richardson,South,2023-11-07,Transportation
-81,Matthew Harris,Central,2023-06-23,Healthcare
-82,Bradley Collins,East,2025-05-11,Hospitality
-83,Mr. Carlos Morgan,South,2022-09-15,Finance
-84,Ellen Carrillo,East,2023-03-01,Hospitality
-85,Christopher Weber DVM,East,2022-09-05,Transportation
-86,Duane Mathis,Central,2023-07-17,Transportation
-87,Latoya Waller,North,2024-07-03,Finance
-88,Elizabeth Rivera,South,2024-10-12,Technology
-89,Mary Bridges,East,2022-06-27,Retail
-90,Tanya Preston MD,Central,2022-10-27,Finance
-91,Jeremiah Gardner,Central,2023-07-26,Finance
-92,Ariana Miller,North,2022-11-29,Technology
-93,Timothy Gross,North,2023-04-06,Finance
-94,Gina Reynolds,North,2024-01-22,Retail
-95,Pamela Petersen,East,2024-01-25,Technology
-96,Eric Willis,Central,2022-08-08,Finance
-97,Jessica Reed,East,2024-12-28,Transportation
-98,Michelle Cortez,South,2023-12-27,Healthcare
-99,Elizabeth Davis,Central,2023-04-08,Transportation
-100,Steven Ochoa,South,2023-09-16,Transportation
+1,Kelley and Sons,North America,2023-02-20,Retail
+2,"Wolf, Gutierrez and Ray",Asia-Pacific,2024-04-24,Finance
+3,Hart and Sons,Europe,2022-10-19,Healthcare
+4,Miller and Sons,North America,2024-01-27,Technology
+5,"Baker, Smith and Butler",Africa,2024-07-03,Hospitality
+6,Hamilton PLC,North America,2024-11-05,Retail
+7,White Group,North America,2023-06-12,Finance
+8,Hunt and Sons,Europe,2022-12-10,Retail
+9,"Carroll, Burke and Johnson",Africa,2024-06-21,Finance
+10,Thompson Inc,Africa,2025-03-23,Hospitality
+11,"Lewis, Guerra and Sullivan",Europe,2023-07-19,Transportation
+12,Mann Ltd,Africa,2024-01-11,Education
+13,Byrd-Gutierrez,North America,2023-06-08,Healthcare
+14,Hopkins PLC,South America,2025-01-16,Manufacturing
+15,"Gibson, Martinez and Price",Asia-Pacific,2023-12-02,Healthcare
+16,Levine-Simmons,Europe,2023-02-17,Manufacturing
+17,Daniel LLC,North America,2022-11-11,Technology
+18,Cole-Fernandez,South America,2024-09-14,Technology
+19,"Gibson, Stevenson and Wise",Asia-Pacific,2025-02-18,Manufacturing
+20,"Gilbert, Joyce and Krause",Africa,2024-09-30,Education
+21,"Singleton, Duarte and Smith",North America,2022-10-04,Transportation
+22,Bennett-Miller,Africa,2024-09-21,Technology
+23,"Hunt, Peters and Yang",South America,2022-07-01,Technology
+24,Hobbs-Mayer,Africa,2024-09-09,Education
+25,"Goodman, Robinson and Callahan",Africa,2025-05-02,Manufacturing
+26,Jackson Ltd,Africa,2024-10-16,Finance
+27,Gonzales-Hamilton,North America,2024-07-01,Retail
+28,Bell-Murphy,Europe,2024-06-04,Education
+29,Smith-Oliver,North America,2023-09-30,Finance
+30,Welch PLC,North America,2024-11-14,Hospitality
+31,"Wolfe, Anderson and Rodriguez",Asia-Pacific,2025-01-09,Transportation
+32,"Morales, Miller and Jones",Asia-Pacific,2024-08-17,Healthcare
+33,Hall-Decker,Asia-Pacific,2023-08-03,Manufacturing
+34,"Anderson, Hendrix and Parker",Europe,2023-01-03,Education
+35,Ramirez-Brown,North America,2022-11-14,Healthcare
+36,"Campbell, Byrd and Beltran",Africa,2022-09-04,Finance
+37,Jacobson-Taylor,Europe,2024-09-02,Transportation
+38,Mitchell-Espinoza,South America,2025-01-29,Education
+39,Sawyer-Webb,Africa,2022-06-15,Finance
+40,Berry-Ray,Asia-Pacific,2025-01-06,Retail
+41,Jimenez-Moore,Europe,2024-02-25,Retail
+42,Franco LLC,Asia-Pacific,2025-01-17,Hospitality
+43,"Randall, Green and Wright",Asia-Pacific,2023-06-12,Technology
+44,Smith-Harris,Europe,2023-05-03,Manufacturing
+45,"Logan, Whitaker and Craig",Europe,2025-04-27,Transportation
+46,Zimmerman-Cobb,South America,2022-11-16,Transportation
+47,"Graves, Rogers and Stephens",Europe,2024-12-30,Education
+48,"Rodriguez, Patel and Roberts",Europe,2022-10-07,Finance
+49,Riley-Chavez,Africa,2022-07-20,Education
+50,Singleton PLC,Africa,2024-04-09,Hospitality
+51,Wiley-Howard,Africa,2022-06-18,Hospitality
+52,Mason Inc,Asia-Pacific,2024-12-18,Finance
+53,Richardson-Williams,Europe,2023-08-17,Transportation
+54,Hodges-Walker,North America,2023-08-14,Retail
+55,Fields-Stephenson,North America,2022-12-03,Healthcare
+56,"Stephens, Mora and Moyer",Europe,2022-06-25,Hospitality
+57,Oconnell-Morris,Africa,2024-04-05,Technology
+58,Ferguson Inc,South America,2022-11-13,Hospitality
+59,Rodgers PLC,Africa,2022-11-29,Transportation
+60,Knox-Phillips,Africa,2024-03-23,Education
+61,"Golden, Zimmerman and Garcia",Africa,2023-03-03,Retail
+62,Duffy PLC,North America,2024-05-20,Education
+63,"Gutierrez, Miller and Stafford",Asia-Pacific,2023-08-29,Technology
+64,Norman and Sons,Asia-Pacific,2022-06-26,Hospitality
+65,"Mcclain, Russell and Fritz",Europe,2023-09-07,Transportation
+66,Rivera LLC,North America,2023-09-19,Education
+67,Simmons and Sons,Africa,2024-08-21,Healthcare
+68,Carroll-Morgan,Africa,2023-06-01,Technology
+69,"Anderson, Allen and Mitchell",Asia-Pacific,2023-07-31,Finance
+70,Reyes Ltd,Europe,2025-04-21,Manufacturing
+71,Rodriguez and Sons,Europe,2024-10-27,Retail
+72,"Nelson, Holloway and Jackson",Africa,2023-03-07,Manufacturing
+73,Murray-Hunt,South America,2025-01-19,Retail
+74,Bailey Ltd,North America,2022-05-23,Manufacturing
+75,Nunez Ltd,Asia-Pacific,2024-12-27,Finance
+76,Pugh LLC,North America,2023-01-30,Finance
+77,Taylor-Day,Africa,2025-01-03,Technology
+78,Solomon-Garcia,North America,2024-04-29,Transportation
+79,Booker-Salazar,North America,2022-09-16,Healthcare
+80,Chen-Hall,Europe,2022-11-08,Transportation
+81,Williams-Delacruz,Africa,2024-08-22,Healthcare
+82,"Morse, Horton and Guerrero",Asia-Pacific,2025-02-12,Hospitality
+83,Smith-Jimenez,Europe,2023-07-11,Finance
+84,Fleming Inc,Asia-Pacific,2024-11-02,Hospitality
+85,Schroeder-Love,Asia-Pacific,2022-10-30,Transportation
+86,Tran-Smith,Africa,2023-06-12,Transportation
+87,Duncan Ltd,North America,2023-06-29,Finance
+88,Holt-Brooks,Europe,2024-02-11,Technology
+89,Burns-Massey,Asia-Pacific,2022-05-18,Retail
+90,Perez LLC,Africa,2023-06-23,Finance
+91,White LLC,Africa,2023-01-09,Finance
+92,Alexander-Fuentes,North America,2024-12-06,Technology
+93,Neal Inc,North America,2022-08-23,Finance
+94,Porter-Freeman,North America,2025-02-03,Retail
+95,"Webb, Young and Martin",Asia-Pacific,2023-09-13,Technology
+96,"Andrade, Jimenez and Cook",Africa,2024-01-25,Finance
+97,"Cruz, Thompson and Sullivan",Asia-Pacific,2024-06-11,Transportation
+98,"Melendez, Hunt and Hernandez",Europe,2024-02-26,Healthcare
+99,Brown-Fleming,Africa,2025-05-12,Transportation
+100,Wilkinson PLC,Europe,2022-07-20,Transportation

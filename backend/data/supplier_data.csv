@@ -1,21 +1,21 @@
 supplier_id,supplier_name,product_id,lead_time_days,reliability_score
-1,"Hart, Potts and Blair",8,18,0.91
-2,Freeman Ltd,9,28,0.8
-3,Robinson Ltd,29,14,0.87
-4,Holland-Miller,6,28,0.99
-5,Rosales-King,12,13,0.95
-6,Porter-Parker,33,7,0.74
-7,Andrews Inc,44,8,0.93
-8,"Velasquez, Roth and Collins",13,24,0.92
-9,Larsen and Sons,34,20,0.93
-10,"Banks, Long and Cruz",37,28,0.86
-11,Mata and Sons,4,26,0.86
-12,Young-Garrett,35,8,0.91
-13,Jones PLC,34,6,0.81
-14,"Johnson, Chandler and Eaton",7,22,0.75
-15,Thomas-Castro,41,28,0.89
-16,Hughes-James,49,23,0.75
-17,Hudson-Allen,40,14,0.96
-18,Jacobs-Hartman,18,2,0.99
-19,Ramirez-Henderson,26,10,0.82
-20,Torres-Fritz,34,14,0.97
+1,Sharp Group,14,18,0.93
+2,Ross-Evans,36,21,0.8
+3,Rodriguez LLC,26,25,0.8
+4,Daniels-King,12,28,0.85
+5,Reynolds and Sons,6,11,0.81
+6,Doyle-Ramirez,35,24,0.94
+7,"Parker, Mills and Carter",15,11,0.95
+8,Thomas-Page,7,30,0.92
+9,Whitehead Inc,41,13,0.79
+10,Allen-Wyatt,32,21,0.76
+11,Lawson-Henry,25,7,0.78
+12,Garza-Brown,32,12,0.8
+13,Campbell-Lin,29,29,0.81
+14,"Sanchez, Bush and Clark",11,6,0.8
+15,Perry LLC,8,7,0.87
+16,Smith Inc,33,23,0.89
+17,Mccormick Ltd,19,25,0.87
+18,Matthews Group,12,13,0.89
+19,"Grant, Lucas and Matthews",5,7,0.73
+20,"Park, Bell and Hernandez",39,30,0.96

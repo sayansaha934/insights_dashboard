@@ -92,8 +92,15 @@ class InsightService:
         trends = self._add_product_names_to_trends(trends, products)
 
         # Separate rising and falling trends
-        rising = [t for t in trends if t["trend"] == "increasing"]
-        falling = [t for t in trends if t["trend"] == "decreasing"]
+        rising = sorted(
+            [t for t in trends if t["trend"] == "increasing"],
+            key=lambda x: x["change"],
+            reverse=True,  # Sort descending by change
+        )
+        falling = sorted(
+            [t for t in trends if t["trend"] == "decreasing"],
+            key=lambda x: x["change"],  # Sort ascending by change
+        )
 
         return {"rising_trends": rising, "falling_trends": falling}
 

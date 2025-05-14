@@ -142,7 +142,7 @@ class ProductService:
 
         total_issues = len(support)
         avg_sentiment = support["sentiment_score"].mean() if total_issues else None
-        open_issues = (support["status"] == "open").sum()
+        open_issues = (support["status"].str.lower() == "open").sum()  # Fix: Ensure case-insensitive comparison
 
         sentiment_over_time = (
             support.groupby("month")["sentiment_score"]
@@ -171,7 +171,7 @@ class ProductService:
         return {
             "total_issues": int(total_issues),
             "avg_sentiment": round(float(avg_sentiment), 2) if avg_sentiment is not None else None,
-            "open_issues": int(open_issues),
+            "open_issues": int(open_issues),  # Corrected open_issues calculation
         }, sentiment_over_time, support_status_breakdown
 
     def get_frequently_bought_together(self, product_id: str, top_n=5):
