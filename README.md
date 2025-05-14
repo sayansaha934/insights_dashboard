@@ -16,6 +16,11 @@
    ```
 
 ---
+## Generated Data
+
+You can explore the generated datasets used in this project in the [`backend/data/`](https://github.com/sayansaha934/insights_dashboard/tree/main/backend/data) directory.
+
+---
 
 ## 🧩 How to Run the Application
 
