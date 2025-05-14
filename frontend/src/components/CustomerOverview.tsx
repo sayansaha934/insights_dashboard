@@ -21,7 +21,7 @@ export default function CustomerOverview({ data }: { data: any }) {
           {data.top_customers.map((customer: any) => (
             <tr key={customer.customer_id} className="hover:bg-blue-50">
               <td className="border border-gray-300 px-4 py-2">{customer.customer_name}</td>
-              <td className="border border-gray-300 px-4 py-2">₹{customer.total_spent.toFixed(2)}</td>
+              <td className="border border-gray-300 px-4 py-2">${customer.total_spent.toFixed(2)}</td>
             </tr>
           ))}
         </tbody>

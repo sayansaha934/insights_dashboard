@@ -20,7 +20,6 @@ export default function CustomerList({
 }) {
   return (
     <div>
-      <h1 className="text-3xl font-bold mb-4">Customer List</h1>
       <input
         type="text"
         className="border p-2 w-full rounded mb-4"

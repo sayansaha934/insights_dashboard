@@ -17,7 +17,6 @@ export default function ProductList({
 }) {
   return (
     <div>
-      <h1 className="text-3xl font-bold mb-4">Product List</h1>
       <input
         type="text"
         placeholder="Search products..."
@@ -47,7 +46,7 @@ export default function ProductList({
               >
                 <td className="border border-gray-300 px-4 py-2">{p.product_name}</td>
                 <td className="border border-gray-300 px-4 py-2">{p.category}</td>
-                <td className="border border-gray-300 px-4 py-2">₹{p.sales_price}</td>
+                <td className="border border-gray-300 px-4 py-2">${p.sales_price}</td>
               </tr>
             ))}
           </tbody>

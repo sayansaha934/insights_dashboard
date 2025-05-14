@@ -45,7 +45,6 @@ export default function AIInsightView() {
 
   return (
     <div className="p-4 space-y-8">
-      <h1 className="text-3xl font-bold text-center">AI Insights</h1>
       <AnomalousCustomers
         data={anomalousCustomers}
         loading={loading}

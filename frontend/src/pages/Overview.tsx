@@ -41,7 +41,6 @@ export default function Overview() {
 
   return (
     <div className="p-4 space-y-8">
-      <h1 className="text-3xl font-bold text-center">Dashboard Overview</h1>
       <SalesOverview data={overviewData.sales_overview} />
       <CustomerOverview data={overviewData.customer_overview} />
       <ProductOverview data={overviewData.product_overview} />

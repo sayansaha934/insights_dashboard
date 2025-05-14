@@ -1,31 +1,51 @@
 product_id,product_name,category,cost_price,sales_price
-1,Change,Software,80.28,162.17
-2,Success,Apparel,76.73,95.15
-3,Campaign,Food,80.15,121.03
-4,Office,Furniture,222.09,304.26
-5,Water,Food,580.45,882.28
-6,Participant,Electronics,809.42,1173.66
-7,Dinner,Food,662.39,1099.57
-8,Concern,Electronics,472.35,1015.55
-9,Hit,Electronics,70.01,150.52
-10,How,Food,256.17,371.45
-11,Remain,Food,148.78,214.24
-12,Meeting,Food,257.31,617.54
-13,Upon,Electronics,809.94,1870.96
-14,Work,Electronics,60.08,150.2
-15,Agreement,Software,969.31,2326.34
-16,Court,Software,174.65,319.61
-17,Day,Software,866.0,2052.42
-18,List,Apparel,385.18,955.25
-19,Race,Apparel,927.25,2058.5
-20,Between,Furniture,428.78,1046.22
-21,Information,Software,665.25,1217.41
-22,Build,Furniture,303.74,747.2
-23,Threat,Apparel,738.38,945.13
-24,Let,Furniture,66.59,130.52
-25,Wonder,Electronics,920.19,1739.16
-26,Just,Software,961.17,1249.52
-27,Different,Software,77.84,100.41
-28,Picture,Furniture,409.74,991.57
-29,Next,Furniture,253.75,499.89
-30,Major,Furniture,91.16,186.88
+1,Wireless Earbuds,Electronics,809.42,1173.66
+2,Smartphone,Electronics,105.96,186.49
+3,Laptop,Electronics,429.34,777.11
+4,Gaming Console,Electronics,731.79,1522.12
+5,Bluetooth Speaker,Electronics,984.32,1309.15
+6,Smartwatch,Electronics,408.6,670.1
+7,4K Monitor,Electronics,863.06,1311.85
+8,Power Bank,Electronics,198.31,352.99
+9,Wireless Router,Electronics,427.66,667.15
+10,VR Headset,Electronics,257.31,617.54
+11,Running Shoes,Apparel,448.7,1040.98
+12,Winter Jacket,Apparel,554.82,704.62
+13,Casual T-Shirt,Apparel,999.29,2288.37
+14,Jeans,Apparel,969.31,2326.34
+15,Sunglasses,Apparel,850.21,1207.3
+16,Baseball Cap,Apparel,490.78,726.35
+17,Sports Shorts,Apparel,407.03,521.0
+18,Formal Shirt,Apparel,385.18,955.25
+19,Hoodie,Apparel,272.55,605.06
+20,Leather Belt,Apparel,460.46,805.8
+21,Organic Coffee,Food,957.74,2384.77
+22,Protein Bars,Food,560.21,1193.25
+23,Gourmet Chocolate,Food,163.25,259.57
+24,Cooking Oil,Food,969.02,1889.59
+25,Snack Pack,Food,546.77,1186.49
+26,Almond Butter,Food,66.59,130.52
+27,Instant Noodles,Food,507.82,1173.06
+28,Granola Mix,Food,165.86,406.36
+29,Green Tea,Food,89.31,128.61
+30,Bottled Smoothie,Food,599.08,1246.09
+31,Office Chair,Furniture,242.85,330.28
+32,Study Desk,Furniture,891.38,1354.9
+33,Bookshelf,Furniture,598.57,1203.13
+34,Sofa Set,Furniture,425.03,833.06
+35,Dining Table,Furniture,527.55,1276.67
+36,Bed Frame,Furniture,212.22,452.03
+37,Coffee Table,Furniture,246.3,421.17
+38,TV Stand,Furniture,674.97,1073.2
+39,Shoe Rack,Furniture,323.02,704.18
+40,Wardrobe,Furniture,81.82,147.28
+41,Accounting Software,Software,998.47,2486.19
+42,Photo Editor Pro,Software,82.53,122.14
+43,Antivirus Suite,Software,272.55,656.85
+44,Video Conferencing Tool,Software,882.06,2064.02
+45,Cloud Storage App,Software,375.83,529.92
+46,Electric Kettle,Home Appliances,835.41,1762.72
+47,Microwave Oven,Home Appliances,615.56,1526.59
+48,Air Purifier,Home Appliances,657.44,795.5
+49,Vacuum Cleaner,Home Appliances,818.93,1302.1
+50,Water Dispenser,Home Appliances,666.75,1613.53

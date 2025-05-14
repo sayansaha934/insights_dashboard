@@ -105,6 +105,8 @@ class CustomerService:
         # Convert creation_date to datetime and extract month
         tickets["creation_date"] = pd.to_datetime(tickets["creation_date"])
         tickets["month"] = tickets["creation_date"].dt.to_period("M").astype(str)
+        # Normalize the status column
+        tickets["status"] = tickets["status"].str.strip().str.lower()
         return tickets
 
     def _calculate_sales_summary(self, sales):

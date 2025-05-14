@@ -35,10 +35,10 @@ export default function ProductProfile({
           <strong>Category:</strong> {productDetails.product.category}
         </p>
         <p>
-          <strong>Cost Price:</strong> ₹{productDetails.product.cost_price}
+          <strong>Cost Price:</strong> ${productDetails.product.cost_price}
         </p>
         <p>
-          <strong>Sales Price:</strong> ₹{productDetails.product.sales_price}
+          <strong>Sales Price:</strong> ${productDetails.product.sales_price}
         </p>
       </div>
 
@@ -46,8 +46,8 @@ export default function ProductProfile({
       <div className="mt-4">
         <h3 className="font-semibold text-xl">Sales Performance</h3>
         <p>Total Sales: {productDetails.sales_summary.total_sales}</p>
-        <p>Total Revenue: ₹{productDetails.sales_summary.total_revenue.toFixed(2)}</p>
-        <p>Average Sale Value: ₹{productDetails.sales_summary.avg_sale_value.toFixed(2)}</p>
+        <p>Total Revenue: ${productDetails.sales_summary.total_revenue.toFixed(2)}</p>
+        <p>Average Sale Value: ${productDetails.sales_summary.avg_sale_value.toFixed(2)}</p>
       </div>
 
       {/* Support Issues */}
@@ -145,7 +145,7 @@ export default function ProductProfile({
               <tr key={product.product_id} className="hover:bg-blue-50">
                 <td className="border border-gray-300 px-4 py-2">{product.product_name}</td>
                 <td className="border border-gray-300 px-4 py-2">{product.category}</td>
-                <td className="border border-gray-300 px-4 py-2">₹{product.sales_price}</td>
+                <td className="border border-gray-300 px-4 py-2">${product.sales_price}</td>
               </tr>
             ))}
           </tbody>

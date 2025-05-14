@@ -107,9 +107,10 @@ class OverViewService:
 
         # Best-selling product
         top_products_query = """
-            SELECT product_id, COUNT(*) AS sales_count, SUM(sale_amount) AS revenue
-            FROM sales_transactions
-            GROUP BY product_id
+            SELECT p.product_id, p.product_name, COUNT(*) AS sales_count, SUM(st.sale_amount) AS revenue
+            FROM sales_transactions st
+            JOIN products p ON st.product_id = p.product_id
+            GROUP BY p.product_id, p.product_name
             ORDER BY revenue DESC
             LIMIT 1
         """
@@ -121,9 +122,10 @@ class OverViewService:
 
         # Most problematic product
         most_issues_query = """
-            SELECT product_id, COUNT(*) AS issue_count
-            FROM support_tickets
-            GROUP BY product_id
+            SELECT p.product_id, p.product_name, COUNT(*) AS issue_count
+            FROM support_tickets st
+            JOIN products p ON st.product_id = p.product_id
+            GROUP BY p.product_id, p.product_name
             ORDER BY issue_count DESC
             LIMIT 1
         """

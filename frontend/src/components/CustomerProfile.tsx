@@ -72,13 +72,13 @@ export default function CustomerProfile({
         </div>
         <div>
           <p>
-            <strong>Total Spent:</strong> ₹{profile.sales_summary.total_spent.toFixed(2)}
+            <strong>Total Spent:</strong> ${profile.sales_summary.total_spent.toFixed(2)}
           </p>
           <p>
             <strong>Transactions:</strong> {profile.sales_summary.total_purchases}
           </p>
           <p>
-            <strong>Avg Order Value:</strong> ₹
+            <strong>Avg Order Value:</strong> $
             {profile.sales_summary.avg_order_value.toFixed(2)}
           </p>
           <p>
