@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom"; // Import useNavigate
 
 export default function ProductList({
   products,
@@ -15,6 +16,8 @@ export default function ProductList({
   error: string | null;
   onSelect: (id: string) => void;
 }) {
+  const navigate = useNavigate(); // Initialize navigate
+
   return (
     <div>
       <input
@@ -42,7 +45,7 @@ export default function ProductList({
               <tr
                 key={p.product_id}
                 className="hover:bg-blue-50 cursor-pointer"
-                onClick={() => onSelect(p.product_id)}
+                onClick={() => navigate(`/product/${p.product_id}`)} // Navigate on click
               >
                 <td className="border border-gray-300 px-4 py-2">{p.product_name}</td>
                 <td className="border border-gray-300 px-4 py-2">{p.category}</td>

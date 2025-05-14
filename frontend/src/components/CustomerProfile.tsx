@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
   LineChart,
   Line,
@@ -11,48 +11,40 @@ import {
   Cell,
 } from "recharts";
 import { IoArrowBack } from "react-icons/io5";
+import { useNavigate, useParams } from "react-router-dom";
 
 const COLORS = ["#3b82f6", "#f97316", "#10b981", "#ef4444"];
 
-type Customer = {
-  customer_id: string;
-  customer_name: string;
-  region: string;
-  industry: string;
-  join_date: string;
-};
+export default function CustomerProfile() {
+  const navigate = useNavigate();
+  const { id } = useParams();
+  const [profile, setProfile] = useState<any>(null);
 
-type Profile = {
-  customer: Customer;
-  sales_summary: {
-    total_purchases: number;
-    total_spent: number;
-    avg_order_value: number;
-    ltv_score: number;
-  };
-  support_summary: {
-    total_tickets: number;
-    avg_sentiment: number;
-    open_issues: number;
-  };
-  ai_insights: string[];
-  charts: {
-    sales_over_time: { date: string; amount: number }[];
-    sentiment_over_time: { date: string; score: number }[];
-    support_status_breakdown: { status: string; count: number }[];
-  };
-};
+  useEffect(() => {
+    async function fetchCustomerProfile() {
+      try {
+        const response = await fetch(`${import.meta.env.VITE_API_URL}customers/${id}`);
+        const data = await response.json();
+        setProfile(data);
+      } catch (error) {
+        console.error("Error fetching customer profile:", error);
+      }
+    }
 
-export default function CustomerProfile({
-  profile,
-  onBack,
-}: {
-  profile: Profile;
-  onBack: () => void;
-}) {
+    fetchCustomerProfile();
+  }, [id]);
+
+  if (!profile) {
+    return (
+      <div className="text-center mt-10">
+        <p>Loading customer profile...</p>
+      </div>
+    );
+  }
+
   return (
-    <div className="space-y-6">
-      <button onClick={onBack} className="flex items-center text-blue-500">
+    <div className="space-y-6 pl-6">
+      <button onClick={() => navigate(-1)} className="flex items-center text-blue-500">
         <IoArrowBack className="mr-2" />
         Back
       </button>
@@ -102,7 +94,7 @@ export default function CustomerProfile({
       <div>
         <h3 className="text-xl font-bold">AI Insights</h3>
         <ul className="list-disc pl-5">
-          {profile.ai_insights.map((insight, index) => (
+          {profile.ai_insights.map((insight: string, index: number) => (
             <li key={index}>{insight}</li>
           ))}
         </ul>
@@ -144,7 +136,7 @@ export default function CustomerProfile({
                 fill="#8884d8"
                 label
               >
-                {profile.charts.support_status_breakdown.map((entry, index) => (
+                {profile.charts.support_status_breakdown.map((entry: any, index: number) => (
                   <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                 ))}
               </Pie>

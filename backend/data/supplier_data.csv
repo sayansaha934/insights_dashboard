@@ -1,21 +1,21 @@
 supplier_id,supplier_name,product_id,lead_time_days,reliability_score
-1,Sharp Group,14,18,0.93
-2,Ross-Evans,36,21,0.8
-3,Rodriguez LLC,26,25,0.8
-4,Daniels-King,12,28,0.85
-5,Reynolds and Sons,6,11,0.81
-6,Doyle-Ramirez,35,24,0.94
-7,"Parker, Mills and Carter",15,11,0.95
-8,Thomas-Page,7,30,0.92
-9,Whitehead Inc,41,13,0.79
-10,Allen-Wyatt,32,21,0.76
-11,Lawson-Henry,25,7,0.78
-12,Garza-Brown,32,12,0.8
-13,Campbell-Lin,29,29,0.81
-14,"Sanchez, Bush and Clark",11,6,0.8
-15,Perry LLC,8,7,0.87
-16,Smith Inc,33,23,0.89
-17,Mccormick Ltd,19,25,0.87
-18,Matthews Group,12,13,0.89
-19,"Grant, Lucas and Matthews",5,7,0.73
-20,"Park, Bell and Hernandez",39,30,0.96
+1,Clayton-Lopez,34,18,0.96
+2,"Thompson, Gray and Baker",23,13,0.75
+3,"Martinez, Mcmahon and Peterson",9,30,0.8
+4,Gonzalez PLC,28,14,0.72
+5,James Ltd,21,28,0.93
+6,Phillips PLC,33,14,0.94
+7,"Cooper, Holland and Scott",29,18,0.83
+8,Banks PLC,20,28,0.75
+9,Medina-George,32,23,0.8
+10,Turner PLC,22,24,0.97
+11,Duran LLC,18,18,0.89
+12,Farmer-Hill,38,14,0.99
+13,King-Riggs,21,26,0.91
+14,Schmidt-Barber,40,10,0.75
+15,Davis PLC,9,10,0.99
+16,"Martinez, Miller and Briggs",8,3,0.94
+17,Scott-Johnson,28,11,0.71
+18,Wagner-Curtis,1,29,0.71
+19,"Hernandez, Perry and Reynolds",10,26,0.79
+20,Smith PLC,41,8,0.88

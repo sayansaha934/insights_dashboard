@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom"; // Import useNavigate
 
 export default function TrendingProducts({
   data,
@@ -9,6 +10,8 @@ export default function TrendingProducts({
   loading: boolean;
   error: string | null;
 }) {
+  const navigate = useNavigate(); // Initialize navigate
+
   return (
     <div className="space-y-4">
       <h2 className="text-2xl font-semibold">Products with Rapidly Increasing/Decreasing Sales Trends</h2>
@@ -31,7 +34,11 @@ export default function TrendingProducts({
                 </thead>
                 <tbody>
                   {data.rising_trends.map((product) => (
-                    <tr key={product.product_id} className="hover:bg-green-50">
+                    <tr
+                      key={product.product_id}
+                      className="hover:bg-green-50 cursor-pointer"
+                      onClick={() => navigate(`/product/${product.product_id}`)} // Navigate to product profile
+                    >
                       <td className="border border-gray-300 px-4 py-2">{product.product_name}</td>
                       <td className="border border-gray-300 px-4 py-2">{(product.change * 100).toFixed(2)}%</td>
                     </tr>
@@ -56,7 +63,11 @@ export default function TrendingProducts({
                 </thead>
                 <tbody>
                   {data.falling_trends.map((product) => (
-                    <tr key={product.product_id} className="hover:bg-red-50">
+                    <tr
+                      key={product.product_id}
+                      className="hover:bg-red-50 cursor-pointer"
+                      onClick={() => navigate(`/product/${product.product_id}`)} // Navigate to product profile
+                    >
                       <td className="border border-gray-300 px-4 py-2">{product.product_name}</td>
                       <td className="border border-gray-300 px-4 py-2">{(product.change * 100).toFixed(2)}%</td>
                     </tr>

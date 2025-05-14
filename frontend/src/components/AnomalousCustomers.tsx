@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom"; // Import useNavigate
 
 export default function AnomalousCustomers({
   data,
@@ -9,6 +10,8 @@ export default function AnomalousCustomers({
   loading: boolean;
   error: string | null;
 }) {
+  const navigate = useNavigate(); // Initialize navigate
+
   return (
     <div className="space-y-4">
       <h2 className="text-2xl font-semibold">Customers with High Negative Sentiment Tickets</h2>
@@ -26,7 +29,11 @@ export default function AnomalousCustomers({
           </thead>
           <tbody>
             {data.map((customer) => (
-              <tr key={customer.customer_id} className="hover:bg-blue-50">
+              <tr
+                key={customer.customer_id}
+                className="hover:bg-blue-50 cursor-pointer"
+                onClick={() => navigate(`/customer/${customer.customer_id}`)} // Navigate to customer profile
+              >
                 <td className="border border-gray-300 px-4 py-2">{customer.customer_name}</td>
                 <td className="border border-gray-300 px-4 py-2">{customer.negative_ticket_count}</td>
               </tr>

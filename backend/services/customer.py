@@ -38,9 +38,10 @@ class CustomerService:
         customer = self._fetch_customer_details(conn, customer_id)
         sales = self._fetch_sales_data(conn, customer_id)
         tickets = self._fetch_support_tickets(conn, customer_id)
+        max_ltv = self.generate_max_ltv_threshold(conn)
 
         # Process data into summaries and insights
-        sales_summary = self._calculate_sales_summary(sales)
+        sales_summary = self._calculate_sales_summary(sales, max_ltv)
         support_summary = self._calculate_support_summary(tickets)
         charts = self._generate_charts(sales, tickets)
         top_category = self._determine_top_category(conn, sales)
@@ -109,7 +110,7 @@ class CustomerService:
         tickets["status"] = tickets["status"].str.strip().str.lower()
         return tickets
 
-    def _calculate_sales_summary(self, sales):
+    def _calculate_sales_summary(self, sales, max_ltv):
         """
         Calculate sales summary metrics such as total purchases, total spent,
         average order value, and lifetime value (LTV) score.
@@ -117,12 +118,31 @@ class CustomerService:
         total_purchases = len(sales)
         total_spent = sales["sale_amount"].sum()
         avg_order_value = sales["sale_amount"].mean() if total_purchases else 0
-        ltv_score = round(min(1.0, total_spent / 150000), 2)
+
+        # Calculate purchase frequency and customer lifespan
+        if total_purchases > 1:
+            first_purchase = sales["transaction_date"].min()
+            last_purchase = sales["transaction_date"].max()
+            customer_lifespan_in_years = max((last_purchase - first_purchase).days / 365, 1)
+            purchase_frequency = total_purchases / customer_lifespan_in_years
+        else:
+            customer_lifespan_in_years = 1
+            purchase_frequency = total_purchases
+
+        # Calculate LTV using the formula
+        ltv_score = avg_order_value * purchase_frequency * customer_lifespan_in_years
+
+        # Ensure max_ltv is valid
+        max_ltv = max(max_ltv, 1)  # Avoid division by zero or invalid max_ltv
+
+        # Normalize LTV score between 0 and 1
+        normalized_ltv_score = min(1.0, ltv_score / max_ltv)
+
         return {
             "total_purchases": int(total_purchases),
             "total_spent": float(total_spent),
             "avg_order_value": float(round(avg_order_value, 2)) if avg_order_value else None,
-            "ltv_score": float(ltv_score),
+            "ltv_score": float(round(normalized_ltv_score, 2)),
         }
 
     def _calculate_support_summary(self, tickets):
@@ -222,3 +242,43 @@ class CustomerService:
         if top_category:
             ai_insights.append(f"Frequently purchases high-margin products in '{top_category}'.")
         return ai_insights
+    def generate_max_ltv_threshold(self, conn):
+        """
+        Compute the 95th percentile of LTV scores across all customers
+        to use as the normalization threshold.
+        """
+
+        # Fetch full sales data
+        sales_df = pd.read_sql(
+            """
+            SELECT customer_id, transaction_date, sale_amount
+            FROM sales_transactions
+            """,
+            conn,
+        )
+
+        # Preprocess dates
+        sales_df["transaction_date"] = pd.to_datetime(sales_df["transaction_date"])
+
+        # Compute LTV per customer using the same logic as in your per-customer method
+        def compute_ltv(group):
+            total_purchases = len(group)
+            avg_order_value = group["sale_amount"].mean()
+
+            if total_purchases > 1:
+                first = group["transaction_date"].min()
+                last = group["transaction_date"].max()
+                lifespan = max((last - first).days / 365, 1)
+                freq = total_purchases / lifespan
+            else:
+                lifespan = 1
+                freq = total_purchases
+
+            return avg_order_value * freq * lifespan
+
+        # Group by customer and compute LTV
+        ltv_per_customer = sales_df.groupby("customer_id").apply(compute_ltv)
+
+        # Return the 95th percentile (or any other quantile you want)
+        return ltv_per_customer.quantile(0.95)
+

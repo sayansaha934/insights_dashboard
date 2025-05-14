@@ -1,1501 +1,1501 @@
 ticket_id,customer_id,product_id,issue_type,status,creation_date,resolution_date,sentiment_score
-1,99,36,Damaged Product,In Progress,2024-05-20,,0.32
-2,89,33,Delivery Delay,Open,2025-05-12,,0.45
-3,57,30,Delivery Delay,Open,2025-04-29,,0.34
-4,79,40,Technical Issue,Open,2024-07-09,,1.0
-5,6,33,Damaged Product,Open,2024-11-01,,0.61
-6,81,8,Refund Request,Closed,2024-08-16,2024-08-31,0.61
-7,21,19,Technical Issue,Resolved,2024-12-26,2025-01-08,0.72
-8,64,7,Refund Request,Closed,2024-12-19,2024-12-30,0.1
-9,43,9,Damaged Product,Open,2025-03-30,,0.86
-10,57,27,Damaged Product,Open,2024-10-30,,0.47
-11,61,22,Technical Issue,In Progress,2025-05-14,,0.73
-12,22,6,Refund Request,In Progress,2024-11-15,,0.12
-13,92,27,Damaged Product,In Progress,2025-04-29,,0.0
-14,20,34,Damaged Product,Resolved,2024-11-08,2024-11-21,0.79
-15,18,28,Product Inquiry,Resolved,2025-05-04,2025-05-19,0.63
-16,59,34,Delivery Delay,In Progress,2024-06-18,,0.18
-17,57,10,Technical Issue,Open,2024-08-10,,0.2
-18,9,6,Refund Request,In Progress,2025-03-28,,0.89
-19,52,11,Product Inquiry,Resolved,2024-11-20,2024-11-21,0.08
-20,98,3,Technical Issue,Closed,2024-12-23,2025-01-07,1.0
-21,8,41,Product Inquiry,In Progress,2024-08-15,,0.18
-22,52,44,Refund Request,In Progress,2024-10-28,,0.72
-23,45,1,Technical Issue,In Progress,2025-04-26,,0.38
-24,79,10,Damaged Product,Resolved,2024-07-01,2024-07-09,0.71
-25,70,40,Refund Request,Resolved,2024-11-29,2024-12-11,0.31
-26,84,26,Refund Request,Closed,2025-03-07,2025-03-22,0.44
-27,11,3,Product Inquiry,In Progress,2024-08-10,,0.51
-28,93,9,Damaged Product,In Progress,2024-07-12,,0.15
-29,12,33,Technical Issue,In Progress,2025-03-24,,0.76
-30,44,41,Delivery Delay,Closed,2024-10-05,2024-10-06,0.32
-31,70,38,Damaged Product,In Progress,2024-08-28,,0.42
-32,100,20,Delivery Delay,Resolved,2025-04-05,2025-04-14,0.15
-33,94,4,Refund Request,In Progress,2024-07-04,,0.0
-34,81,33,Delivery Delay,In Progress,2024-07-13,,0.43
-35,7,42,Product Inquiry,Open,2024-07-03,,1.0
-36,39,37,Product Inquiry,Open,2024-12-24,,0.77
-37,44,16,Refund Request,Closed,2025-01-30,2025-02-05,0.49
-38,37,43,Product Inquiry,Closed,2024-09-19,2024-10-01,0.41
-39,67,16,Refund Request,Open,2024-12-19,,0.51
-40,67,38,Refund Request,Closed,2024-08-13,2024-08-27,0.69
-41,59,7,Product Inquiry,Closed,2025-04-07,2025-04-19,0.09
-42,53,6,Delivery Delay,Open,2025-05-02,,0.89
-43,55,9,Product Inquiry,Resolved,2025-03-07,2025-03-11,0.75
-44,10,24,Technical Issue,Resolved,2024-06-21,2024-07-01,0.75
-45,67,26,Technical Issue,In Progress,2024-10-01,,0.65
-46,64,41,Product Inquiry,Resolved,2024-08-08,2024-08-16,0.51
-47,94,27,Technical Issue,Closed,2024-08-14,2024-08-17,0.74
-48,17,32,Technical Issue,Resolved,2024-10-10,2024-10-13,0.71
-49,68,8,Product Inquiry,Closed,2024-10-11,2024-10-19,0.38
-50,5,11,Delivery Delay,In Progress,2024-10-18,,0.3
-51,78,27,Delivery Delay,Open,2024-10-02,,0.54
-52,48,37,Delivery Delay,In Progress,2025-05-12,,1.0
-53,67,10,Refund Request,Open,2024-08-14,,0.07
-54,40,24,Refund Request,In Progress,2024-07-13,,0.0
-55,63,2,Technical Issue,Closed,2025-03-25,2025-03-28,0.56
-56,54,4,Refund Request,In Progress,2024-10-28,,0.52
-57,28,12,Delivery Delay,Resolved,2024-11-17,2024-11-18,0.56
-58,71,23,Delivery Delay,Open,2024-06-02,,0.59
-59,54,31,Technical Issue,In Progress,2025-04-29,,0.42
-60,58,22,Technical Issue,Resolved,2024-11-17,2024-11-25,1.0
-61,17,9,Product Inquiry,Resolved,2024-06-26,2024-07-09,0.0
-62,86,29,Refund Request,Closed,2024-12-25,2025-01-08,0.21
-63,12,40,Damaged Product,Resolved,2024-09-30,2024-10-07,0.46
-64,51,22,Product Inquiry,Open,2024-12-04,,0.0
-65,95,18,Damaged Product,Open,2025-02-17,,0.44
-66,91,2,Technical Issue,In Progress,2024-11-09,,1.0
-67,83,8,Damaged Product,Open,2024-09-17,,0.51
-68,80,35,Technical Issue,Open,2024-10-28,,0.58
-69,67,13,Delivery Delay,Resolved,2024-12-31,2025-01-09,0.06
-70,16,43,Refund Request,Closed,2025-02-11,2025-02-12,0.28
-71,27,16,Technical Issue,Resolved,2025-02-28,2025-03-02,0.37
-72,78,21,Delivery Delay,Resolved,2025-01-10,2025-01-20,0.39
-73,63,2,Product Inquiry,In Progress,2024-08-25,,0.95
-74,24,27,Technical Issue,Open,2025-04-07,,0.7
-75,41,25,Delivery Delay,In Progress,2025-04-01,,0.11
-76,15,7,Damaged Product,Closed,2025-04-30,2025-05-05,0.59
-77,24,17,Damaged Product,Open,2025-01-10,,0.67
-78,40,27,Technical Issue,Closed,2024-06-18,2024-06-19,0.9
-79,42,12,Delivery Delay,Open,2025-05-11,,1.0
-80,39,25,Refund Request,Open,2024-05-31,,0.14
-81,19,27,Refund Request,In Progress,2024-09-30,,0.22
-82,49,8,Damaged Product,Open,2024-09-15,,0.06
-83,31,39,Technical Issue,Closed,2024-10-25,2024-11-02,0.42
-84,97,33,Refund Request,Resolved,2024-08-14,2024-08-16,0.66
-85,8,21,Product Inquiry,Resolved,2024-10-12,2024-10-21,0.85
-86,9,31,Product Inquiry,Open,2024-07-23,,0.47
-87,82,15,Refund Request,Open,2025-02-21,,0.39
-88,71,38,Damaged Product,Open,2025-02-22,,0.55
-89,98,36,Technical Issue,Closed,2024-08-31,2024-09-05,0.21
-90,53,29,Technical Issue,Open,2024-08-15,,1.0
-91,27,10,Technical Issue,In Progress,2025-03-26,,0.0
-92,22,16,Technical Issue,Resolved,2024-06-25,2024-07-10,0.56
-93,58,3,Product Inquiry,Open,2024-09-20,,1.0
-94,80,19,Delivery Delay,Closed,2025-02-19,2025-02-20,0.5
-95,62,18,Product Inquiry,In Progress,2025-03-19,,0.43
-96,45,41,Technical Issue,Closed,2025-04-11,2025-04-21,0.37
-97,37,3,Technical Issue,Closed,2025-02-15,2025-02-27,0.44
-98,73,5,Delivery Delay,In Progress,2024-08-30,,0.98
-99,51,45,Damaged Product,Open,2024-07-29,,0.0
-100,93,36,Product Inquiry,In Progress,2025-01-24,,1.0
-101,27,40,Refund Request,In Progress,2025-03-20,,0.0
-102,82,17,Damaged Product,Resolved,2025-02-05,2025-02-10,0.41
-103,85,21,Damaged Product,In Progress,2024-07-31,,0.35
-104,59,39,Delivery Delay,In Progress,2024-09-21,,0.71
-105,89,9,Technical Issue,Open,2025-02-26,,0.0
-106,61,1,Damaged Product,Open,2024-08-04,,0.66
-107,53,36,Product Inquiry,Resolved,2025-01-16,2025-01-29,1.0
-108,69,6,Technical Issue,Open,2025-05-04,,0.02
-109,4,43,Delivery Delay,Resolved,2024-11-17,2024-11-28,0.57
-110,46,25,Product Inquiry,In Progress,2024-09-24,,0.27
-111,23,45,Delivery Delay,Open,2024-06-01,,0.65
-112,60,24,Delivery Delay,Closed,2024-09-26,2024-10-04,0.51
-113,29,2,Refund Request,In Progress,2025-01-16,,0.28
-114,25,6,Damaged Product,In Progress,2024-07-24,,0.67
-115,30,32,Delivery Delay,In Progress,2024-05-19,,1.0
-116,36,32,Damaged Product,Closed,2024-07-13,2024-07-14,0.43
-117,82,26,Refund Request,Open,2024-07-15,,0.75
-118,73,33,Technical Issue,Resolved,2024-06-10,2024-06-13,0.05
-119,25,43,Technical Issue,Closed,2024-11-28,2024-11-30,0.17
-120,17,5,Technical Issue,Closed,2024-11-02,2024-11-07,0.67
-121,30,34,Damaged Product,In Progress,2024-07-01,,1.0
-122,87,2,Technical Issue,In Progress,2025-05-08,,0.62
-123,59,1,Delivery Delay,Resolved,2024-11-30,2024-12-11,0.39
-124,42,28,Delivery Delay,Resolved,2024-06-03,2024-06-08,0.5
-125,88,34,Refund Request,Resolved,2024-08-14,2024-08-22,0.06
-126,67,3,Refund Request,Closed,2025-04-02,2025-04-03,0.71
-127,54,35,Delivery Delay,Resolved,2024-07-08,2024-07-14,0.81
-128,51,13,Delivery Delay,In Progress,2025-01-11,,0.34
-129,74,2,Product Inquiry,Closed,2024-10-22,2024-11-03,0.34
-130,10,16,Refund Request,Closed,2024-09-06,2024-09-09,0.59
-131,40,5,Delivery Delay,Open,2024-12-25,,0.35
-132,62,28,Technical Issue,Open,2024-12-04,,0.48
-133,81,22,Damaged Product,In Progress,2024-12-08,,1.0
-134,14,31,Delivery Delay,Closed,2024-05-16,2024-05-22,0.41
-135,43,34,Technical Issue,Closed,2024-10-08,2024-10-10,0.37
-136,80,29,Product Inquiry,Open,2025-05-10,,0.27
-137,75,8,Delivery Delay,Open,2025-03-28,,0.76
-138,5,25,Delivery Delay,In Progress,2025-02-03,,0.44
-139,17,4,Refund Request,Resolved,2025-02-10,2025-02-11,0.27
-140,79,41,Delivery Delay,Resolved,2024-08-14,2024-08-16,0.96
-141,87,4,Refund Request,Open,2025-01-26,,1.0
-142,49,26,Technical Issue,Open,2025-03-20,,0.29
-143,97,27,Technical Issue,Closed,2025-02-22,2025-03-08,0.0
-144,85,40,Product Inquiry,Open,2025-05-11,,0.85
-145,50,30,Technical Issue,Resolved,2024-12-25,2025-01-09,0.26
-146,80,7,Delivery Delay,In Progress,2024-11-26,,0.78
-147,59,34,Technical Issue,In Progress,2024-11-03,,0.0
-148,25,7,Delivery Delay,Open,2024-06-24,,0.81
-149,77,5,Technical Issue,Closed,2024-06-26,2024-07-11,0.08
-150,17,41,Refund Request,In Progress,2025-04-29,,0.76
-151,54,31,Damaged Product,Resolved,2024-12-08,2024-12-11,0.5
-152,18,3,Damaged Product,Open,2024-06-20,,0.17
-153,40,38,Refund Request,Resolved,2025-03-07,2025-03-16,0.36
-154,40,38,Product Inquiry,Closed,2025-03-16,2025-03-19,0.74
-155,40,39,Refund Request,In Progress,2025-01-01,,0.54
-156,48,1,Damaged Product,Closed,2025-02-07,2025-02-08,0.7
-157,65,36,Product Inquiry,Open,2025-01-07,,1.0
-158,45,13,Damaged Product,Closed,2024-12-31,2025-01-11,0.0
-159,9,22,Product Inquiry,Closed,2025-03-08,2025-03-19,1.0
-160,89,45,Refund Request,Resolved,2024-05-18,2024-05-28,0.54
-161,75,37,Technical Issue,In Progress,2024-10-01,,0.19
-162,39,27,Damaged Product,In Progress,2024-10-06,,0.03
-163,14,30,Product Inquiry,Open,2024-10-04,,0.43
-164,29,1,Damaged Product,Closed,2025-02-19,2025-03-03,0.82
-165,60,40,Product Inquiry,Closed,2024-12-16,2024-12-20,0.46
-166,95,22,Product Inquiry,Resolved,2024-10-28,2024-11-01,1.0
-167,24,1,Delivery Delay,In Progress,2025-04-07,,0.0
-168,10,23,Technical Issue,Open,2024-07-01,,0.5
-169,15,10,Product Inquiry,In Progress,2025-02-17,,0.06
-170,25,41,Delivery Delay,In Progress,2025-01-13,,0.63
-171,4,13,Damaged Product,Closed,2025-02-12,2025-02-17,0.81
-172,29,17,Technical Issue,Closed,2025-03-06,2025-03-12,0.35
-173,32,12,Damaged Product,Closed,2024-11-05,2024-11-06,0.0
-174,34,7,Damaged Product,Open,2025-02-22,,0.57
-175,49,42,Refund Request,Open,2025-03-23,,0.65
-176,27,20,Refund Request,Resolved,2024-12-05,2024-12-09,0.64
-177,48,43,Technical Issue,Closed,2025-03-03,2025-03-12,0.93
-178,56,5,Damaged Product,Open,2024-08-25,,0.13
-179,17,13,Product Inquiry,Closed,2024-11-10,2024-11-19,0.74
-180,89,24,Technical Issue,In Progress,2024-11-04,,0.92
-181,55,41,Delivery Delay,Closed,2025-02-03,2025-02-18,0.0
-182,98,40,Technical Issue,Closed,2025-02-12,2025-02-26,0.61
-183,38,10,Damaged Product,In Progress,2024-12-11,,0.32
-184,7,41,Damaged Product,In Progress,2025-03-25,,0.47
-185,66,38,Delivery Delay,Resolved,2024-11-20,2024-11-24,0.62
-186,61,43,Damaged Product,Open,2025-03-14,,0.33
-187,66,25,Product Inquiry,In Progress,2024-12-24,,0.26
-188,67,30,Refund Request,Closed,2024-12-17,2024-12-23,0.51
-189,68,45,Product Inquiry,Resolved,2024-12-28,2025-01-09,0.12
-190,61,18,Technical Issue,Resolved,2024-08-28,2024-09-08,0.12
-191,84,3,Damaged Product,Closed,2025-01-13,2025-01-17,0.74
-192,58,16,Refund Request,Resolved,2024-06-07,2024-06-11,0.1
-193,55,25,Refund Request,Closed,2025-02-15,2025-03-02,0.73
-194,33,36,Damaged Product,Open,2025-01-25,,0.66
-195,97,6,Product Inquiry,In Progress,2024-12-22,,0.0
-196,67,23,Delivery Delay,Closed,2025-02-02,2025-02-12,0.26
-197,60,33,Product Inquiry,In Progress,2024-07-08,,0.92
-198,58,30,Refund Request,Resolved,2025-03-13,2025-03-20,0.16
-199,64,21,Product Inquiry,In Progress,2025-04-19,,0.34
-200,4,12,Refund Request,Resolved,2025-05-03,2025-05-07,0.66
-201,83,5,Delivery Delay,In Progress,2024-12-25,,0.77
-202,38,33,Refund Request,Open,2025-01-20,,0.41
-203,30,7,Delivery Delay,Open,2024-12-16,,0.29
-204,47,3,Damaged Product,Closed,2025-03-03,2025-03-09,1.0
-205,87,22,Refund Request,In Progress,2025-01-12,,1.0
-206,96,44,Damaged Product,In Progress,2025-04-08,,0.84
-207,91,39,Technical Issue,Closed,2025-05-13,2025-05-27,0.53
-208,34,1,Refund Request,In Progress,2024-08-19,,0.22
-209,45,26,Technical Issue,Resolved,2025-02-04,2025-02-18,0.21
-210,97,42,Product Inquiry,Open,2024-11-20,,0.68
-211,84,33,Product Inquiry,Closed,2024-08-04,2024-08-18,0.65
-212,30,15,Damaged Product,Closed,2024-06-24,2024-07-02,0.99
-213,67,38,Product Inquiry,Resolved,2025-01-11,2025-01-23,0.73
-214,44,6,Damaged Product,In Progress,2025-04-11,,0.0
-215,55,45,Product Inquiry,Resolved,2025-05-07,2025-05-11,0.87
-216,58,36,Refund Request,Open,2024-11-03,,0.15
-217,18,37,Delivery Delay,Closed,2025-05-05,2025-05-10,0.37
-218,64,43,Refund Request,In Progress,2024-11-16,,0.59
-219,29,27,Product Inquiry,Resolved,2025-04-02,2025-04-13,1.0
-220,98,45,Refund Request,In Progress,2024-06-24,,1.0
-221,76,2,Damaged Product,Open,2025-02-12,,0.71
-222,20,22,Damaged Product,Resolved,2024-08-29,2024-09-05,0.44
-223,51,5,Product Inquiry,Resolved,2024-08-04,2024-08-08,0.69
-224,14,22,Refund Request,Resolved,2025-02-16,2025-02-27,0.81
-225,12,11,Technical Issue,Open,2024-08-15,,0.39
-226,23,3,Damaged Product,Resolved,2024-12-10,2024-12-11,1.0
-227,26,5,Damaged Product,Resolved,2025-04-06,2025-04-11,0.58
-228,30,19,Product Inquiry,Open,2024-05-28,,0.67
-229,8,24,Damaged Product,Open,2025-01-19,,0.73
-230,42,27,Delivery Delay,Resolved,2025-03-18,2025-03-21,0.65
-231,17,35,Delivery Delay,Resolved,2025-04-17,2025-04-25,0.79
-232,50,14,Damaged Product,Closed,2024-06-11,2024-06-25,0.28
-233,40,28,Technical Issue,Resolved,2024-05-29,2024-06-01,0.3
-234,74,20,Product Inquiry,Closed,2024-11-09,2024-11-18,0.11
-235,36,13,Damaged Product,Open,2024-09-10,,0.65
-236,58,5,Damaged Product,Resolved,2024-10-25,2024-11-04,0.77
-237,68,22,Product Inquiry,Resolved,2024-11-02,2024-11-10,0.66
-238,74,3,Refund Request,Open,2024-08-11,,1.0
-239,83,30,Refund Request,In Progress,2024-09-20,,0.5
-240,51,40,Damaged Product,Closed,2024-06-20,2024-06-27,0.73
-241,23,40,Product Inquiry,Resolved,2024-06-25,2024-07-03,0.12
-242,85,12,Product Inquiry,Open,2024-07-05,,0.36
-243,90,3,Damaged Product,Closed,2024-07-04,2024-07-19,0.74
-244,36,41,Delivery Delay,In Progress,2024-11-24,,0.8
-245,90,14,Technical Issue,Resolved,2025-05-12,2025-05-19,0.4
-246,16,24,Delivery Delay,Open,2024-12-12,,0.47
-247,65,21,Damaged Product,Resolved,2024-09-06,2024-09-14,0.0
-248,33,14,Product Inquiry,Open,2025-05-02,,0.38
-249,4,5,Refund Request,Resolved,2024-06-10,2024-06-17,0.81
-250,96,26,Delivery Delay,Closed,2024-11-27,2024-12-04,0.7
-251,2,17,Damaged Product,Open,2024-11-13,,0.68
-252,42,43,Product Inquiry,Resolved,2025-05-03,2025-05-11,0.52
-253,9,6,Product Inquiry,Closed,2024-10-22,2024-11-03,0.5
-254,18,31,Damaged Product,In Progress,2024-11-22,,0.27
-255,22,2,Damaged Product,Open,2024-05-29,,0.74
-256,38,8,Delivery Delay,Resolved,2024-06-01,2024-06-04,0.65
-257,86,1,Damaged Product,In Progress,2024-08-12,,0.67
-258,57,23,Delivery Delay,Closed,2025-03-18,2025-03-22,0.32
-259,87,35,Delivery Delay,Closed,2024-12-08,2024-12-16,0.0
-260,82,34,Product Inquiry,Open,2024-11-18,,0.88
-261,89,20,Technical Issue,Resolved,2025-04-14,2025-04-15,0.33
-262,1,4,Damaged Product,Resolved,2024-11-30,2024-12-13,0.2
-263,32,24,Delivery Delay,Closed,2024-10-05,2024-10-09,0.74
-264,3,27,Delivery Delay,Open,2024-08-24,,0.36
-265,44,13,Damaged Product,Open,2024-10-19,,0.87
-266,13,43,Damaged Product,Closed,2025-05-11,2025-05-23,0.72
-267,6,27,Refund Request,Open,2025-01-12,,0.74
-268,42,36,Damaged Product,Closed,2024-12-16,2024-12-26,0.02
-269,70,26,Damaged Product,Resolved,2024-08-08,2024-08-10,0.92
-270,28,7,Refund Request,In Progress,2024-12-14,,0.59
-271,23,1,Refund Request,Resolved,2024-09-16,2024-09-27,0.37
-272,2,25,Damaged Product,Closed,2025-03-30,2025-04-07,0.55
-273,9,43,Technical Issue,In Progress,2025-03-23,,0.0
-274,48,3,Damaged Product,Open,2024-07-27,,0.64
-275,53,20,Technical Issue,Resolved,2024-07-27,2024-07-29,0.14
-276,73,11,Delivery Delay,In Progress,2024-08-22,,0.03
-277,77,21,Damaged Product,Resolved,2024-12-22,2025-01-02,0.0
-278,43,12,Product Inquiry,In Progress,2024-09-20,,0.89
-279,9,22,Technical Issue,Open,2024-09-12,,0.28
-280,75,29,Damaged Product,Resolved,2024-08-29,2024-09-07,1.0
-281,65,38,Damaged Product,Open,2024-11-05,,0.31
-282,3,40,Refund Request,Open,2024-10-26,,0.0
-283,31,28,Delivery Delay,Closed,2025-05-05,2025-05-15,0.11
-284,8,9,Product Inquiry,In Progress,2025-02-05,,0.93
-285,38,13,Damaged Product,Closed,2024-09-17,2024-09-24,0.45
-286,83,3,Technical Issue,Closed,2025-02-25,2025-03-12,0.31
-287,57,22,Refund Request,Closed,2024-05-18,2024-05-23,0.56
-288,83,3,Refund Request,Resolved,2024-12-06,2024-12-17,0.68
-289,97,2,Refund Request,Closed,2024-05-31,2024-06-14,0.89
-290,44,16,Delivery Delay,Closed,2024-07-01,2024-07-10,1.0
-291,86,16,Product Inquiry,Closed,2024-09-18,2024-09-28,0.37
-292,67,21,Delivery Delay,Closed,2024-12-20,2024-12-28,0.04
-293,9,32,Damaged Product,Open,2024-12-31,,0.36
-294,7,41,Damaged Product,Closed,2024-09-13,2024-09-17,0.59
-295,12,12,Technical Issue,Closed,2024-10-25,2024-10-29,0.16
-296,11,28,Damaged Product,Resolved,2024-10-01,2024-10-06,0.16
-297,93,13,Damaged Product,Closed,2024-10-16,2024-10-23,0.62
-298,78,16,Refund Request,In Progress,2024-09-28,,0.48
-299,74,29,Product Inquiry,Closed,2024-10-02,2024-10-07,0.51
-300,11,24,Damaged Product,Resolved,2025-01-04,2025-01-11,0.23
-301,61,29,Technical Issue,Resolved,2024-10-20,2024-10-29,0.42
-302,95,28,Product Inquiry,Closed,2024-06-15,2024-06-29,0.18
-303,3,25,Delivery Delay,Resolved,2024-12-12,2024-12-26,0.81
-304,98,20,Damaged Product,Closed,2025-01-11,2025-01-20,0.86
-305,33,25,Product Inquiry,Resolved,2024-08-15,2024-08-20,0.0
-306,37,25,Refund Request,Resolved,2024-09-21,2024-09-23,0.17
-307,18,31,Damaged Product,Closed,2025-04-10,2025-04-13,0.0
-308,1,1,Product Inquiry,In Progress,2024-12-23,,0.27
-309,52,27,Refund Request,Resolved,2024-12-18,2024-12-30,0.47
-310,50,32,Technical Issue,In Progress,2024-06-29,,0.0
-311,10,27,Delivery Delay,Open,2024-11-11,,0.18
-312,50,37,Product Inquiry,Closed,2024-09-11,2024-09-15,0.15
-313,33,23,Refund Request,Resolved,2024-08-29,2024-09-09,0.57
-314,90,4,Product Inquiry,Resolved,2024-09-09,2024-09-24,0.52
-315,95,16,Delivery Delay,Closed,2024-10-01,2024-10-09,0.25
-316,47,41,Damaged Product,Open,2024-09-10,,0.56
-317,34,39,Damaged Product,Resolved,2025-02-07,2025-02-18,0.31
-318,33,16,Delivery Delay,Closed,2024-05-27,2024-05-28,0.4
-319,99,6,Technical Issue,Resolved,2024-08-16,2024-08-23,1.0
-320,11,34,Product Inquiry,Closed,2024-09-20,2024-10-05,0.97
-321,22,28,Refund Request,In Progress,2025-05-10,,0.05
-322,65,35,Refund Request,Resolved,2025-01-19,2025-01-29,0.79
-323,94,27,Delivery Delay,Open,2024-11-28,,0.78
-324,82,37,Damaged Product,In Progress,2024-12-15,,0.1
-325,35,14,Refund Request,Resolved,2024-08-19,2024-08-31,0.79
-326,1,11,Delivery Delay,Resolved,2024-10-05,2024-10-06,1.0
-327,9,45,Product Inquiry,Resolved,2025-04-05,2025-04-14,0.11
-328,84,19,Damaged Product,Resolved,2024-10-29,2024-11-01,0.18
-329,48,12,Product Inquiry,Closed,2025-01-22,2025-01-26,0.86
-330,24,33,Product Inquiry,Open,2024-11-19,,0.6
-331,73,14,Delivery Delay,Closed,2024-07-15,2024-07-19,0.69
-332,96,12,Product Inquiry,Closed,2025-02-25,2025-03-02,0.62
-333,57,41,Damaged Product,Open,2024-10-15,,0.64
-334,11,19,Product Inquiry,Open,2024-06-29,,0.04
-335,16,18,Refund Request,Open,2024-12-21,,0.87
-336,4,38,Product Inquiry,Closed,2025-02-17,2025-02-25,0.91
-337,87,7,Delivery Delay,Open,2024-09-29,,0.42
-338,35,1,Delivery Delay,Open,2024-11-07,,0.48
-339,28,34,Product Inquiry,Open,2024-05-30,,0.0
-340,78,34,Product Inquiry,In Progress,2024-10-12,,0.68
-341,61,22,Refund Request,Resolved,2024-08-04,2024-08-10,0.7
-342,88,22,Damaged Product,In Progress,2025-04-12,,0.48
-343,47,43,Technical Issue,Resolved,2024-10-10,2024-10-17,0.89
-344,8,23,Delivery Delay,In Progress,2025-04-08,,0.38
-345,1,30,Damaged Product,Resolved,2025-04-29,2025-05-11,0.7
-346,4,39,Technical Issue,Open,2024-11-06,,0.14
-347,36,45,Product Inquiry,Closed,2025-04-02,2025-04-08,0.49
-348,80,44,Product Inquiry,Resolved,2024-11-24,2024-12-03,0.44
-349,85,13,Refund Request,Open,2025-01-04,,0.58
-350,3,41,Delivery Delay,In Progress,2024-06-17,,0.37
-351,95,21,Technical Issue,Resolved,2024-06-02,2024-06-06,0.45
-352,63,26,Refund Request,Open,2025-04-07,,0.79
-353,55,31,Product Inquiry,Open,2025-02-13,,0.35
-354,38,39,Damaged Product,Closed,2024-10-21,2024-11-02,0.0
-355,67,37,Damaged Product,Open,2024-10-05,,1.0
-356,64,6,Technical Issue,In Progress,2024-06-05,,0.98
-357,60,11,Product Inquiry,Resolved,2024-08-29,2024-08-31,0.05
-358,85,35,Damaged Product,Closed,2025-03-31,2025-04-04,0.74
-359,22,43,Delivery Delay,Open,2024-07-22,,0.32
-360,56,2,Refund Request,Closed,2025-03-31,2025-04-15,0.59
-361,50,18,Refund Request,Closed,2025-04-07,2025-04-19,0.6
-362,86,31,Damaged Product,Open,2024-08-19,,0.42
-363,69,41,Refund Request,Resolved,2024-09-24,2024-09-26,0.23
-364,29,37,Refund Request,Open,2024-09-10,,0.26
-365,49,25,Damaged Product,Resolved,2025-01-14,2025-01-27,0.18
-366,29,17,Refund Request,Open,2024-06-25,,0.21
-367,12,8,Refund Request,Open,2025-01-08,,0.48
-368,95,38,Delivery Delay,Closed,2025-04-24,2025-05-06,0.25
-369,74,24,Refund Request,Closed,2024-05-29,2024-06-12,0.74
-370,49,37,Refund Request,Open,2024-10-12,,1.0
-371,8,38,Product Inquiry,Closed,2024-10-09,2024-10-23,0.3
-372,55,21,Damaged Product,In Progress,2024-05-29,,0.58
-373,67,43,Product Inquiry,Closed,2024-12-17,2024-12-19,0.67
-374,2,35,Damaged Product,Resolved,2024-07-20,2024-07-26,0.67
-375,38,15,Product Inquiry,Resolved,2024-10-17,2024-10-28,0.53
-376,19,39,Damaged Product,In Progress,2025-02-04,,0.76
-377,96,43,Technical Issue,Open,2024-12-26,,0.67
-378,41,20,Refund Request,Open,2025-01-21,,0.07
-379,91,37,Damaged Product,Resolved,2025-01-23,2025-02-03,0.8
-380,64,19,Refund Request,Resolved,2024-09-08,2024-09-09,0.81
-381,20,14,Delivery Delay,Closed,2025-02-27,2025-03-11,0.23
-382,100,12,Product Inquiry,Resolved,2024-11-07,2024-11-19,0.51
-383,39,43,Technical Issue,Closed,2024-06-28,2024-06-29,0.74
-384,51,22,Product Inquiry,Resolved,2024-05-18,2024-05-29,0.43
-385,45,26,Technical Issue,Resolved,2025-01-29,2025-01-31,0.88
-386,94,19,Damaged Product,In Progress,2024-06-16,,1.0
-387,90,36,Damaged Product,Resolved,2024-06-04,2024-06-06,0.22
-388,42,38,Refund Request,Open,2024-06-05,,0.02
-389,59,42,Damaged Product,Closed,2025-05-11,2025-05-21,0.61
-390,57,45,Damaged Product,Resolved,2024-06-15,2024-06-20,0.75
-391,27,14,Delivery Delay,Closed,2024-09-28,2024-10-10,0.42
-392,47,37,Damaged Product,Open,2024-05-24,,1.0
-393,49,28,Delivery Delay,Closed,2025-05-05,2025-05-20,0.03
-394,13,23,Delivery Delay,Resolved,2024-12-02,2024-12-05,0.74
-395,16,33,Technical Issue,In Progress,2024-08-29,,0.29
-396,56,10,Delivery Delay,Resolved,2024-11-18,2024-11-22,1.0
-397,16,16,Refund Request,Resolved,2025-02-27,2025-03-07,1.0
-398,89,39,Product Inquiry,Closed,2024-09-05,2024-09-16,0.23
-399,100,45,Product Inquiry,Open,2024-06-13,,0.31
-400,84,25,Product Inquiry,In Progress,2024-06-18,,0.8
-401,48,1,Delivery Delay,Open,2025-03-30,,0.36
-402,11,8,Technical Issue,Resolved,2024-05-14,2024-05-25,0.48
-403,29,2,Delivery Delay,Resolved,2024-09-23,2024-09-28,0.51
-404,76,12,Product Inquiry,Resolved,2024-05-30,2024-06-07,0.0
-405,39,37,Refund Request,Closed,2024-05-25,2024-05-27,0.5
-406,9,35,Delivery Delay,Closed,2024-07-31,2024-08-07,0.26
-407,51,36,Technical Issue,Resolved,2024-05-19,2024-05-21,0.33
-408,75,35,Damaged Product,Open,2024-07-13,,1.0
-409,85,8,Technical Issue,Closed,2024-08-28,2024-09-11,0.06
-410,89,12,Technical Issue,Open,2024-08-06,,0.78
-411,58,21,Delivery Delay,Open,2025-05-14,,0.4
-412,17,37,Damaged Product,Closed,2024-10-05,2024-10-16,0.4
-413,12,36,Delivery Delay,In Progress,2024-06-23,,0.78
-414,11,8,Refund Request,In Progress,2025-03-16,,0.62
-415,70,11,Delivery Delay,Resolved,2025-01-26,2025-02-06,0.7
-416,32,20,Technical Issue,Open,2024-06-29,,0.84
-417,38,43,Technical Issue,Resolved,2025-03-13,2025-03-16,0.38
-418,63,45,Technical Issue,In Progress,2025-04-17,,0.29
-419,46,39,Delivery Delay,Closed,2024-09-10,2024-09-22,0.12
-420,85,3,Damaged Product,Closed,2024-08-16,2024-08-17,0.21
-421,19,20,Technical Issue,Closed,2024-11-16,2024-11-19,1.0
-422,71,14,Refund Request,In Progress,2024-08-31,,0.94
-423,17,40,Technical Issue,Resolved,2024-06-17,2024-06-19,0.03
-424,33,17,Damaged Product,Resolved,2024-08-25,2024-09-05,0.04
-425,52,30,Refund Request,Open,2025-01-17,,0.67
-426,87,28,Damaged Product,Closed,2024-07-25,2024-08-03,0.69
-427,10,41,Damaged Product,In Progress,2024-07-31,,0.69
-428,92,24,Damaged Product,Closed,2025-04-05,2025-04-12,0.41
-429,41,28,Technical Issue,Resolved,2024-09-14,2024-09-15,0.46
-430,32,5,Delivery Delay,In Progress,2024-06-27,,0.61
-431,69,8,Refund Request,Resolved,2024-07-18,2024-07-20,0.53
-432,82,6,Refund Request,In Progress,2024-09-18,,0.0
-433,100,18,Damaged Product,Closed,2024-10-17,2024-10-31,0.42
-434,36,1,Product Inquiry,Open,2024-09-20,,0.2
-435,29,25,Delivery Delay,Open,2024-05-27,,0.56
-436,23,34,Technical Issue,In Progress,2024-10-31,,1.0
-437,63,7,Technical Issue,In Progress,2025-03-13,,0.63
-438,37,36,Technical Issue,In Progress,2025-03-27,,0.39
-439,13,4,Product Inquiry,Closed,2024-08-23,2024-08-29,0.82
-440,24,23,Technical Issue,Resolved,2024-08-10,2024-08-18,0.67
-441,17,17,Technical Issue,Open,2025-04-30,,0.65
-442,92,10,Product Inquiry,Closed,2024-12-31,2025-01-03,0.71
-443,73,18,Refund Request,Open,2025-03-28,,1.0
-444,91,16,Product Inquiry,Resolved,2025-01-03,2025-01-15,0.1
-445,24,29,Product Inquiry,In Progress,2024-05-19,,0.67
-446,65,19,Product Inquiry,In Progress,2024-10-30,,0.18
-447,67,15,Delivery Delay,In Progress,2024-11-01,,0.69
-448,40,27,Delivery Delay,In Progress,2024-12-23,,0.18
-449,82,6,Damaged Product,Open,2025-04-11,,0.35
-450,12,11,Delivery Delay,Open,2024-07-21,,0.4
-451,96,19,Delivery Delay,Resolved,2025-04-01,2025-04-14,0.84
-452,55,44,Product Inquiry,Closed,2024-09-20,2024-09-28,0.82
-453,66,44,Product Inquiry,Open,2024-09-07,,0.06
-454,2,40,Delivery Delay,Closed,2024-12-12,2024-12-27,0.52
-455,92,28,Damaged Product,In Progress,2024-05-14,,0.25
-456,95,43,Technical Issue,Open,2024-09-21,,0.06
-457,58,11,Delivery Delay,Closed,2024-09-03,2024-09-06,0.42
-458,47,9,Delivery Delay,In Progress,2024-09-13,,0.39
-459,55,32,Refund Request,Resolved,2025-02-21,2025-02-24,1.0
-460,15,22,Technical Issue,Closed,2024-12-07,2024-12-21,0.65
-461,99,8,Refund Request,In Progress,2024-06-03,,0.02
-462,62,19,Damaged Product,In Progress,2024-08-20,,0.3
-463,1,41,Refund Request,Resolved,2024-08-04,2024-08-08,0.86
-464,83,33,Product Inquiry,Open,2024-10-31,,1.0
-465,80,32,Refund Request,Open,2024-07-13,,0.0
-466,1,40,Refund Request,Resolved,2024-08-31,2024-09-06,0.0
-467,46,7,Refund Request,Open,2024-12-22,,1.0
-468,93,12,Delivery Delay,Resolved,2024-08-17,2024-08-23,0.64
-469,13,28,Delivery Delay,Resolved,2024-08-24,2024-08-28,0.2
-470,68,33,Delivery Delay,Closed,2025-04-03,2025-04-10,0.69
-471,63,1,Refund Request,Closed,2024-10-28,2024-11-10,0.0
-472,29,31,Refund Request,Resolved,2024-07-26,2024-08-01,0.5
-473,47,28,Refund Request,Closed,2024-07-20,2024-07-29,0.61
-474,14,29,Damaged Product,Resolved,2024-08-20,2024-08-23,0.82
-475,46,28,Refund Request,Open,2025-02-04,,0.15
-476,91,13,Damaged Product,Open,2025-01-03,,0.53
-477,37,3,Product Inquiry,Closed,2024-08-01,2024-08-08,0.18
-478,96,22,Damaged Product,Open,2025-04-07,,0.59
-479,86,13,Refund Request,Resolved,2024-06-16,2024-06-27,0.19
-480,16,27,Product Inquiry,Resolved,2024-11-19,2024-11-28,0.36
-481,88,9,Product Inquiry,In Progress,2024-12-30,,0.15
-482,65,25,Delivery Delay,Closed,2025-04-05,2025-04-07,0.73
-483,3,9,Technical Issue,Closed,2025-05-10,2025-05-16,0.8
-484,2,44,Refund Request,Closed,2024-12-10,2024-12-11,0.42
-485,55,39,Product Inquiry,Open,2024-12-13,,0.51
-486,62,19,Product Inquiry,In Progress,2025-03-11,,0.0
-487,11,28,Damaged Product,Closed,2024-12-26,2025-01-05,0.4
-488,94,33,Refund Request,Closed,2025-01-01,2025-01-05,0.48
-489,99,8,Damaged Product,In Progress,2025-05-08,,1.0
-490,86,28,Delivery Delay,Closed,2024-06-22,2024-06-30,0.11
-491,90,33,Technical Issue,Closed,2024-06-10,2024-06-14,1.0
-492,81,41,Delivery Delay,Closed,2024-10-19,2024-10-23,0.85
-493,17,26,Refund Request,Open,2025-04-28,,0.6
-494,25,10,Technical Issue,Resolved,2024-09-04,2024-09-05,1.0
-495,26,6,Product Inquiry,Open,2025-05-09,,0.63
-496,53,34,Damaged Product,In Progress,2024-10-06,,0.64
-497,29,22,Delivery Delay,Resolved,2024-09-02,2024-09-10,0.48
-498,66,28,Refund Request,Open,2024-11-18,,0.93
-499,15,18,Refund Request,In Progress,2025-04-25,,0.88
-500,45,27,Delivery Delay,Closed,2024-10-19,2024-10-25,0.28
-501,24,3,Delivery Delay,Open,2024-10-14,,0.04
-502,85,21,Product Inquiry,Closed,2024-09-25,2024-09-30,0.43
-503,36,39,Product Inquiry,Open,2024-09-10,,0.22
-504,24,17,Refund Request,Resolved,2024-11-02,2024-11-08,0.48
-505,39,8,Delivery Delay,Open,2025-05-02,,0.93
-506,88,36,Refund Request,Closed,2024-09-28,2024-10-04,0.34
-507,95,24,Damaged Product,In Progress,2024-06-21,,0.49
-508,84,18,Product Inquiry,Closed,2024-10-11,2024-10-21,0.52
-509,12,7,Technical Issue,Closed,2024-08-07,2024-08-18,0.8
-510,16,3,Product Inquiry,Closed,2024-11-07,2024-11-11,0.0
-511,13,5,Refund Request,In Progress,2024-09-26,,0.29
-512,93,31,Damaged Product,Closed,2025-04-30,2025-05-09,0.57
-513,6,9,Technical Issue,Closed,2025-02-02,2025-02-09,0.92
-514,92,17,Refund Request,In Progress,2024-06-17,,0.33
-515,58,41,Product Inquiry,Open,2025-03-31,,0.0
-516,9,31,Technical Issue,Resolved,2025-01-08,2025-01-17,0.72
-517,3,11,Damaged Product,In Progress,2025-03-30,,0.28
-518,38,3,Damaged Product,Open,2025-01-14,,0.08
-519,95,26,Technical Issue,Resolved,2024-05-17,2024-05-28,0.28
-520,66,5,Technical Issue,Closed,2025-01-24,2025-02-01,0.44
-521,50,36,Technical Issue,Resolved,2024-12-02,2024-12-09,0.29
-522,35,14,Damaged Product,Closed,2024-05-31,2024-06-01,0.0
-523,74,14,Technical Issue,Open,2024-07-09,,0.81
-524,59,33,Refund Request,In Progress,2024-09-23,,0.95
-525,29,19,Technical Issue,In Progress,2024-11-15,,0.73
-526,16,11,Technical Issue,Closed,2025-01-01,2025-01-02,0.1
-527,31,19,Damaged Product,Open,2024-10-03,,0.43
-528,36,9,Delivery Delay,In Progress,2024-11-11,,0.5
-529,83,16,Delivery Delay,Closed,2024-06-26,2024-07-05,0.71
-530,1,42,Technical Issue,In Progress,2024-10-27,,0.73
-531,48,21,Technical Issue,Open,2025-03-22,,0.24
-532,34,9,Technical Issue,Resolved,2024-08-09,2024-08-24,0.53
-533,38,21,Delivery Delay,Open,2024-08-14,,0.66
-534,46,15,Damaged Product,In Progress,2025-03-17,,1.0
-535,33,2,Product Inquiry,Open,2024-09-24,,0.75
-536,84,17,Product Inquiry,Closed,2024-10-12,2024-10-26,0.78
-537,29,21,Damaged Product,In Progress,2025-04-13,,0.53
-538,75,41,Product Inquiry,Resolved,2024-08-02,2024-08-05,0.99
-539,30,28,Damaged Product,In Progress,2024-10-27,,0.64
-540,62,6,Product Inquiry,Resolved,2024-09-01,2024-09-04,0.2
-541,24,12,Product Inquiry,Closed,2025-02-15,2025-02-25,0.99
-542,94,12,Delivery Delay,In Progress,2024-05-30,,0.74
-543,40,11,Product Inquiry,Closed,2024-09-25,2024-10-09,0.34
-544,88,39,Damaged Product,Closed,2025-02-05,2025-02-07,0.33
-545,10,28,Product Inquiry,Closed,2024-11-16,2024-11-24,0.6
-546,13,34,Delivery Delay,Closed,2025-04-09,2025-04-21,0.66
-547,78,7,Delivery Delay,Resolved,2024-09-09,2024-09-16,0.57
-548,15,1,Damaged Product,Open,2024-12-06,,0.61
-549,32,6,Damaged Product,In Progress,2024-08-30,,1.0
-550,81,39,Delivery Delay,Open,2024-06-15,,0.88
-551,14,35,Delivery Delay,In Progress,2024-09-07,,0.57
-552,26,9,Technical Issue,Resolved,2024-06-18,2024-07-01,0.83
-553,57,11,Refund Request,In Progress,2024-11-09,,0.14
-554,62,10,Technical Issue,Closed,2025-03-23,2025-03-24,0.64
-555,89,18,Delivery Delay,Open,2024-07-03,,1.0
-556,6,7,Delivery Delay,In Progress,2024-05-18,,0.42
-557,66,27,Damaged Product,Closed,2024-10-30,2024-10-31,0.2
-558,4,15,Damaged Product,Resolved,2024-12-29,2025-01-05,0.27
-559,46,42,Damaged Product,In Progress,2024-08-05,,0.12
-560,88,25,Product Inquiry,Open,2024-09-04,,0.23
-561,22,8,Refund Request,Closed,2024-08-08,2024-08-10,0.37
-562,46,5,Delivery Delay,In Progress,2025-02-19,,0.01
-563,47,6,Technical Issue,Open,2025-05-07,,0.51
-564,20,12,Refund Request,Resolved,2024-09-24,2024-10-03,0.82
-565,77,12,Refund Request,Resolved,2024-08-04,2024-08-07,0.18
-566,80,19,Delivery Delay,In Progress,2024-06-10,,1.0
-567,35,32,Refund Request,In Progress,2024-08-12,,0.68
-568,92,5,Damaged Product,Open,2025-02-07,,0.86
-569,100,42,Damaged Product,Closed,2025-01-22,2025-01-28,0.27
-570,50,29,Delivery Delay,Resolved,2024-08-29,2024-09-12,0.8
-571,15,37,Refund Request,Resolved,2024-05-28,2024-06-09,0.12
-572,19,6,Damaged Product,In Progress,2024-11-14,,0.81
-573,24,25,Refund Request,In Progress,2024-09-22,,0.56
-574,64,28,Product Inquiry,Resolved,2024-05-29,2024-06-10,0.69
-575,78,41,Damaged Product,In Progress,2024-07-07,,0.09
-576,84,16,Technical Issue,Resolved,2024-06-30,2024-07-07,0.19
-577,64,35,Technical Issue,Resolved,2024-06-03,2024-06-12,0.71
-578,30,25,Technical Issue,Open,2025-01-21,,0.17
-579,92,27,Delivery Delay,Closed,2025-05-06,2025-05-18,0.66
-580,31,24,Damaged Product,Open,2025-02-07,,0.02
-581,3,24,Delivery Delay,Resolved,2024-06-12,2024-06-15,0.8
-582,8,23,Damaged Product,In Progress,2024-07-28,,0.07
-583,38,30,Technical Issue,Closed,2024-08-13,2024-08-27,0.69
-584,54,16,Damaged Product,Closed,2025-03-22,2025-04-05,0.72
-585,8,9,Damaged Product,Open,2025-01-15,,0.26
-586,49,2,Delivery Delay,Resolved,2024-11-02,2024-11-08,0.7
-587,90,7,Product Inquiry,Open,2025-03-22,,0.59
-588,77,11,Damaged Product,Open,2025-05-11,,0.31
-589,47,10,Damaged Product,Open,2024-08-17,,0.15
-590,10,1,Damaged Product,Resolved,2024-11-14,2024-11-17,0.0
-591,61,9,Product Inquiry,In Progress,2024-12-13,,0.62
-592,53,22,Delivery Delay,Resolved,2024-09-03,2024-09-16,0.0
-593,37,8,Delivery Delay,Closed,2025-04-07,2025-04-08,0.53
-594,78,12,Product Inquiry,Closed,2025-03-27,2025-03-28,0.41
-595,55,44,Refund Request,Resolved,2025-04-12,2025-04-21,0.74
-596,74,33,Damaged Product,In Progress,2025-04-19,,0.39
-597,55,11,Delivery Delay,In Progress,2025-04-07,,0.38
-598,67,25,Damaged Product,Closed,2025-03-05,2025-03-17,0.76
-599,52,40,Damaged Product,Open,2024-05-16,,0.62
-600,51,12,Product Inquiry,Open,2024-12-17,,0.61
-601,62,21,Product Inquiry,Resolved,2024-12-12,2024-12-26,0.66
-602,22,4,Product Inquiry,In Progress,2025-02-09,,0.0
-603,25,18,Delivery Delay,Open,2024-08-07,,0.76
-604,10,24,Delivery Delay,In Progress,2025-04-14,,0.71
-605,31,19,Delivery Delay,Closed,2024-09-29,2024-10-08,0.14
-606,9,14,Refund Request,Open,2024-09-29,,0.41
-607,25,36,Delivery Delay,Closed,2024-06-27,2024-07-08,0.49
-608,31,18,Technical Issue,Open,2024-10-18,,0.45
-609,73,3,Delivery Delay,Resolved,2024-11-02,2024-11-03,0.62
-610,41,6,Delivery Delay,In Progress,2024-12-14,,1.0
-611,46,19,Damaged Product,Resolved,2024-06-27,2024-07-06,0.88
-612,41,26,Damaged Product,In Progress,2024-10-18,,0.04
-613,90,44,Refund Request,Open,2024-08-23,,0.72
-614,53,33,Technical Issue,Open,2024-07-07,,0.97
-615,100,10,Technical Issue,Open,2024-08-29,,0.64
-616,49,31,Refund Request,Open,2025-01-17,,0.88
-617,21,10,Delivery Delay,Resolved,2024-07-07,2024-07-09,1.0
-618,92,15,Damaged Product,Closed,2025-04-03,2025-04-16,0.86
-619,99,11,Product Inquiry,In Progress,2024-12-01,,0.59
-620,17,22,Refund Request,In Progress,2025-05-09,,0.87
-621,80,28,Product Inquiry,Open,2024-05-16,,0.55
-622,31,14,Damaged Product,Open,2025-04-17,,0.51
-623,73,41,Delivery Delay,Resolved,2024-11-20,2024-11-22,0.38
-624,19,20,Product Inquiry,Open,2024-08-09,,1.0
-625,13,30,Damaged Product,In Progress,2024-08-16,,0.21
-626,38,11,Refund Request,Open,2024-12-04,,1.0
-627,74,24,Delivery Delay,In Progress,2025-05-07,,0.67
-628,10,12,Product Inquiry,Resolved,2024-10-05,2024-10-10,0.01
-629,33,29,Technical Issue,Closed,2025-02-26,2025-02-28,0.63
-630,63,3,Refund Request,In Progress,2025-03-30,,0.0
-631,52,27,Refund Request,Closed,2024-08-26,2024-09-03,0.72
-632,66,40,Refund Request,In Progress,2024-06-03,,0.81
-633,11,44,Product Inquiry,Resolved,2025-01-07,2025-01-16,0.29
-634,34,44,Technical Issue,Open,2024-11-08,,0.54
-635,83,4,Technical Issue,Closed,2024-11-10,2024-11-22,1.0
-636,2,10,Refund Request,Open,2025-05-05,,0.32
-637,49,11,Delivery Delay,Resolved,2025-01-19,2025-02-02,0.13
-638,29,25,Delivery Delay,Resolved,2024-10-02,2024-10-13,1.0
-639,45,30,Technical Issue,Resolved,2024-12-08,2024-12-19,1.0
-640,60,7,Damaged Product,Open,2024-08-31,,0.5
-641,94,7,Product Inquiry,Resolved,2024-10-11,2024-10-24,0.85
-642,26,26,Delivery Delay,In Progress,2025-02-11,,0.97
-643,41,22,Product Inquiry,Resolved,2024-06-20,2024-06-24,0.24
-644,15,18,Technical Issue,Resolved,2025-05-07,2025-05-08,0.33
-645,20,31,Damaged Product,Closed,2025-03-04,2025-03-15,0.93
-646,41,37,Technical Issue,Open,2025-04-21,,1.0
-647,100,25,Refund Request,Open,2025-04-23,,0.7
-648,56,31,Damaged Product,Closed,2024-09-11,2024-09-12,0.19
-649,3,44,Refund Request,Resolved,2025-01-08,2025-01-13,1.0
-650,82,12,Damaged Product,Open,2024-06-03,,0.31
-651,9,18,Refund Request,Resolved,2025-04-23,2025-04-25,0.38
-652,92,29,Damaged Product,Resolved,2024-09-11,2024-09-20,0.62
-653,86,17,Delivery Delay,Closed,2024-11-03,2024-11-17,1.0
-654,12,28,Refund Request,In Progress,2025-01-03,,0.8
-655,22,13,Product Inquiry,In Progress,2025-04-28,,0.65
-656,62,31,Product Inquiry,Closed,2025-03-05,2025-03-17,0.66
-657,46,45,Delivery Delay,Resolved,2024-10-10,2024-10-24,0.52
-658,72,39,Technical Issue,Closed,2024-08-20,2024-08-22,0.7
-659,79,10,Refund Request,In Progress,2024-06-27,,0.0
-660,2,10,Damaged Product,Resolved,2024-12-13,2024-12-28,0.4
-661,64,21,Product Inquiry,Open,2024-08-29,,0.58
-662,34,34,Product Inquiry,Open,2025-03-27,,0.1
-663,17,41,Technical Issue,Resolved,2024-09-26,2024-10-07,0.64
-664,13,3,Damaged Product,Closed,2025-01-05,2025-01-17,0.43
-665,54,45,Product Inquiry,Closed,2024-05-17,2024-05-27,1.0
-666,28,23,Technical Issue,Closed,2024-12-11,2024-12-15,1.0
-667,2,24,Delivery Delay,In Progress,2024-10-27,,0.34
-668,39,20,Product Inquiry,Open,2024-09-13,,0.45
-669,84,30,Refund Request,Resolved,2024-10-20,2024-10-27,0.47
-670,46,35,Refund Request,Resolved,2024-05-26,2024-06-04,0.34
-671,15,12,Refund Request,Resolved,2024-09-12,2024-09-19,0.57
-672,23,36,Product Inquiry,Closed,2024-08-04,2024-08-13,0.23
-673,49,19,Refund Request,Resolved,2024-07-20,2024-07-31,0.1
-674,90,40,Delivery Delay,Open,2024-07-22,,0.72
-675,14,6,Technical Issue,Open,2024-12-16,,0.72
-676,53,7,Technical Issue,Resolved,2024-10-01,2024-10-13,0.22
-677,70,7,Technical Issue,Resolved,2025-04-23,2025-05-02,0.81
-678,5,43,Product Inquiry,In Progress,2024-10-27,,0.28
-679,28,15,Product Inquiry,Resolved,2025-03-26,2025-04-04,0.59
-680,15,13,Refund Request,Resolved,2025-02-21,2025-02-23,0.79
-681,60,27,Refund Request,Resolved,2024-08-28,2024-08-29,0.49
-682,29,33,Refund Request,In Progress,2025-04-17,,0.66
-683,85,17,Product Inquiry,In Progress,2024-07-10,,0.32
-684,87,16,Product Inquiry,Open,2024-07-12,,0.43
-685,5,1,Damaged Product,Open,2025-05-10,,0.43
-686,48,34,Refund Request,In Progress,2024-05-15,,0.24
-687,22,37,Technical Issue,Resolved,2024-05-29,2024-06-02,0.44
-688,51,13,Delivery Delay,Resolved,2025-04-17,2025-05-01,0.0
-689,74,28,Product Inquiry,Closed,2025-05-10,2025-05-21,0.33
-690,94,12,Refund Request,Resolved,2024-12-24,2025-01-08,0.4
-691,67,11,Delivery Delay,Resolved,2024-07-21,2024-07-25,0.41
-692,91,9,Technical Issue,Open,2024-12-13,,0.42
-693,51,41,Technical Issue,In Progress,2024-08-10,,0.48
-694,21,21,Delivery Delay,Closed,2025-02-15,2025-02-17,0.67
-695,4,28,Technical Issue,Open,2024-09-25,,0.81
-696,20,2,Technical Issue,Open,2024-08-26,,0.27
-697,49,2,Refund Request,Closed,2024-10-24,2024-11-01,0.08
-698,24,16,Damaged Product,Closed,2025-04-14,2025-04-19,0.14
-699,69,16,Refund Request,Resolved,2024-10-15,2024-10-28,0.33
-700,85,4,Delivery Delay,In Progress,2024-05-20,,0.38
-701,19,41,Technical Issue,Open,2024-06-23,,0.23
-702,14,8,Technical Issue,Resolved,2024-08-12,2024-08-27,0.05
-703,16,7,Refund Request,Closed,2024-09-12,2024-09-17,0.34
-704,24,6,Product Inquiry,Open,2025-03-14,,0.56
-705,47,14,Product Inquiry,Resolved,2024-12-05,2024-12-07,0.71
-706,3,27,Product Inquiry,Open,2024-09-10,,0.3
-707,81,5,Product Inquiry,Closed,2025-01-13,2025-01-24,0.36
-708,49,21,Damaged Product,Resolved,2025-01-04,2025-01-17,0.18
-709,24,20,Damaged Product,Open,2024-11-07,,0.49
-710,85,37,Delivery Delay,Open,2024-09-29,,0.2
-711,44,23,Technical Issue,Resolved,2024-09-11,2024-09-21,0.7
-712,70,1,Refund Request,Closed,2024-12-30,2025-01-08,0.0
-713,16,13,Technical Issue,Open,2024-11-21,,0.37
-714,3,34,Refund Request,Closed,2024-06-01,2024-06-05,0.61
-715,15,14,Refund Request,Open,2025-02-05,,0.56
-716,18,15,Damaged Product,Open,2025-01-14,,1.0
-717,35,18,Delivery Delay,Resolved,2025-01-14,2025-01-18,0.62
-718,45,36,Product Inquiry,In Progress,2025-03-25,,0.15
-719,96,32,Product Inquiry,Resolved,2024-12-17,2024-12-26,0.47
-720,25,17,Refund Request,Closed,2024-07-17,2024-07-21,0.0
-721,51,7,Damaged Product,In Progress,2024-08-06,,0.47
-722,27,32,Product Inquiry,Resolved,2025-02-08,2025-02-23,0.21
-723,55,39,Refund Request,In Progress,2024-08-27,,0.82
-724,80,7,Damaged Product,Resolved,2025-02-10,2025-02-17,0.31
-725,73,23,Delivery Delay,In Progress,2025-03-18,,0.46
-726,58,11,Technical Issue,Open,2025-03-21,,0.28
-727,33,38,Technical Issue,Resolved,2025-02-01,2025-02-06,1.0
-728,83,34,Product Inquiry,In Progress,2024-08-27,,0.39
-729,4,8,Refund Request,Closed,2024-07-23,2024-08-05,1.0
-730,55,12,Damaged Product,In Progress,2025-01-08,,0.78
-731,10,14,Refund Request,In Progress,2024-06-08,,0.67
-732,19,21,Delivery Delay,Open,2024-08-30,,0.63
-733,41,45,Refund Request,Open,2025-02-06,,0.64
-734,28,30,Damaged Product,In Progress,2024-12-26,,0.0
-735,72,5,Technical Issue,Resolved,2024-08-24,2024-08-29,0.4
-736,28,34,Technical Issue,Closed,2024-05-29,2024-05-31,0.8
-737,36,39,Technical Issue,Open,2024-06-25,,0.48
-738,83,27,Refund Request,Resolved,2024-10-12,2024-10-18,0.01
-739,26,13,Product Inquiry,Open,2025-05-08,,0.48
-740,64,3,Product Inquiry,In Progress,2025-04-18,,1.0
-741,16,8,Technical Issue,Resolved,2024-12-10,2024-12-13,0.94
-742,42,38,Technical Issue,Resolved,2025-02-21,2025-02-25,0.48
-743,3,19,Technical Issue,Open,2024-08-14,,0.83
-744,1,30,Damaged Product,In Progress,2024-08-02,,0.37
-745,52,3,Refund Request,Open,2025-02-12,,0.0
-746,83,2,Product Inquiry,Open,2024-11-12,,0.18
-747,13,27,Refund Request,In Progress,2024-10-24,,1.0
-748,41,23,Technical Issue,Resolved,2024-05-30,2024-06-01,0.4
-749,100,21,Delivery Delay,Resolved,2025-01-17,2025-01-27,0.41
-750,51,20,Delivery Delay,Resolved,2024-06-22,2024-06-30,0.4
-751,48,40,Delivery Delay,Open,2024-10-12,,1.0
-752,29,4,Damaged Product,Open,2024-11-17,,1.0
-753,14,21,Damaged Product,Resolved,2025-03-13,2025-03-17,1.0
-754,12,13,Technical Issue,In Progress,2025-02-21,,0.44
-755,1,45,Refund Request,Open,2025-02-13,,0.6
-756,6,8,Refund Request,Open,2025-02-12,,0.0
-757,10,17,Technical Issue,In Progress,2025-02-13,,1.0
-758,49,18,Damaged Product,Closed,2024-08-18,2024-09-02,0.09
-759,75,30,Damaged Product,Open,2024-07-03,,0.58
-760,41,10,Product Inquiry,Resolved,2024-05-27,2024-06-07,0.12
-761,86,8,Product Inquiry,Closed,2024-09-18,2024-09-28,0.29
-762,85,32,Refund Request,In Progress,2024-07-20,,0.21
-763,99,31,Refund Request,Closed,2025-03-15,2025-03-17,0.29
-764,99,19,Refund Request,Open,2025-01-07,,0.31
-765,72,16,Delivery Delay,Closed,2024-05-31,2024-06-12,0.31
-766,10,32,Damaged Product,Open,2024-06-11,,0.79
-767,2,43,Product Inquiry,Closed,2024-09-12,2024-09-20,0.11
-768,25,32,Refund Request,Open,2025-03-29,,0.58
-769,27,38,Refund Request,In Progress,2025-04-24,,0.93
-770,91,30,Technical Issue,Closed,2025-03-18,2025-04-01,0.32
-771,14,9,Refund Request,Closed,2024-08-08,2024-08-23,0.25
-772,50,29,Product Inquiry,Closed,2024-07-22,2024-08-04,0.42
-773,25,5,Product Inquiry,In Progress,2024-09-10,,0.91
-774,22,44,Technical Issue,In Progress,2024-07-02,,0.57
-775,83,7,Delivery Delay,Closed,2025-05-10,2025-05-18,0.31
-776,96,8,Product Inquiry,Closed,2024-08-18,2024-08-19,0.67
-777,24,18,Product Inquiry,Open,2024-07-30,,0.11
-778,85,34,Refund Request,Resolved,2025-03-15,2025-03-21,0.74
-779,16,36,Refund Request,Open,2025-05-02,,0.64
-780,56,14,Technical Issue,Closed,2025-05-14,2025-05-21,0.39
-781,56,33,Delivery Delay,In Progress,2025-02-23,,0.21
-782,57,18,Delivery Delay,In Progress,2025-01-03,,0.19
-783,7,42,Product Inquiry,Resolved,2025-03-23,2025-04-04,0.69
-784,25,19,Damaged Product,Closed,2025-02-13,2025-02-20,0.93
-785,77,18,Product Inquiry,Resolved,2025-01-31,2025-02-09,0.28
-786,14,44,Damaged Product,Open,2024-08-31,,0.66
-787,15,15,Delivery Delay,Open,2025-03-20,,0.0
-788,5,37,Damaged Product,In Progress,2024-11-25,,0.3
-789,9,35,Refund Request,Open,2024-10-23,,0.49
-790,29,40,Product Inquiry,Resolved,2025-03-04,2025-03-11,0.18
-791,13,15,Product Inquiry,In Progress,2025-02-03,,0.17
-792,27,11,Refund Request,Closed,2024-07-07,2024-07-13,0.27
-793,91,39,Delivery Delay,In Progress,2025-03-16,,0.6
-794,13,12,Refund Request,Resolved,2024-06-27,2024-07-09,0.43
-795,89,16,Delivery Delay,Closed,2025-01-07,2025-01-13,0.0
-796,22,12,Product Inquiry,In Progress,2025-04-02,,0.0
-797,19,1,Refund Request,Resolved,2024-09-21,2024-09-28,0.29
-798,3,12,Delivery Delay,In Progress,2024-10-23,,0.66
-799,22,44,Technical Issue,Open,2025-02-24,,0.0
-800,46,31,Product Inquiry,Open,2024-05-29,,0.33
-801,32,31,Delivery Delay,Open,2025-02-20,,0.32
-802,3,37,Damaged Product,In Progress,2024-11-25,,0.99
-803,68,33,Damaged Product,Closed,2024-11-12,2024-11-25,0.37
-804,100,7,Refund Request,Open,2025-01-07,,0.63
-805,95,22,Refund Request,Resolved,2024-07-28,2024-08-05,0.55
-806,70,17,Refund Request,Resolved,2024-06-26,2024-07-01,0.0
-807,59,1,Refund Request,In Progress,2024-06-27,,0.77
-808,91,22,Refund Request,Resolved,2025-03-27,2025-03-29,0.58
-809,88,34,Damaged Product,Open,2025-02-07,,0.68
-810,53,15,Product Inquiry,Closed,2025-03-15,2025-03-21,1.0
-811,4,16,Damaged Product,Resolved,2024-08-31,2024-09-06,0.0
-812,96,6,Product Inquiry,Closed,2024-07-16,2024-07-31,1.0
-813,82,7,Technical Issue,In Progress,2024-05-16,,0.4
-814,58,34,Refund Request,Closed,2024-05-21,2024-05-26,0.6
-815,43,26,Refund Request,Resolved,2025-02-14,2025-02-19,0.48
-816,25,3,Technical Issue,In Progress,2025-03-16,,0.35
-817,16,28,Refund Request,Resolved,2025-04-18,2025-04-28,0.3
-818,37,8,Product Inquiry,Open,2024-10-20,,0.62
-819,88,10,Damaged Product,Resolved,2024-07-11,2024-07-22,0.0
-820,67,19,Product Inquiry,Closed,2025-04-14,2025-04-19,0.76
-821,37,5,Delivery Delay,In Progress,2025-02-02,,0.35
-822,59,3,Technical Issue,Closed,2024-07-02,2024-07-07,0.1
-823,16,4,Delivery Delay,Resolved,2024-12-25,2024-12-30,0.34
-824,56,23,Delivery Delay,Open,2025-02-10,,0.94
-825,33,9,Refund Request,In Progress,2024-12-29,,0.31
-826,65,43,Refund Request,Closed,2025-03-22,2025-03-24,0.63
-827,19,13,Delivery Delay,Resolved,2025-03-27,2025-04-06,0.24
-828,38,15,Product Inquiry,Open,2024-08-15,,0.77
-829,46,16,Product Inquiry,Resolved,2024-09-05,2024-09-12,0.74
-830,13,17,Technical Issue,In Progress,2024-06-20,,1.0
-831,40,12,Refund Request,Resolved,2024-10-14,2024-10-25,0.44
-832,75,9,Damaged Product,Closed,2024-08-13,2024-08-18,0.73
-833,54,36,Refund Request,Closed,2024-05-19,2024-05-24,0.53
-834,11,20,Damaged Product,Resolved,2025-02-16,2025-02-25,0.95
-835,49,28,Damaged Product,Open,2024-11-22,,0.25
-836,68,29,Technical Issue,In Progress,2024-05-28,,0.76
-837,88,23,Product Inquiry,Resolved,2024-07-24,2024-07-30,0.43
-838,60,27,Delivery Delay,Resolved,2024-06-05,2024-06-13,0.48
-839,72,2,Damaged Product,Resolved,2024-12-28,2024-12-30,0.53
-840,79,20,Technical Issue,Closed,2024-09-02,2024-09-12,0.59
-841,48,9,Delivery Delay,In Progress,2024-10-12,,0.46
-842,97,26,Delivery Delay,Closed,2024-06-22,2024-06-29,0.58
-843,60,34,Delivery Delay,Resolved,2024-11-07,2024-11-21,1.0
-844,11,4,Delivery Delay,In Progress,2024-05-30,,0.84
-845,43,39,Refund Request,Open,2024-05-29,,0.8
-846,73,31,Delivery Delay,In Progress,2024-10-27,,0.34
-847,16,38,Damaged Product,Open,2025-04-22,,0.19
-848,67,10,Damaged Product,Resolved,2024-06-21,2024-06-24,0.83
-849,87,41,Refund Request,Closed,2024-05-16,2024-05-21,0.81
-850,93,1,Damaged Product,Resolved,2024-12-31,2025-01-10,1.0
-851,15,5,Damaged Product,Open,2024-06-09,,0.29
-852,78,8,Damaged Product,Open,2024-10-21,,0.42
-853,27,7,Technical Issue,Resolved,2025-04-24,2025-04-25,0.0
-854,57,26,Delivery Delay,Open,2024-05-25,,0.36
-855,39,26,Damaged Product,Resolved,2024-10-23,2024-10-26,0.85
-856,70,17,Technical Issue,Resolved,2025-03-11,2025-03-25,0.34
-857,16,28,Delivery Delay,Closed,2024-05-19,2024-05-30,0.72
-858,24,10,Technical Issue,Closed,2024-09-02,2024-09-05,0.43
-859,95,45,Product Inquiry,Closed,2024-12-04,2024-12-12,0.61
-860,38,19,Technical Issue,Open,2024-05-22,,0.1
-861,64,24,Product Inquiry,In Progress,2024-07-08,,0.53
-862,50,45,Product Inquiry,Open,2024-06-28,,0.0
-863,54,28,Refund Request,Closed,2025-01-17,2025-01-18,0.43
-864,59,8,Technical Issue,Resolved,2024-08-31,2024-09-01,0.0
-865,39,3,Refund Request,Resolved,2024-08-07,2024-08-08,0.92
-866,18,30,Delivery Delay,Resolved,2025-01-14,2025-01-19,0.77
-867,21,23,Technical Issue,Closed,2025-03-17,2025-03-23,0.66
-868,50,33,Damaged Product,Open,2025-03-28,,1.0
-869,84,10,Technical Issue,In Progress,2025-02-03,,0.17
-870,44,30,Refund Request,Closed,2024-07-20,2024-07-25,1.0
-871,51,5,Product Inquiry,Resolved,2024-09-24,2024-10-01,0.83
-872,78,43,Technical Issue,Closed,2024-11-15,2024-11-25,0.42
-873,100,43,Damaged Product,In Progress,2024-10-07,,0.9
-874,90,21,Technical Issue,In Progress,2024-08-05,,0.11
-875,80,26,Delivery Delay,Open,2024-05-20,,0.21
-876,4,11,Delivery Delay,Closed,2024-09-26,2024-09-28,0.29
-877,64,44,Damaged Product,Resolved,2024-09-22,2024-09-28,0.31
-878,99,16,Damaged Product,Open,2025-05-03,,0.13
-879,94,25,Delivery Delay,Resolved,2024-11-19,2024-12-04,0.93
-880,8,40,Delivery Delay,In Progress,2024-10-13,,0.41
-881,5,5,Refund Request,Resolved,2024-07-10,2024-07-23,0.62
-882,78,41,Damaged Product,Open,2025-01-19,,0.3
-883,42,7,Damaged Product,Resolved,2025-03-06,2025-03-13,0.0
-884,82,37,Refund Request,Closed,2025-01-17,2025-01-21,0.59
-885,63,29,Damaged Product,In Progress,2025-04-29,,0.0
-886,26,11,Technical Issue,Resolved,2024-11-27,2024-12-11,0.48
-887,25,6,Delivery Delay,Open,2024-07-29,,0.02
-888,27,3,Delivery Delay,Closed,2024-12-28,2025-01-12,1.0
-889,47,27,Refund Request,Open,2024-06-09,,0.82
-890,24,44,Damaged Product,Resolved,2024-12-26,2024-12-30,0.54
-891,74,31,Refund Request,In Progress,2024-12-13,,0.94
-892,80,36,Delivery Delay,Closed,2024-06-14,2024-06-27,0.2
-893,57,28,Delivery Delay,Resolved,2024-11-23,2024-12-07,0.69
-894,73,6,Technical Issue,Closed,2024-07-12,2024-07-25,0.57
-895,39,7,Product Inquiry,Open,2024-09-11,,0.59
-896,30,4,Delivery Delay,In Progress,2025-01-27,,0.95
-897,29,19,Product Inquiry,In Progress,2024-08-15,,0.76
-898,91,23,Damaged Product,Open,2025-01-06,,0.6
-899,37,5,Technical Issue,Closed,2025-03-19,2025-04-02,0.0
-900,79,33,Product Inquiry,In Progress,2025-03-10,,0.16
-901,80,4,Technical Issue,Open,2024-08-21,,0.46
-902,61,17,Delivery Delay,Open,2024-08-16,,0.53
-903,44,27,Damaged Product,In Progress,2025-03-13,,0.1
-904,43,4,Technical Issue,Closed,2024-07-12,2024-07-16,1.0
-905,94,22,Damaged Product,Open,2024-10-08,,1.0
-906,64,5,Refund Request,Open,2025-05-11,,0.71
-907,10,27,Technical Issue,Open,2024-10-13,,0.53
-908,62,9,Delivery Delay,In Progress,2025-04-16,,0.43
-909,14,3,Damaged Product,Resolved,2025-01-08,2025-01-17,0.17
-910,84,23,Refund Request,Resolved,2025-04-19,2025-04-27,0.53
-911,30,2,Delivery Delay,Open,2024-11-17,,0.59
-912,100,13,Delivery Delay,Resolved,2024-08-24,2024-09-04,0.07
-913,71,31,Product Inquiry,Open,2024-05-21,,0.62
-914,99,25,Product Inquiry,Closed,2024-07-14,2024-07-21,0.45
-915,71,9,Product Inquiry,Open,2024-10-06,,0.0
-916,16,40,Refund Request,In Progress,2024-07-05,,0.2
-917,25,22,Delivery Delay,Resolved,2024-06-24,2024-07-09,0.36
-918,31,15,Technical Issue,Open,2024-06-27,,1.0
-919,2,15,Technical Issue,Resolved,2024-10-13,2024-10-25,0.69
-920,73,3,Damaged Product,Open,2025-01-23,,0.03
-921,8,5,Damaged Product,Open,2024-12-10,,0.67
-922,57,12,Delivery Delay,In Progress,2025-01-04,,0.0
-923,41,23,Damaged Product,Closed,2024-05-17,2024-05-22,0.88
-924,78,26,Delivery Delay,Resolved,2024-06-02,2024-06-13,0.34
-925,85,5,Refund Request,Open,2024-07-19,,0.47
-926,70,14,Refund Request,Resolved,2024-10-24,2024-11-05,0.96
-927,29,29,Refund Request,In Progress,2025-01-07,,0.05
-928,100,36,Damaged Product,In Progress,2025-01-10,,0.01
-929,68,18,Technical Issue,In Progress,2024-09-30,,0.3
-930,65,7,Refund Request,Open,2025-04-26,,0.86
-931,53,40,Delivery Delay,Resolved,2025-01-05,2025-01-10,0.0
-932,27,9,Technical Issue,Closed,2024-12-04,2024-12-09,0.0
-933,27,8,Damaged Product,In Progress,2025-05-02,,0.34
-934,5,16,Product Inquiry,Resolved,2025-04-18,2025-04-29,0.69
-935,15,2,Delivery Delay,Resolved,2024-08-09,2024-08-23,0.92
-936,35,18,Delivery Delay,Resolved,2025-03-04,2025-03-09,0.34
-937,8,18,Delivery Delay,Resolved,2025-03-07,2025-03-15,0.36
-938,49,25,Damaged Product,Resolved,2024-08-10,2024-08-11,0.9
-939,27,25,Product Inquiry,Closed,2024-08-13,2024-08-24,0.0
-940,69,4,Delivery Delay,In Progress,2025-02-08,,0.36
-941,70,23,Technical Issue,Open,2024-07-22,,0.57
-942,97,22,Technical Issue,In Progress,2025-04-13,,0.66
-943,28,2,Technical Issue,In Progress,2025-03-04,,0.32
-944,56,28,Delivery Delay,Open,2025-03-06,,0.51
-945,71,25,Technical Issue,In Progress,2024-06-25,,0.0
-946,60,28,Damaged Product,In Progress,2024-07-28,,0.27
-947,49,30,Delivery Delay,Closed,2025-01-28,2025-01-31,0.66
-948,36,44,Delivery Delay,In Progress,2025-02-10,,0.16
-949,32,35,Refund Request,In Progress,2025-01-27,,0.52
-950,74,26,Technical Issue,Open,2024-11-19,,0.66
-951,36,24,Refund Request,In Progress,2024-08-30,,0.38
-952,84,39,Delivery Delay,Open,2025-01-07,,0.56
-953,40,37,Refund Request,In Progress,2024-06-05,,0.16
-954,23,29,Product Inquiry,Resolved,2025-03-01,2025-03-02,0.43
-955,2,30,Refund Request,Open,2025-04-10,,0.71
-956,62,41,Delivery Delay,Closed,2024-08-11,2024-08-18,0.55
-957,75,6,Technical Issue,In Progress,2024-08-21,,0.29
-958,71,21,Product Inquiry,Open,2024-12-17,,0.58
-959,24,17,Refund Request,In Progress,2024-10-26,,0.75
-960,64,9,Damaged Product,Closed,2025-04-14,2025-04-25,0.0
-961,19,40,Damaged Product,Open,2024-07-03,,0.91
-962,15,42,Damaged Product,Open,2024-11-24,,0.38
-963,88,33,Refund Request,Resolved,2025-04-14,2025-04-24,0.65
-964,6,36,Refund Request,Closed,2025-02-10,2025-02-11,0.92
-965,33,2,Technical Issue,In Progress,2024-06-02,,0.02
-966,92,3,Delivery Delay,Closed,2025-05-11,2025-05-17,0.25
-967,10,33,Technical Issue,Resolved,2025-01-07,2025-01-09,0.4
-968,10,16,Technical Issue,Closed,2024-06-08,2024-06-14,0.23
-969,48,44,Product Inquiry,Resolved,2025-04-29,2025-05-01,1.0
-970,37,10,Refund Request,Open,2024-06-12,,0.2
-971,78,24,Product Inquiry,In Progress,2025-01-02,,0.31
-972,84,24,Technical Issue,Resolved,2024-10-10,2024-10-15,0.57
-973,4,11,Delivery Delay,In Progress,2024-06-03,,0.08
-974,38,10,Delivery Delay,Open,2024-10-30,,0.36
-975,78,14,Technical Issue,In Progress,2024-11-01,,0.61
-976,92,33,Damaged Product,In Progress,2025-03-13,,0.38
-977,49,38,Damaged Product,Open,2024-09-22,,0.47
-978,49,42,Delivery Delay,Open,2024-06-15,,0.31
-979,29,37,Delivery Delay,Resolved,2025-05-13,2025-05-22,0.0
-980,68,4,Technical Issue,Resolved,2024-05-20,2024-05-31,0.61
-981,67,29,Refund Request,In Progress,2024-05-27,,1.0
-982,25,37,Damaged Product,In Progress,2025-02-22,,0.51
-983,43,16,Damaged Product,In Progress,2024-10-02,,0.58
-984,59,21,Damaged Product,Open,2024-08-21,,0.74
-985,57,27,Delivery Delay,In Progress,2024-10-22,,0.06
-986,46,36,Refund Request,Open,2025-04-09,,1.0
-987,84,31,Product Inquiry,Closed,2024-08-01,2024-08-09,0.57
-988,30,37,Technical Issue,Closed,2024-11-14,2024-11-29,1.0
-989,32,27,Refund Request,Closed,2025-03-01,2025-03-11,0.24
-990,37,22,Delivery Delay,In Progress,2025-03-07,,1.0
-991,11,27,Damaged Product,Resolved,2025-03-06,2025-03-15,0.77
-992,74,32,Damaged Product,Closed,2025-02-25,2025-03-12,0.69
-993,59,1,Product Inquiry,Closed,2024-12-07,2024-12-09,0.58
-994,34,36,Delivery Delay,Resolved,2024-06-02,2024-06-14,0.41
-995,17,3,Damaged Product,Resolved,2024-05-28,2024-05-29,0.92
-996,10,9,Product Inquiry,Resolved,2025-03-08,2025-03-23,0.55
-997,46,9,Technical Issue,Resolved,2024-07-09,2024-07-21,0.0
-998,31,19,Refund Request,Open,2024-07-19,,0.11
-999,44,38,Delivery Delay,Open,2024-07-10,,0.43
-1000,10,23,Product Inquiry,Resolved,2024-08-07,2024-08-22,0.61
-1001,81,29,Product Inquiry,Resolved,2024-06-14,2024-06-19,0.48
-1002,90,9,Technical Issue,Closed,2025-01-23,2025-02-04,0.93
-1003,66,6,Delivery Delay,Closed,2024-09-22,2024-10-07,0.0
-1004,76,38,Product Inquiry,In Progress,2025-02-08,,0.55
-1005,49,21,Technical Issue,Resolved,2024-09-11,2024-09-14,0.0
-1006,93,38,Delivery Delay,In Progress,2024-06-17,,0.77
-1007,30,20,Delivery Delay,Resolved,2024-10-06,2024-10-12,0.47
-1008,73,34,Refund Request,Resolved,2024-11-16,2024-11-21,0.65
-1009,50,21,Delivery Delay,Closed,2024-07-02,2024-07-05,0.2
-1010,95,14,Refund Request,Resolved,2025-03-03,2025-03-12,0.95
-1011,74,40,Delivery Delay,In Progress,2025-03-11,,0.86
-1012,45,19,Refund Request,Closed,2024-09-25,2024-09-27,0.7
-1013,36,32,Damaged Product,Resolved,2025-05-01,2025-05-05,0.45
-1014,37,17,Damaged Product,Open,2025-04-18,,0.7
-1015,86,18,Damaged Product,Closed,2024-07-24,2024-07-26,0.25
-1016,71,33,Technical Issue,Closed,2024-07-09,2024-07-10,0.8
-1017,6,35,Product Inquiry,Closed,2024-09-13,2024-09-14,1.0
-1018,4,24,Technical Issue,Closed,2024-10-17,2024-10-22,0.87
-1019,55,29,Product Inquiry,Closed,2024-11-02,2024-11-16,0.24
-1020,38,8,Product Inquiry,Open,2024-10-04,,0.63
-1021,56,32,Delivery Delay,In Progress,2024-10-25,,0.05
-1022,18,18,Refund Request,Open,2024-09-26,,0.7
-1023,11,15,Refund Request,Open,2024-07-21,,0.66
-1024,21,33,Refund Request,In Progress,2025-04-07,,0.0
-1025,59,41,Refund Request,Open,2025-03-04,,0.09
-1026,5,28,Technical Issue,Open,2024-05-24,,0.4
-1027,41,13,Delivery Delay,Open,2025-01-02,,0.39
-1028,32,9,Damaged Product,Resolved,2024-06-29,2024-07-13,0.08
-1029,87,13,Product Inquiry,In Progress,2025-03-07,,0.64
-1030,20,32,Product Inquiry,Closed,2025-03-07,2025-03-19,0.59
-1031,37,9,Delivery Delay,Closed,2024-11-22,2024-12-03,0.43
-1032,67,14,Product Inquiry,Open,2024-07-03,,0.24
-1033,9,32,Damaged Product,Closed,2024-07-06,2024-07-18,0.87
-1034,5,27,Technical Issue,In Progress,2024-09-09,,1.0
-1035,49,41,Refund Request,Closed,2024-08-28,2024-09-08,0.33
-1036,62,34,Refund Request,Closed,2024-07-05,2024-07-20,0.29
-1037,30,19,Product Inquiry,Resolved,2025-03-10,2025-03-18,0.67
-1038,77,23,Delivery Delay,Resolved,2025-05-12,2025-05-17,0.37
-1039,29,8,Product Inquiry,In Progress,2024-06-28,,0.45
-1040,58,21,Product Inquiry,Closed,2025-01-21,2025-02-01,0.76
-1041,15,12,Delivery Delay,Resolved,2025-04-16,2025-04-22,0.0
-1042,45,45,Damaged Product,Resolved,2024-09-29,2024-10-11,0.96
-1043,100,31,Product Inquiry,Resolved,2025-04-10,2025-04-20,0.53
-1044,88,16,Refund Request,Open,2025-03-28,,0.36
-1045,35,33,Product Inquiry,Closed,2025-03-15,2025-03-30,0.47
-1046,8,36,Refund Request,In Progress,2025-04-12,,0.49
-1047,87,21,Product Inquiry,Resolved,2024-08-19,2024-08-26,0.0
-1048,55,26,Delivery Delay,In Progress,2024-05-14,,1.0
-1049,35,32,Delivery Delay,Closed,2025-04-10,2025-04-16,0.51
-1050,40,29,Technical Issue,Resolved,2025-02-02,2025-02-06,0.66
-1051,22,35,Delivery Delay,Closed,2024-11-26,2024-12-09,0.83
-1052,79,40,Damaged Product,In Progress,2025-01-22,,0.14
-1053,78,35,Delivery Delay,Open,2025-01-05,,0.67
-1054,49,6,Refund Request,In Progress,2024-12-30,,0.41
-1055,99,36,Delivery Delay,Open,2025-04-13,,0.8
-1056,67,14,Technical Issue,In Progress,2024-12-12,,0.0
-1057,26,11,Damaged Product,Resolved,2024-06-23,2024-07-07,0.47
-1058,38,11,Refund Request,In Progress,2024-05-22,,0.29
-1059,53,14,Delivery Delay,Closed,2024-06-22,2024-06-23,0.65
-1060,3,34,Technical Issue,Open,2025-01-13,,0.66
-1061,51,32,Damaged Product,Open,2024-11-30,,0.25
-1062,37,20,Damaged Product,Open,2024-12-10,,0.25
-1063,81,45,Refund Request,Closed,2025-01-28,2025-01-29,0.46
-1064,96,8,Product Inquiry,Resolved,2025-05-02,2025-05-13,0.19
-1065,17,18,Delivery Delay,Open,2024-11-09,,0.79
-1066,10,33,Delivery Delay,Resolved,2024-11-02,2024-11-03,0.37
-1067,96,35,Technical Issue,Closed,2025-04-11,2025-04-13,0.0
-1068,51,13,Refund Request,In Progress,2025-01-02,,0.37
-1069,55,33,Refund Request,Open,2025-04-20,,0.14
-1070,36,30,Refund Request,Closed,2025-03-18,2025-03-20,0.0
-1071,84,37,Refund Request,Resolved,2024-06-25,2024-07-02,0.07
-1072,55,6,Technical Issue,Closed,2024-09-18,2024-09-25,0.54
-1073,36,31,Technical Issue,In Progress,2025-01-05,,0.97
-1074,65,16,Product Inquiry,Resolved,2024-11-13,2024-11-14,0.61
-1075,94,26,Technical Issue,In Progress,2025-05-06,,0.29
-1076,92,7,Technical Issue,Resolved,2025-01-25,2025-01-29,0.66
-1077,4,26,Refund Request,Closed,2025-04-10,2025-04-18,0.34
-1078,62,37,Refund Request,Open,2024-10-18,,0.26
-1079,43,10,Delivery Delay,Open,2024-08-11,,0.1
-1080,72,11,Product Inquiry,Closed,2024-10-29,2024-11-12,0.0
-1081,76,16,Damaged Product,Open,2024-11-13,,0.36
-1082,52,40,Technical Issue,Resolved,2025-05-10,2025-05-19,0.56
-1083,98,15,Product Inquiry,Open,2025-01-01,,0.47
-1084,33,27,Refund Request,In Progress,2025-02-27,,0.35
-1085,20,3,Technical Issue,In Progress,2025-05-08,,0.17
-1086,77,27,Refund Request,Open,2024-05-23,,0.71
-1087,89,14,Product Inquiry,Resolved,2024-12-31,2025-01-09,0.04
-1088,41,42,Product Inquiry,Closed,2025-04-20,2025-04-26,0.77
-1089,91,31,Delivery Delay,Open,2025-05-05,,0.15
-1090,55,45,Product Inquiry,Open,2024-12-04,,0.24
-1091,17,1,Delivery Delay,Closed,2024-11-15,2024-11-24,0.0
-1092,22,13,Delivery Delay,Resolved,2024-11-03,2024-11-17,0.32
-1093,5,28,Technical Issue,Resolved,2024-10-12,2024-10-15,0.84
-1094,63,9,Delivery Delay,Resolved,2024-12-12,2024-12-19,0.68
-1095,38,8,Refund Request,Resolved,2025-04-28,2025-05-03,0.84
-1096,67,21,Technical Issue,In Progress,2024-08-07,,0.68
-1097,84,11,Technical Issue,Closed,2025-02-08,2025-02-13,0.11
-1098,88,14,Technical Issue,In Progress,2024-12-18,,0.38
-1099,78,17,Damaged Product,Resolved,2024-07-27,2024-08-04,0.23
-1100,43,9,Product Inquiry,Closed,2024-07-17,2024-07-26,0.97
-1101,2,21,Damaged Product,Resolved,2024-12-05,2024-12-08,0.08
-1102,61,5,Refund Request,Open,2024-05-24,,0.81
-1103,90,13,Delivery Delay,Closed,2024-05-28,2024-06-09,0.81
-1104,69,30,Delivery Delay,In Progress,2025-01-13,,1.0
-1105,8,40,Damaged Product,Resolved,2025-03-28,2025-04-07,0.36
-1106,9,23,Delivery Delay,Closed,2024-05-20,2024-05-26,0.75
-1107,25,18,Product Inquiry,In Progress,2025-04-05,,1.0
-1108,75,20,Technical Issue,In Progress,2024-12-08,,0.28
-1109,99,26,Technical Issue,In Progress,2024-11-17,,0.0
-1110,70,42,Technical Issue,Closed,2025-01-08,2025-01-10,0.0
-1111,20,7,Damaged Product,Closed,2024-07-12,2024-07-17,0.75
-1112,34,37,Damaged Product,Open,2025-01-14,,0.0
-1113,67,38,Technical Issue,Resolved,2024-07-14,2024-07-20,0.37
-1114,99,38,Technical Issue,In Progress,2024-10-23,,0.65
-1115,86,31,Delivery Delay,Closed,2024-06-18,2024-06-21,0.56
-1116,30,14,Technical Issue,Open,2025-02-08,,0.65
-1117,19,10,Delivery Delay,Closed,2024-06-16,2024-06-24,0.58
-1118,42,5,Damaged Product,Open,2024-11-20,,0.95
-1119,66,29,Product Inquiry,Resolved,2025-05-03,2025-05-14,0.17
-1120,42,20,Damaged Product,Open,2025-05-01,,0.26
-1121,72,26,Product Inquiry,Resolved,2025-01-19,2025-02-01,0.23
-1122,91,31,Refund Request,In Progress,2025-02-17,,0.79
-1123,67,21,Technical Issue,Open,2024-09-04,,0.82
-1124,28,11,Damaged Product,In Progress,2025-04-13,,0.66
-1125,56,36,Refund Request,Resolved,2024-10-17,2024-10-25,0.91
-1126,88,8,Refund Request,Resolved,2024-10-04,2024-10-15,0.09
-1127,23,2,Product Inquiry,In Progress,2025-02-20,,1.0
-1128,99,43,Product Inquiry,In Progress,2025-04-06,,1.0
-1129,28,40,Refund Request,Closed,2024-11-17,2024-11-24,0.76
-1130,23,1,Refund Request,Closed,2024-10-06,2024-10-14,1.0
-1131,68,13,Technical Issue,Open,2024-09-14,,0.0
-1132,40,22,Refund Request,Open,2024-05-20,,0.32
-1133,33,33,Technical Issue,Open,2025-01-02,,0.24
-1134,35,3,Product Inquiry,In Progress,2024-06-13,,0.75
-1135,51,3,Refund Request,In Progress,2024-10-07,,0.13
-1136,81,4,Product Inquiry,Open,2024-12-04,,0.77
-1137,78,41,Damaged Product,Resolved,2025-04-02,2025-04-10,0.98
-1138,61,42,Delivery Delay,Open,2025-01-17,,0.74
-1139,48,2,Damaged Product,Closed,2024-08-13,2024-08-25,0.6
-1140,17,6,Delivery Delay,Resolved,2024-06-29,2024-07-13,0.15
-1141,8,29,Refund Request,Open,2025-03-24,,0.2
-1142,13,35,Damaged Product,In Progress,2024-12-18,,0.94
-1143,84,40,Refund Request,Open,2025-01-20,,0.77
-1144,87,21,Technical Issue,Closed,2025-04-09,2025-04-24,0.49
-1145,93,24,Product Inquiry,Open,2024-08-20,,0.35
-1146,54,43,Delivery Delay,Open,2024-12-25,,0.0
-1147,25,33,Refund Request,Closed,2024-10-23,2024-11-04,0.13
-1148,11,12,Refund Request,Resolved,2024-11-07,2024-11-08,1.0
-1149,78,13,Delivery Delay,Resolved,2024-09-05,2024-09-08,0.05
-1150,40,18,Delivery Delay,In Progress,2024-11-26,,0.57
-1151,44,30,Technical Issue,Open,2024-09-08,,0.85
-1152,60,6,Delivery Delay,Open,2025-01-30,,0.06
-1153,24,6,Technical Issue,Closed,2025-03-01,2025-03-07,0.56
-1154,81,2,Delivery Delay,Closed,2024-11-16,2024-11-29,0.83
-1155,28,41,Product Inquiry,In Progress,2024-07-16,,0.5
-1156,11,16,Damaged Product,In Progress,2024-07-11,,1.0
-1157,96,9,Delivery Delay,In Progress,2024-05-25,,0.0
-1158,49,19,Damaged Product,Closed,2024-12-31,2025-01-05,0.87
-1159,73,21,Damaged Product,Resolved,2025-01-26,2025-01-30,0.44
-1160,35,13,Refund Request,Closed,2025-01-23,2025-01-28,0.77
-1161,90,29,Delivery Delay,In Progress,2025-04-28,,0.65
-1162,63,23,Refund Request,In Progress,2025-05-06,,0.24
-1163,99,42,Damaged Product,Resolved,2024-11-18,2024-12-02,0.58
-1164,5,38,Technical Issue,Resolved,2025-05-07,2025-05-10,0.0
-1165,73,14,Refund Request,Resolved,2024-08-13,2024-08-19,0.71
-1166,27,22,Delivery Delay,In Progress,2024-10-21,,0.6
-1167,66,14,Damaged Product,In Progress,2025-01-24,,0.72
-1168,60,17,Delivery Delay,Open,2025-02-23,,0.87
-1169,67,43,Damaged Product,Closed,2024-07-19,2024-07-27,0.63
-1170,60,38,Refund Request,In Progress,2025-04-08,,0.55
-1171,73,25,Refund Request,Open,2024-11-10,,0.19
-1172,90,7,Delivery Delay,In Progress,2025-03-24,,0.25
-1173,21,27,Refund Request,Resolved,2024-10-12,2024-10-18,0.92
-1174,83,7,Refund Request,Closed,2025-05-08,2025-05-23,1.0
-1175,40,11,Damaged Product,Resolved,2024-08-13,2024-08-22,0.42
-1176,97,2,Technical Issue,Resolved,2024-11-27,2024-12-10,0.52
-1177,59,38,Product Inquiry,Resolved,2024-10-29,2024-11-10,0.18
-1178,61,16,Refund Request,In Progress,2024-06-05,,0.91
-1179,77,22,Product Inquiry,Resolved,2024-08-05,2024-08-16,0.73
-1180,39,3,Technical Issue,Closed,2025-05-13,2025-05-26,1.0
-1181,14,27,Refund Request,Resolved,2024-12-25,2025-01-07,0.19
-1182,74,26,Damaged Product,Open,2025-05-06,,0.37
-1183,66,11,Technical Issue,In Progress,2024-08-11,,0.58
-1184,90,34,Damaged Product,Closed,2025-05-04,2025-05-14,0.73
-1185,17,43,Delivery Delay,In Progress,2024-07-02,,0.42
-1186,12,20,Refund Request,Closed,2024-10-28,2024-11-10,0.19
-1187,59,26,Delivery Delay,Closed,2024-08-08,2024-08-16,0.81
-1188,85,10,Damaged Product,Closed,2024-10-20,2024-11-04,0.75
-1189,39,20,Damaged Product,Open,2024-06-24,,0.18
-1190,31,14,Damaged Product,Resolved,2024-07-05,2024-07-07,0.97
-1191,20,44,Delivery Delay,In Progress,2024-06-30,,0.91
-1192,62,11,Delivery Delay,In Progress,2024-12-07,,0.55
-1193,61,36,Damaged Product,Resolved,2025-03-06,2025-03-18,0.53
-1194,61,43,Product Inquiry,Resolved,2025-02-03,2025-02-17,0.69
-1195,91,16,Product Inquiry,Open,2025-01-24,,0.2
-1196,17,21,Refund Request,Closed,2024-07-21,2024-07-28,0.51
-1197,37,44,Product Inquiry,Resolved,2025-03-29,2025-04-08,0.0
-1198,69,5,Product Inquiry,In Progress,2024-07-11,,0.81
-1199,86,38,Damaged Product,Open,2025-02-24,,0.0
-1200,78,12,Refund Request,Closed,2024-12-16,2024-12-22,1.0
-1201,44,33,Technical Issue,Open,2025-03-26,,0.38
-1202,77,26,Damaged Product,Open,2024-06-10,,0.43
-1203,18,32,Damaged Product,Closed,2025-02-08,2025-02-09,0.28
-1204,39,28,Refund Request,Open,2025-01-22,,0.4
-1205,50,42,Damaged Product,Closed,2025-02-02,2025-02-09,1.0
-1206,37,20,Product Inquiry,Resolved,2024-10-02,2024-10-13,0.0
-1207,5,17,Damaged Product,Resolved,2025-02-22,2025-02-25,0.95
-1208,51,44,Product Inquiry,Open,2025-02-27,,0.62
-1209,11,23,Product Inquiry,Open,2025-03-23,,0.08
-1210,2,11,Damaged Product,In Progress,2025-04-19,,0.12
-1211,74,33,Product Inquiry,Resolved,2025-04-16,2025-04-27,1.0
-1212,2,32,Delivery Delay,Resolved,2024-09-16,2024-09-23,0.17
-1213,39,28,Delivery Delay,In Progress,2025-03-07,,0.1
-1214,78,29,Product Inquiry,In Progress,2024-07-16,,0.9
-1215,92,22,Delivery Delay,In Progress,2025-02-17,,0.62
-1216,23,28,Delivery Delay,Resolved,2024-08-21,2024-09-04,0.17
-1217,20,1,Technical Issue,In Progress,2024-07-17,,0.58
-1218,34,13,Delivery Delay,Resolved,2024-09-26,2024-10-03,0.14
-1219,60,19,Delivery Delay,Open,2024-09-04,,0.89
-1220,63,30,Delivery Delay,In Progress,2024-07-30,,0.87
-1221,77,44,Refund Request,In Progress,2025-03-25,,0.69
-1222,55,22,Delivery Delay,In Progress,2024-10-04,,0.63
-1223,70,18,Refund Request,Closed,2024-11-07,2024-11-12,1.0
-1224,54,2,Refund Request,Resolved,2024-08-19,2024-08-25,0.5
-1225,82,3,Refund Request,Open,2024-11-15,,0.09
-1226,94,3,Damaged Product,Resolved,2024-08-10,2024-08-14,0.66
-1227,11,35,Damaged Product,Open,2025-04-04,,1.0
-1228,94,10,Refund Request,Resolved,2024-09-02,2024-09-09,0.14
-1229,45,30,Technical Issue,Closed,2025-01-18,2025-02-02,0.37
-1230,73,30,Delivery Delay,Open,2024-11-13,,0.65
-1231,42,24,Damaged Product,Open,2024-08-13,,0.48
-1232,78,41,Product Inquiry,Open,2024-09-26,,0.16
-1233,66,6,Refund Request,In Progress,2025-05-04,,0.89
-1234,55,26,Damaged Product,Open,2025-03-17,,1.0
-1235,96,17,Product Inquiry,Open,2024-09-24,,0.57
-1236,15,13,Refund Request,In Progress,2024-07-28,,0.18
-1237,79,33,Delivery Delay,Closed,2024-08-04,2024-08-16,0.0
-1238,48,37,Product Inquiry,Resolved,2025-04-18,2025-04-22,0.59
-1239,36,45,Technical Issue,Closed,2024-07-11,2024-07-16,0.89
-1240,86,3,Damaged Product,Resolved,2024-09-20,2024-10-05,0.67
-1241,87,19,Delivery Delay,In Progress,2024-11-30,,0.5
-1242,53,14,Product Inquiry,Open,2024-05-18,,0.29
-1243,85,9,Refund Request,In Progress,2024-07-20,,0.12
-1244,60,39,Delivery Delay,In Progress,2025-01-21,,0.79
-1245,29,15,Refund Request,Open,2025-04-06,,0.82
-1246,29,5,Technical Issue,In Progress,2024-09-17,,0.0
-1247,59,38,Technical Issue,Resolved,2024-09-15,2024-09-26,1.0
-1248,43,35,Technical Issue,Resolved,2024-11-27,2024-12-05,0.7
-1249,2,22,Refund Request,In Progress,2025-01-25,,0.99
-1250,45,29,Product Inquiry,Closed,2024-06-02,2024-06-10,0.03
-1251,27,35,Product Inquiry,Closed,2024-06-26,2024-07-07,0.02
-1252,33,26,Technical Issue,Open,2024-07-06,,0.45
-1253,11,41,Refund Request,Resolved,2024-10-31,2024-11-09,0.68
-1254,11,14,Refund Request,In Progress,2024-07-04,,1.0
-1255,38,21,Product Inquiry,Resolved,2025-02-27,2025-03-10,0.75
-1256,4,10,Refund Request,Closed,2024-11-17,2024-11-27,0.42
-1257,73,28,Delivery Delay,Resolved,2024-08-17,2024-08-30,0.14
-1258,97,19,Product Inquiry,Resolved,2024-06-26,2024-06-30,0.93
-1259,69,9,Delivery Delay,Resolved,2025-03-20,2025-03-30,0.16
-1260,13,26,Delivery Delay,Closed,2024-12-26,2024-12-30,1.0
-1261,74,19,Damaged Product,Closed,2025-02-01,2025-02-15,0.4
-1262,99,26,Damaged Product,Resolved,2024-10-16,2024-10-22,1.0
-1263,54,39,Refund Request,In Progress,2024-07-24,,0.74
-1264,99,24,Refund Request,Open,2024-10-15,,0.45
-1265,65,35,Product Inquiry,Resolved,2025-05-14,2025-05-18,0.32
-1266,64,30,Product Inquiry,In Progress,2024-12-06,,0.38
-1267,21,12,Delivery Delay,Resolved,2025-02-14,2025-02-19,0.65
-1268,69,22,Damaged Product,Resolved,2024-10-20,2024-10-31,0.53
-1269,88,7,Product Inquiry,Resolved,2024-06-21,2024-07-01,0.29
-1270,54,27,Delivery Delay,Closed,2024-10-26,2024-11-06,0.44
-1271,80,15,Technical Issue,Closed,2025-02-15,2025-02-25,0.53
-1272,65,6,Refund Request,Resolved,2025-05-14,2025-05-15,0.0
-1273,79,16,Product Inquiry,Closed,2025-04-03,2025-04-13,0.66
-1274,88,6,Delivery Delay,In Progress,2024-12-23,,0.16
-1275,96,39,Technical Issue,Resolved,2024-11-26,2024-12-05,0.1
-1276,25,11,Damaged Product,Resolved,2025-01-04,2025-01-10,0.0
-1277,23,31,Damaged Product,Closed,2025-01-18,2025-01-24,0.0
-1278,38,5,Damaged Product,Open,2024-06-19,,0.03
-1279,74,30,Technical Issue,Resolved,2025-03-19,2025-03-23,0.25
-1280,57,16,Technical Issue,Closed,2024-09-04,2024-09-12,1.0
-1281,83,8,Damaged Product,In Progress,2024-10-31,,0.32
-1282,32,30,Delivery Delay,Open,2024-12-26,,0.56
-1283,96,3,Technical Issue,Resolved,2025-02-22,2025-03-08,0.64
-1284,61,25,Product Inquiry,Open,2025-01-28,,0.55
-1285,34,35,Technical Issue,Open,2025-05-01,,0.47
-1286,83,35,Product Inquiry,Open,2025-03-20,,0.08
-1287,62,4,Product Inquiry,In Progress,2025-04-01,,1.0
-1288,93,3,Product Inquiry,In Progress,2024-06-03,,1.0
-1289,92,33,Delivery Delay,Resolved,2025-01-30,2025-02-06,0.0
-1290,14,10,Technical Issue,In Progress,2025-02-09,,0.14
-1291,97,8,Product Inquiry,Closed,2025-04-15,2025-04-21,0.4
-1292,85,22,Damaged Product,Closed,2024-08-17,2024-09-01,0.16
-1293,62,14,Delivery Delay,In Progress,2024-05-20,,0.68
-1294,43,42,Product Inquiry,Open,2024-05-14,,0.25
-1295,91,32,Refund Request,Closed,2025-02-10,2025-02-23,1.0
-1296,44,19,Product Inquiry,Resolved,2025-03-11,2025-03-17,0.92
-1297,90,17,Technical Issue,In Progress,2025-05-04,,0.57
-1298,5,9,Refund Request,Closed,2024-07-09,2024-07-18,0.86
-1299,4,15,Technical Issue,In Progress,2024-10-22,,0.89
-1300,47,19,Damaged Product,In Progress,2024-05-25,,0.3
-1301,73,41,Product Inquiry,In Progress,2025-04-26,,0.21
-1302,92,29,Damaged Product,In Progress,2024-05-18,,0.53
-1303,96,45,Technical Issue,Closed,2024-10-01,2024-10-04,0.8
-1304,38,25,Damaged Product,In Progress,2025-02-12,,0.55
-1305,4,14,Damaged Product,In Progress,2025-05-01,,0.0
-1306,75,1,Refund Request,In Progress,2024-09-25,,0.22
-1307,93,33,Technical Issue,Resolved,2024-12-20,2024-12-28,0.47
-1308,22,23,Technical Issue,Closed,2025-02-11,2025-02-21,0.47
-1309,41,34,Product Inquiry,In Progress,2024-07-29,,1.0
-1310,63,42,Technical Issue,Closed,2025-04-28,2025-05-12,0.01
-1311,62,12,Product Inquiry,Resolved,2024-11-21,2024-12-06,0.68
-1312,2,43,Refund Request,Open,2025-04-17,,1.0
-1313,29,20,Damaged Product,Closed,2025-05-02,2025-05-06,1.0
-1314,36,39,Damaged Product,Open,2025-01-08,,0.36
-1315,46,32,Delivery Delay,Resolved,2025-05-09,2025-05-19,0.67
-1316,96,34,Damaged Product,Closed,2024-07-01,2024-07-13,0.7
-1317,47,43,Product Inquiry,Open,2025-02-24,,0.57
-1318,81,7,Technical Issue,In Progress,2024-06-12,,0.47
-1319,9,18,Delivery Delay,Open,2025-02-04,,0.65
-1320,58,37,Refund Request,Closed,2025-03-04,2025-03-08,0.0
-1321,95,12,Product Inquiry,Closed,2025-04-25,2025-04-29,0.74
-1322,23,3,Technical Issue,In Progress,2024-05-17,,0.54
-1323,36,6,Delivery Delay,Closed,2024-06-01,2024-06-13,0.42
-1324,17,34,Delivery Delay,In Progress,2025-05-14,,1.0
-1325,27,15,Technical Issue,Closed,2024-06-18,2024-06-28,0.26
-1326,62,30,Technical Issue,Open,2024-10-25,,0.36
-1327,7,21,Damaged Product,Open,2024-09-17,,1.0
-1328,62,8,Product Inquiry,Resolved,2024-05-31,2024-06-02,0.21
-1329,26,7,Product Inquiry,Closed,2025-02-19,2025-03-01,0.31
-1330,39,37,Technical Issue,Open,2024-11-02,,0.45
-1331,56,8,Damaged Product,Resolved,2024-12-10,2024-12-23,0.79
-1332,76,41,Refund Request,Resolved,2024-05-17,2024-05-18,0.57
-1333,97,27,Product Inquiry,In Progress,2024-09-27,,0.05
-1334,81,12,Technical Issue,In Progress,2024-08-01,,0.31
-1335,62,33,Refund Request,In Progress,2024-09-18,,0.29
-1336,34,35,Refund Request,Closed,2024-08-26,2024-09-01,0.47
-1337,87,36,Product Inquiry,In Progress,2024-07-23,,0.65
-1338,15,12,Refund Request,Resolved,2024-10-25,2024-10-26,0.65
-1339,66,31,Damaged Product,Resolved,2024-11-28,2024-12-01,0.0
-1340,9,28,Delivery Delay,In Progress,2024-07-19,,0.87
-1341,57,22,Delivery Delay,Closed,2025-01-29,2025-02-02,0.59
-1342,98,15,Technical Issue,Closed,2025-04-23,2025-04-28,0.98
-1343,40,21,Refund Request,Resolved,2024-08-22,2024-08-24,0.66
-1344,79,14,Damaged Product,Closed,2025-04-29,2025-05-05,0.89
-1345,25,26,Damaged Product,Closed,2025-03-14,2025-03-28,0.66
-1346,79,43,Technical Issue,Closed,2025-04-29,2025-05-05,0.97
-1347,61,42,Refund Request,Resolved,2025-01-01,2025-01-14,0.68
-1348,30,17,Refund Request,Resolved,2025-04-02,2025-04-17,0.47
-1349,48,10,Refund Request,In Progress,2025-02-17,,1.0
-1350,94,23,Product Inquiry,In Progress,2024-12-22,,0.81
-1351,40,28,Product Inquiry,Resolved,2024-06-12,2024-06-25,0.7
-1352,1,26,Product Inquiry,Open,2024-12-06,,0.05
-1353,46,42,Refund Request,Closed,2025-03-22,2025-03-30,0.05
-1354,3,13,Refund Request,Closed,2024-10-13,2024-10-24,0.6
-1355,38,24,Refund Request,Open,2025-04-10,,0.55
-1356,55,25,Technical Issue,In Progress,2024-12-18,,0.29
-1357,72,13,Technical Issue,Closed,2024-05-30,2024-06-09,0.55
-1358,57,18,Delivery Delay,Open,2024-05-15,,1.0
-1359,32,11,Product Inquiry,In Progress,2025-03-27,,0.74
-1360,93,38,Product Inquiry,Resolved,2024-07-27,2024-07-28,0.1
-1361,89,32,Technical Issue,Closed,2025-01-23,2025-01-28,0.46
-1362,76,25,Delivery Delay,Open,2024-11-29,,0.22
-1363,8,41,Refund Request,In Progress,2025-03-22,,0.36
-1364,69,24,Refund Request,Resolved,2024-06-13,2024-06-28,0.36
-1365,15,31,Delivery Delay,Closed,2024-12-21,2025-01-05,0.33
-1366,42,27,Damaged Product,Closed,2024-08-22,2024-09-05,0.06
-1367,76,20,Delivery Delay,Closed,2025-02-17,2025-02-26,0.46
-1368,57,16,Technical Issue,In Progress,2024-05-19,,0.3
-1369,70,43,Technical Issue,In Progress,2024-06-25,,0.0
-1370,68,19,Damaged Product,Open,2024-06-26,,1.0
-1371,99,5,Refund Request,In Progress,2025-05-08,,0.88
-1372,99,29,Refund Request,Closed,2024-10-24,2024-10-27,0.37
-1373,60,15,Refund Request,Resolved,2024-05-30,2024-06-05,0.51
-1374,26,44,Refund Request,In Progress,2024-09-23,,0.09
-1375,78,2,Product Inquiry,Closed,2024-07-05,2024-07-07,1.0
-1376,55,26,Delivery Delay,Resolved,2025-03-04,2025-03-17,1.0
-1377,68,4,Delivery Delay,In Progress,2024-08-10,,0.55
-1378,73,28,Technical Issue,Open,2024-12-19,,0.86
-1379,42,35,Technical Issue,Resolved,2024-06-17,2024-06-22,0.56
-1380,43,41,Delivery Delay,Open,2024-09-14,,0.03
-1381,73,6,Technical Issue,Open,2024-10-06,,0.36
-1382,21,33,Technical Issue,Open,2024-08-12,,0.55
-1383,60,40,Delivery Delay,Closed,2024-05-25,2024-06-07,0.34
-1384,99,44,Refund Request,Resolved,2024-07-05,2024-07-19,0.42
-1385,60,29,Refund Request,Closed,2024-12-27,2025-01-07,0.47
-1386,10,12,Product Inquiry,In Progress,2024-08-13,,0.47
-1387,68,45,Delivery Delay,Resolved,2024-10-01,2024-10-16,0.52
-1388,52,37,Delivery Delay,In Progress,2025-03-15,,0.13
-1389,80,25,Delivery Delay,Open,2024-12-17,,0.25
-1390,29,21,Refund Request,Resolved,2025-03-05,2025-03-08,0.05
-1391,29,38,Technical Issue,In Progress,2025-03-12,,0.84
-1392,59,42,Technical Issue,Closed,2025-01-03,2025-01-16,0.0
-1393,46,37,Damaged Product,Closed,2025-04-01,2025-04-05,0.9
-1394,27,20,Delivery Delay,Closed,2025-04-26,2025-04-28,0.99
-1395,69,39,Damaged Product,Open,2024-11-07,,0.39
-1396,70,23,Refund Request,Open,2024-08-10,,0.0
-1397,41,15,Refund Request,Closed,2024-07-24,2024-07-28,0.37
-1398,21,28,Damaged Product,In Progress,2024-09-21,,0.48
-1399,28,23,Damaged Product,Open,2024-08-30,,0.15
-1400,57,8,Product Inquiry,Resolved,2025-01-25,2025-01-26,0.32
-1401,96,14,Product Inquiry,Resolved,2024-06-08,2024-06-09,1.0
-1402,57,26,Product Inquiry,Closed,2024-05-21,2024-05-25,0.73
-1403,76,8,Damaged Product,Open,2024-10-04,,0.18
-1404,65,38,Damaged Product,Open,2024-09-13,,0.0
-1405,97,14,Product Inquiry,Open,2025-01-06,,0.39
-1406,95,39,Refund Request,In Progress,2024-09-22,,0.43
-1407,54,13,Technical Issue,Closed,2024-06-10,2024-06-12,0.67
-1408,47,31,Technical Issue,In Progress,2024-08-11,,0.31
-1409,15,30,Delivery Delay,Open,2024-12-09,,0.68
-1410,49,27,Delivery Delay,Resolved,2024-09-20,2024-10-04,1.0
-1411,46,24,Delivery Delay,In Progress,2025-01-21,,0.79
-1412,56,42,Damaged Product,In Progress,2025-02-23,,0.48
-1413,90,6,Product Inquiry,Resolved,2025-01-02,2025-01-17,0.44
-1414,3,18,Delivery Delay,In Progress,2024-09-05,,0.38
-1415,19,16,Delivery Delay,Closed,2024-12-14,2024-12-24,0.91
-1416,17,34,Product Inquiry,Closed,2024-10-31,2024-11-03,0.28
-1417,98,3,Technical Issue,Open,2024-08-31,,0.52
-1418,27,43,Refund Request,In Progress,2025-03-12,,0.52
-1419,80,27,Damaged Product,Closed,2025-01-25,2025-02-01,0.32
-1420,23,34,Damaged Product,Closed,2025-01-07,2025-01-19,0.02
-1421,47,8,Product Inquiry,Closed,2024-11-03,2024-11-04,0.61
-1422,27,20,Refund Request,Resolved,2024-07-15,2024-07-26,0.48
-1423,34,40,Delivery Delay,In Progress,2025-04-21,,0.68
-1424,4,22,Product Inquiry,Open,2024-11-04,,0.31
-1425,5,10,Technical Issue,Resolved,2025-04-06,2025-04-07,0.93
-1426,49,39,Delivery Delay,Closed,2024-05-21,2024-05-24,0.19
-1427,2,23,Product Inquiry,Closed,2024-12-12,2024-12-14,1.0
-1428,9,8,Product Inquiry,Resolved,2025-02-11,2025-02-19,0.0
-1429,69,29,Technical Issue,Closed,2024-06-15,2024-06-29,0.65
-1430,82,1,Product Inquiry,In Progress,2024-07-01,,0.67
-1431,61,17,Technical Issue,Closed,2025-03-12,2025-03-18,0.22
-1432,47,40,Product Inquiry,Open,2024-07-27,,0.65
-1433,64,37,Damaged Product,Closed,2024-10-14,2024-10-17,0.95
-1434,66,9,Delivery Delay,Closed,2025-01-20,2025-01-24,0.0
-1435,96,7,Technical Issue,Resolved,2025-02-10,2025-02-15,0.68
-1436,14,16,Damaged Product,Closed,2025-03-26,2025-03-31,0.0
-1437,94,43,Refund Request,In Progress,2024-06-29,,0.16
-1438,91,30,Damaged Product,In Progress,2025-02-26,,1.0
-1439,42,28,Damaged Product,In Progress,2024-05-31,,0.3
-1440,75,3,Delivery Delay,Resolved,2025-03-25,2025-04-05,0.09
-1441,26,12,Damaged Product,Open,2025-01-13,,0.43
-1442,82,3,Product Inquiry,Closed,2024-11-03,2024-11-06,1.0
-1443,42,1,Refund Request,Resolved,2024-09-02,2024-09-10,0.0
-1444,25,41,Damaged Product,Resolved,2025-04-23,2025-05-01,0.13
-1445,59,40,Technical Issue,In Progress,2024-11-04,,1.0
-1446,57,8,Technical Issue,In Progress,2024-08-06,,1.0
-1447,44,22,Refund Request,Closed,2025-01-12,2025-01-17,0.46
-1448,63,36,Delivery Delay,Resolved,2025-02-03,2025-02-14,0.07
-1449,86,22,Delivery Delay,In Progress,2025-03-15,,1.0
-1450,47,28,Technical Issue,Open,2024-12-13,,1.0
-1451,17,7,Delivery Delay,Closed,2024-07-04,2024-07-12,0.74
-1452,16,36,Damaged Product,In Progress,2025-02-16,,0.22
-1453,45,20,Technical Issue,Resolved,2025-03-10,2025-03-17,0.48
-1454,11,33,Technical Issue,Closed,2025-02-06,2025-02-13,0.44
-1455,25,10,Delivery Delay,Closed,2024-05-29,2024-06-11,0.62
-1456,26,23,Technical Issue,Closed,2024-06-06,2024-06-16,1.0
-1457,68,4,Technical Issue,In Progress,2024-10-11,,0.81
-1458,30,45,Damaged Product,Closed,2025-03-03,2025-03-09,0.12
-1459,13,44,Technical Issue,Closed,2024-07-07,2024-07-18,0.98
-1460,29,10,Damaged Product,Resolved,2025-01-25,2025-02-08,0.61
-1461,36,4,Product Inquiry,Resolved,2025-03-20,2025-03-25,0.74
-1462,67,27,Refund Request,Resolved,2024-11-26,2024-12-04,1.0
-1463,18,20,Delivery Delay,Open,2025-05-09,,0.11
-1464,33,36,Damaged Product,In Progress,2025-04-17,,0.49
-1465,94,40,Delivery Delay,Open,2024-05-21,,0.31
-1466,97,27,Product Inquiry,Closed,2024-06-05,2024-06-08,0.0
-1467,21,16,Damaged Product,Resolved,2025-02-12,2025-02-25,0.62
-1468,83,27,Damaged Product,Resolved,2025-01-06,2025-01-16,1.0
-1469,32,23,Damaged Product,Open,2024-10-08,,0.0
-1470,36,9,Technical Issue,Resolved,2024-11-09,2024-11-11,0.49
-1471,87,10,Damaged Product,Closed,2025-01-30,2025-02-07,0.72
-1472,87,18,Delivery Delay,In Progress,2024-05-30,,0.54
-1473,82,8,Technical Issue,In Progress,2025-04-16,,0.46
-1474,14,41,Product Inquiry,Resolved,2025-05-02,2025-05-06,0.05
-1475,39,8,Delivery Delay,Resolved,2024-07-01,2024-07-04,0.58
-1476,97,22,Delivery Delay,In Progress,2024-06-10,,0.24
-1477,49,17,Product Inquiry,Open,2024-05-29,,0.0
-1478,55,38,Product Inquiry,Closed,2024-09-24,2024-10-09,0.92
-1479,98,19,Delivery Delay,Closed,2024-11-22,2024-12-01,0.84
-1480,12,39,Damaged Product,In Progress,2025-03-03,,0.52
-1481,86,32,Delivery Delay,Resolved,2024-12-08,2024-12-15,0.58
-1482,82,7,Refund Request,In Progress,2025-02-21,,0.88
-1483,33,41,Product Inquiry,In Progress,2024-07-03,,0.58
-1484,86,17,Delivery Delay,In Progress,2024-05-26,,0.82
-1485,2,7,Technical Issue,Resolved,2024-06-10,2024-06-14,0.4
-1486,64,15,Refund Request,Resolved,2024-10-07,2024-10-18,0.96
-1487,14,32,Technical Issue,Resolved,2024-07-07,2024-07-17,0.61
-1488,86,25,Technical Issue,Open,2024-07-06,,0.57
-1489,14,38,Technical Issue,Open,2024-10-01,,0.06
-1490,13,8,Technical Issue,Closed,2025-02-05,2025-02-11,0.6
-1491,87,39,Product Inquiry,Resolved,2025-02-13,2025-02-27,0.21
-1492,92,3,Product Inquiry,In Progress,2024-10-05,,0.28
-1493,59,37,Product Inquiry,Open,2024-06-29,,0.21
-1494,81,28,Damaged Product,Open,2024-05-31,,0.13
-1495,73,12,Refund Request,Open,2025-03-15,,1.0
-1496,13,19,Delivery Delay,Resolved,2024-11-14,2024-11-27,0.97
-1497,94,30,Refund Request,In Progress,2024-10-12,,1.0
-1498,88,23,Damaged Product,In Progress,2024-06-17,,0.07
-1499,36,29,Refund Request,Open,2025-01-29,,0.52
-1500,59,45,Damaged Product,In Progress,2025-05-10,,0.05
+1,74,40,Delivery Delay,In Progress,2025-05-01,,0.51
+2,45,19,Refund Request,Closed,2023-10-12,2023-10-14,0.66
+3,36,32,Damaged Product,Resolved,2025-04-17,2025-04-21,0.83
+4,37,17,Damaged Product,Open,2024-07-31,,0.14
+5,86,18,Damaged Product,Closed,2024-12-18,2024-12-20,0.67
+6,71,33,Technical Issue,Closed,2024-04-02,2024-04-03,0.41
+7,6,35,Product Inquiry,Closed,2024-10-27,2024-10-28,0.8
+8,4,24,Technical Issue,Closed,2024-11-04,2024-11-09,0.0
+9,55,29,Product Inquiry,Closed,2025-05-10,2025-05-24,0.47
+10,38,8,Product Inquiry,Open,2024-06-27,,0.29
+11,56,32,Delivery Delay,In Progress,2025-01-01,,0.65
+12,18,18,Refund Request,Open,2024-11-24,,0.66
+13,11,15,Refund Request,Open,2025-03-05,,0.25
+14,21,33,Refund Request,In Progress,2024-08-18,,0.25
+15,59,41,Refund Request,Open,2024-08-24,,0.46
+16,5,28,Technical Issue,Open,2025-04-20,,0.19
+17,41,13,Delivery Delay,Open,2023-10-30,,0.79
+18,32,9,Damaged Product,Resolved,2024-12-05,2024-12-19,0.37
+19,87,13,Product Inquiry,In Progress,2024-06-19,,0.0
+20,20,32,Product Inquiry,Closed,2025-04-04,2025-04-16,0.37
+21,37,9,Delivery Delay,Closed,2024-03-11,2024-03-22,0.14
+22,67,14,Product Inquiry,Open,2025-04-16,,0.0
+23,9,32,Damaged Product,Closed,2024-09-07,2024-09-19,0.07
+24,5,27,Technical Issue,In Progress,2024-09-09,,0.54
+25,49,41,Refund Request,Closed,2025-04-06,2025-04-17,0.97
+26,62,34,Refund Request,Closed,2023-07-30,2023-08-14,0.61
+27,30,19,Product Inquiry,Resolved,2025-01-17,2025-01-25,0.29
+28,77,23,Delivery Delay,Resolved,2024-11-23,2024-11-28,0.66
+29,29,8,Product Inquiry,In Progress,2024-12-26,,0.34
+30,58,21,Product Inquiry,Closed,2024-09-13,2024-09-24,0.26
+31,15,12,Delivery Delay,Resolved,2025-05-13,2025-05-19,0.1
+32,45,45,Damaged Product,Resolved,2023-09-10,2023-09-22,0.0
+33,100,31,Product Inquiry,Resolved,2025-05-09,2025-05-19,0.36
+34,88,16,Refund Request,Open,2024-08-10,,0.56
+35,35,33,Product Inquiry,Closed,2024-11-16,2024-12-01,0.47
+36,8,36,Refund Request,In Progress,2024-02-21,,0.35
+37,87,21,Product Inquiry,Resolved,2025-04-17,2025-04-24,0.17
+38,55,26,Delivery Delay,In Progress,2025-01-19,,0.71
+39,35,32,Delivery Delay,Closed,2025-03-12,2025-03-18,0.04
+40,40,29,Technical Issue,Resolved,2023-08-19,2023-08-23,0.77
+41,22,35,Delivery Delay,Closed,2024-10-26,2024-11-08,0.15
+42,79,40,Damaged Product,In Progress,2023-02-21,,0.24
+43,78,35,Delivery Delay,Open,2024-06-14,,0.0
+44,49,6,Refund Request,In Progress,2025-05-10,,0.32
+45,99,36,Delivery Delay,Open,2024-03-11,,0.84
+46,67,14,Technical Issue,In Progress,2025-03-23,,0.68
+47,26,11,Damaged Product,Resolved,2025-04-15,2025-04-29,0.84
+48,38,11,Refund Request,In Progress,2023-10-18,,0.68
+49,53,14,Delivery Delay,Closed,2024-12-19,2024-12-20,0.11
+50,3,34,Technical Issue,Open,2025-03-29,,0.38
+51,51,32,Damaged Product,Open,2023-12-08,,0.23
+52,37,20,Damaged Product,Open,2023-10-18,,0.97
+53,81,45,Refund Request,Closed,2024-08-23,2024-08-24,0.08
+54,96,8,Product Inquiry,Resolved,2024-03-29,2024-04-09,0.81
+55,17,18,Delivery Delay,Open,2025-02-26,,0.81
+56,10,33,Delivery Delay,Resolved,2024-03-12,2024-03-13,1.0
+57,96,35,Technical Issue,Closed,2024-08-30,2024-09-01,0.36
+58,51,13,Refund Request,In Progress,2024-06-24,,0.75
+59,55,33,Refund Request,Open,2025-04-03,,1.0
+60,36,30,Refund Request,Closed,2025-04-12,2025-04-14,0.28
+61,84,37,Refund Request,Resolved,2025-04-23,2025-04-30,0.0
+62,55,6,Technical Issue,Closed,2025-03-27,2025-04-03,0.0
+63,36,31,Technical Issue,In Progress,2025-05-01,,0.75
+64,65,16,Product Inquiry,Resolved,2024-11-22,2024-11-23,0.0
+65,94,26,Technical Issue,In Progress,2025-02-11,,0.37
+66,92,7,Technical Issue,Resolved,2024-02-03,2024-02-07,0.65
+67,4,26,Refund Request,Closed,2025-03-12,2025-03-20,0.56
+68,62,37,Refund Request,Open,2024-12-11,,0.65
+69,43,10,Delivery Delay,Open,2024-11-02,,0.58
+70,72,11,Product Inquiry,Closed,2024-11-14,2024-11-28,0.95
+71,76,16,Damaged Product,Open,2025-01-04,,0.17
+72,52,40,Technical Issue,Resolved,2024-06-09,2024-06-18,0.26
+73,98,15,Product Inquiry,Open,2024-03-30,,0.23
+74,33,27,Refund Request,In Progress,2023-12-05,,0.79
+75,20,3,Technical Issue,In Progress,2025-04-15,,0.82
+76,77,27,Refund Request,Open,2025-03-22,,0.66
+77,89,14,Product Inquiry,Resolved,2024-07-19,2024-07-28,0.91
+78,41,42,Product Inquiry,Closed,2023-09-23,2023-09-29,0.09
+79,91,31,Delivery Delay,Open,2024-04-20,,1.0
+80,55,45,Product Inquiry,Open,2025-04-21,,1.0
+81,17,1,Delivery Delay,Closed,2025-03-14,2025-03-23,0.76
+82,22,13,Delivery Delay,Resolved,2024-10-14,2024-10-28,1.0
+83,5,28,Technical Issue,Resolved,2024-08-05,2024-08-08,0.0
+84,63,9,Delivery Delay,Resolved,2025-01-26,2025-02-02,0.32
+85,38,8,Refund Request,Resolved,2025-03-12,2025-03-17,0.24
+86,67,21,Technical Issue,In Progress,2025-04-20,,0.75
+87,84,11,Technical Issue,Closed,2023-11-18,2023-11-23,0.13
+88,88,14,Technical Issue,In Progress,2024-05-13,,0.77
+89,78,17,Damaged Product,Resolved,2025-03-25,2025-04-02,0.98
+90,43,9,Product Inquiry,Closed,2023-11-05,2023-11-14,0.74
+91,2,21,Damaged Product,Resolved,2023-09-07,2023-09-10,0.6
+92,61,5,Refund Request,Open,2024-09-15,,0.15
+93,90,13,Delivery Delay,Closed,2023-12-13,2023-12-25,0.2
+94,69,30,Delivery Delay,In Progress,2024-12-29,,0.94
+95,8,40,Damaged Product,Resolved,2024-05-13,2024-05-23,0.77
+96,9,23,Delivery Delay,Closed,2024-09-20,2024-09-26,0.49
+97,25,18,Product Inquiry,In Progress,2024-01-19,,0.35
+98,75,20,Technical Issue,In Progress,2024-06-28,,0.0
+99,99,26,Technical Issue,In Progress,2024-02-09,,0.13
+100,70,42,Technical Issue,Closed,2022-12-16,2022-12-18,1.0
+101,20,7,Damaged Product,Closed,2025-04-11,2025-04-16,0.05
+102,34,37,Damaged Product,Open,2023-12-24,,0.57
+103,67,38,Technical Issue,Resolved,2025-04-21,2025-04-27,0.85
+104,99,38,Technical Issue,In Progress,2025-05-14,,0.06
+105,86,31,Delivery Delay,Closed,2025-03-04,2025-03-07,0.56
+106,30,14,Technical Issue,Open,2024-09-24,,0.83
+107,19,10,Delivery Delay,Closed,2023-12-01,2023-12-09,0.5
+108,42,5,Damaged Product,Open,2025-03-21,,1.0
+109,66,29,Product Inquiry,Resolved,2024-04-19,2024-04-30,0.0
+110,42,20,Damaged Product,Open,2025-02-18,,0.87
+111,72,26,Product Inquiry,Resolved,2023-11-18,2023-12-01,0.44
+112,91,31,Refund Request,In Progress,2023-07-20,,0.77
+113,67,21,Technical Issue,Open,2025-05-01,,0.65
+114,28,11,Damaged Product,In Progress,2024-04-25,,0.24
+115,56,36,Refund Request,Resolved,2025-01-15,2025-01-23,0.58
+116,88,8,Refund Request,Resolved,2025-01-13,2025-01-24,0.0
+117,23,2,Product Inquiry,In Progress,2023-10-17,,0.71
+118,99,43,Product Inquiry,In Progress,2023-08-31,,0.6
+119,28,40,Refund Request,Closed,2025-03-19,2025-03-26,0.72
+120,23,1,Refund Request,Closed,2024-03-24,2024-04-01,0.87
+121,68,13,Technical Issue,Open,2025-04-23,,0.63
+122,40,22,Refund Request,Open,2025-03-25,,0.55
+123,33,33,Technical Issue,Open,2024-03-06,,0.19
+124,35,3,Product Inquiry,In Progress,2023-05-15,,0.25
+125,51,3,Refund Request,In Progress,2024-06-12,,0.92
+126,81,4,Product Inquiry,Open,2025-01-03,,1.0
+127,78,41,Damaged Product,Resolved,2024-02-19,2024-02-27,0.42
+128,61,42,Delivery Delay,Open,2024-07-15,,0.52
+129,48,2,Damaged Product,Closed,2024-12-07,2024-12-19,0.18
+130,17,6,Delivery Delay,Resolved,2025-04-03,2025-04-17,0.91
+131,8,29,Refund Request,Open,2025-03-27,,0.73
+132,13,35,Damaged Product,In Progress,2025-01-29,,1.0
+133,84,40,Refund Request,Open,2023-05-31,,0.19
+134,87,21,Technical Issue,Closed,2025-03-08,2025-03-23,0.37
+135,93,24,Product Inquiry,Open,2024-12-14,,0.58
+136,54,43,Delivery Delay,Open,2024-11-17,,0.73
+137,25,33,Refund Request,Closed,2023-04-26,2023-05-08,0.42
+138,11,12,Refund Request,Resolved,2025-02-23,2025-02-24,0.19
+139,78,13,Delivery Delay,Resolved,2024-10-20,2024-10-23,0.81
+140,40,18,Delivery Delay,In Progress,2024-06-03,,0.75
+141,44,30,Technical Issue,Open,2023-07-28,,0.18
+142,60,6,Delivery Delay,Open,2024-11-03,,0.97
+143,24,6,Technical Issue,Closed,2023-01-04,2023-01-10,0.91
+144,81,2,Delivery Delay,Closed,2024-10-25,2024-11-07,0.55
+145,28,41,Product Inquiry,In Progress,2024-10-30,,0.53
+146,11,16,Damaged Product,In Progress,2024-12-27,,0.69
+147,96,9,Delivery Delay,In Progress,2025-01-21,,0.2
+148,49,19,Damaged Product,Closed,2025-04-01,2025-04-06,0.51
+149,73,21,Damaged Product,Resolved,2025-04-14,2025-04-18,0.0
+150,35,13,Refund Request,Closed,2024-06-02,2024-06-07,0.81
+151,90,29,Delivery Delay,In Progress,2024-01-06,,0.0
+152,63,23,Refund Request,In Progress,2025-05-03,,1.0
+153,99,42,Damaged Product,Resolved,2024-02-11,2024-02-25,0.38
+154,5,38,Technical Issue,Resolved,2023-05-24,2023-05-27,0.43
+155,73,14,Refund Request,Resolved,2025-04-19,2025-04-25,0.28
+156,27,22,Delivery Delay,In Progress,2024-08-15,,0.4
+157,66,14,Damaged Product,In Progress,2025-01-28,,1.0
+158,60,17,Delivery Delay,Open,2024-07-23,,0.0
+159,67,43,Damaged Product,Closed,2025-03-06,2025-03-14,0.95
+160,60,38,Refund Request,In Progress,2025-01-31,,0.62
+161,73,25,Refund Request,Open,2025-05-03,,0.08
+162,90,7,Delivery Delay,In Progress,2025-01-12,,0.12
+163,21,27,Refund Request,Resolved,2024-09-27,2024-10-03,1.0
+164,83,7,Refund Request,Closed,2024-10-14,2024-10-29,0.17
+165,40,11,Damaged Product,Resolved,2023-11-21,2023-11-30,0.1
+166,97,2,Technical Issue,Resolved,2023-01-31,2023-02-13,0.9
+167,59,38,Product Inquiry,Resolved,2025-02-19,2025-03-03,0.62
+168,61,16,Refund Request,In Progress,2025-05-07,,0.17
+169,77,22,Product Inquiry,Resolved,2024-08-17,2024-08-28,0.58
+170,39,3,Technical Issue,Closed,2024-11-02,2024-11-15,0.14
+171,14,27,Refund Request,Resolved,2025-04-27,2025-05-10,0.89
+172,74,26,Damaged Product,Open,2025-04-29,,0.87
+173,66,11,Technical Issue,In Progress,2025-01-09,,0.69
+174,90,34,Damaged Product,Closed,2024-09-26,2024-10-06,0.63
+175,17,43,Delivery Delay,In Progress,2025-02-07,,1.0
+176,12,20,Refund Request,Closed,2023-11-18,2023-12-01,0.5
+177,59,26,Delivery Delay,Closed,2024-12-03,2024-12-11,0.09
+178,85,10,Damaged Product,Closed,2024-03-14,2024-03-29,0.66
+179,39,20,Damaged Product,Open,2024-07-27,,1.0
+180,31,14,Damaged Product,Resolved,2024-08-08,2024-08-10,0.14
+181,20,44,Delivery Delay,In Progress,2025-04-06,,0.37
+182,62,11,Delivery Delay,In Progress,2023-06-25,,0.65
+183,61,36,Damaged Product,Resolved,2024-11-04,2024-11-16,0.48
+184,61,43,Product Inquiry,Resolved,2025-01-12,2025-01-26,0.16
+185,91,16,Product Inquiry,Open,2024-04-27,,0.89
+186,17,21,Refund Request,Closed,2024-12-21,2024-12-28,1.0
+187,37,44,Product Inquiry,Resolved,2023-12-04,2023-12-14,0.57
+188,69,5,Product Inquiry,In Progress,2025-01-20,,0.18
+189,86,38,Damaged Product,Open,2024-09-09,,0.0
+190,78,12,Refund Request,Closed,2024-02-25,2024-03-02,0.59
+191,44,33,Technical Issue,Open,2022-11-08,,0.89
+192,77,26,Damaged Product,Open,2024-06-21,,0.67
+193,18,32,Damaged Product,Closed,2024-10-13,2024-10-14,0.5
+194,39,28,Refund Request,Open,2023-04-26,,0.29
+195,50,42,Damaged Product,Closed,2025-04-09,2025-04-16,0.12
+196,37,20,Product Inquiry,Resolved,2024-05-28,2024-06-08,0.79
+197,5,17,Damaged Product,Resolved,2023-03-18,2023-03-21,0.82
+198,51,44,Product Inquiry,Open,2023-10-17,,0.0
+199,11,23,Product Inquiry,Open,2024-12-05,,1.0
+200,2,11,Damaged Product,In Progress,2024-12-13,,0.7
+201,74,33,Product Inquiry,Resolved,2025-04-23,2025-05-04,0.99
+202,2,32,Delivery Delay,Resolved,2024-12-05,2024-12-12,0.03
+203,39,28,Delivery Delay,In Progress,2024-03-12,,0.02
+204,78,29,Product Inquiry,In Progress,2024-06-30,,0.45
+205,92,22,Delivery Delay,In Progress,2024-07-20,,0.68
+206,23,28,Delivery Delay,Resolved,2024-08-09,2024-08-23,1.0
+207,20,1,Technical Issue,In Progress,2025-04-12,,0.75
+208,34,13,Delivery Delay,Resolved,2024-05-12,2024-05-19,0.42
+209,60,19,Delivery Delay,Open,2024-06-12,,0.14
+210,63,30,Delivery Delay,In Progress,2025-04-21,,0.93
+211,77,44,Refund Request,In Progress,2024-04-15,,0.16
+212,55,22,Delivery Delay,In Progress,2025-02-07,,1.0
+213,70,18,Refund Request,Closed,2023-10-19,2023-10-24,0.4
+214,54,2,Refund Request,Resolved,2024-10-26,2024-11-01,1.0
+215,82,3,Refund Request,Open,2024-12-31,,0.74
+216,94,3,Damaged Product,Resolved,2024-11-16,2024-11-20,0.45
+217,11,35,Damaged Product,Open,2025-05-01,,0.32
+218,94,10,Refund Request,Resolved,2025-04-11,2025-04-18,0.38
+219,45,30,Technical Issue,Closed,2023-05-25,2023-06-09,0.65
+220,73,30,Delivery Delay,Open,2025-04-24,,0.53
+221,42,24,Damaged Product,Open,2025-04-24,,0.29
+222,78,41,Product Inquiry,Open,2024-01-10,,0.44
+223,66,6,Refund Request,In Progress,2025-05-03,,0.53
+224,55,26,Damaged Product,Open,2025-01-30,,0.0
+225,96,17,Product Inquiry,Open,2025-02-04,,0.66
+226,15,13,Refund Request,In Progress,2024-02-12,,0.16
+227,79,33,Delivery Delay,Closed,2023-06-04,2023-06-16,0.1
+228,48,37,Product Inquiry,Resolved,2024-10-08,2024-10-12,0.0
+229,36,45,Technical Issue,Closed,2025-04-12,2025-04-17,0.0
+230,86,3,Damaged Product,Resolved,2025-01-20,2025-02-04,0.03
+231,87,19,Delivery Delay,In Progress,2024-08-19,,0.25
+232,53,14,Product Inquiry,Open,2025-03-07,,1.0
+233,85,9,Refund Request,In Progress,2023-07-24,,0.32
+234,60,39,Delivery Delay,In Progress,2024-06-14,,0.56
+235,29,15,Refund Request,Open,2023-07-14,,0.64
+236,29,5,Technical Issue,In Progress,2023-04-08,,0.55
+237,59,38,Technical Issue,Resolved,2024-12-19,2024-12-30,0.47
+238,43,35,Technical Issue,Resolved,2024-10-29,2024-11-06,0.08
+239,2,22,Refund Request,In Progress,2025-03-13,,1.0
+240,45,29,Product Inquiry,Closed,2024-05-26,2024-06-03,1.0
+241,27,35,Product Inquiry,Closed,2023-03-19,2023-03-30,0.0
+242,33,26,Technical Issue,Open,2024-10-12,,0.14
+243,11,41,Refund Request,Resolved,2025-04-24,2025-05-03,0.4
+244,11,14,Refund Request,In Progress,2025-02-24,,0.16
+245,38,21,Product Inquiry,Resolved,2024-09-01,2024-09-12,0.68
+246,4,10,Refund Request,Closed,2024-12-09,2024-12-19,0.25
+247,73,28,Delivery Delay,Resolved,2025-05-08,2025-05-21,1.0
+248,97,19,Product Inquiry,Resolved,2023-08-27,2023-08-31,0.92
+249,69,9,Delivery Delay,Resolved,2025-05-13,2025-05-23,0.57
+250,13,26,Delivery Delay,Closed,2025-01-22,2025-01-26,0.86
+251,74,19,Damaged Product,Closed,2025-04-19,2025-05-03,0.89
+252,99,26,Damaged Product,Resolved,2024-08-29,2024-09-04,0.3
+253,54,39,Refund Request,In Progress,2024-08-21,,0.21
+254,99,24,Refund Request,Open,2023-11-06,,0.53
+255,65,35,Product Inquiry,Resolved,2023-10-24,2023-10-28,0.8
+256,64,30,Product Inquiry,In Progress,2025-05-06,,0.55
+257,21,12,Delivery Delay,Resolved,2025-03-08,2025-03-13,0.0
+258,69,22,Damaged Product,Resolved,2024-10-11,2024-10-22,0.22
+259,88,7,Product Inquiry,Resolved,2024-09-09,2024-09-19,0.47
+260,54,27,Delivery Delay,Closed,2024-12-21,2025-01-01,0.47
+261,80,15,Technical Issue,Closed,2023-02-26,2023-03-08,1.0
+262,65,6,Refund Request,Resolved,2024-12-04,2024-12-05,0.01
+263,79,16,Product Inquiry,Closed,2023-08-03,2023-08-13,0.68
+264,88,6,Delivery Delay,In Progress,2024-06-09,,1.0
+265,96,39,Technical Issue,Resolved,2024-01-19,2024-01-28,1.0
+266,25,11,Damaged Product,Resolved,2024-05-24,2024-05-30,0.36
+267,23,31,Damaged Product,Closed,2025-04-23,2025-04-29,0.67
+268,38,5,Damaged Product,Open,2023-04-11,,0.7
+269,74,30,Technical Issue,Resolved,2025-05-12,2025-05-16,0.57
+270,57,16,Technical Issue,Closed,2023-06-22,2023-06-30,0.47
+271,83,8,Damaged Product,In Progress,2024-09-26,,0.65
+272,32,30,Delivery Delay,Open,2025-02-15,,0.0
+273,96,3,Technical Issue,Resolved,2025-04-07,2025-04-21,0.74
+274,61,25,Product Inquiry,Open,2024-12-04,,0.54
+275,34,35,Technical Issue,Open,2024-08-27,,0.42
+276,83,35,Product Inquiry,Open,2024-02-07,,1.0
+277,62,4,Product Inquiry,In Progress,2024-01-27,,0.26
+278,93,3,Product Inquiry,In Progress,2025-02-12,,0.36
+279,92,33,Delivery Delay,Resolved,2025-05-14,2025-05-21,1.0
+280,14,10,Technical Issue,In Progress,2025-05-11,,0.21
+281,97,8,Product Inquiry,Closed,2022-12-15,2022-12-21,0.31
+282,85,22,Damaged Product,Closed,2023-12-31,2024-01-15,0.45
+283,62,14,Delivery Delay,In Progress,2024-01-24,,0.79
+284,43,42,Product Inquiry,Open,2023-10-23,,0.57
+285,91,32,Refund Request,Closed,2023-07-06,2023-07-19,0.05
+286,44,19,Product Inquiry,Resolved,2024-11-28,2024-12-04,0.31
+287,90,17,Technical Issue,In Progress,2023-11-24,,0.29
+288,5,9,Refund Request,Closed,2024-04-24,2024-05-03,0.47
+289,4,15,Technical Issue,In Progress,2025-04-24,,0.65
+290,47,19,Damaged Product,In Progress,2025-02-05,,0.65
+291,73,41,Product Inquiry,In Progress,2025-04-29,,0.0
+292,92,29,Damaged Product,In Progress,2024-05-05,,0.87
+293,96,45,Technical Issue,Closed,2024-06-12,2024-06-15,0.59
+294,38,25,Damaged Product,In Progress,2024-08-08,,0.98
+295,4,14,Damaged Product,In Progress,2024-07-12,,0.66
+296,75,1,Refund Request,In Progress,2024-04-09,,0.89
+297,93,33,Technical Issue,Resolved,2024-07-26,2024-08-03,0.66
+298,22,23,Technical Issue,Closed,2025-02-15,2025-02-25,0.97
+299,41,34,Product Inquiry,In Progress,2025-03-20,,0.68
+300,63,42,Technical Issue,Closed,2025-05-04,2025-05-18,0.47
+301,62,12,Product Inquiry,Resolved,2022-10-05,2022-10-20,1.0
+302,2,43,Refund Request,Open,2024-05-08,,0.81
+303,29,20,Damaged Product,Closed,2024-01-10,2024-01-14,0.7
+304,36,39,Damaged Product,Open,2025-04-26,,0.05
+305,46,32,Delivery Delay,Resolved,2024-12-29,2025-01-08,0.05
+306,96,34,Damaged Product,Closed,2024-07-17,2024-07-29,0.6
+307,47,43,Product Inquiry,Open,2024-03-15,,0.55
+308,81,7,Technical Issue,In Progress,2024-12-14,,0.29
+309,9,18,Delivery Delay,Open,2024-11-02,,0.55
+310,58,37,Refund Request,Closed,2024-10-09,2024-10-13,1.0
+311,95,12,Product Inquiry,Closed,2024-03-18,2024-03-22,0.74
+312,23,3,Technical Issue,In Progress,2024-07-09,,0.1
+313,36,6,Delivery Delay,Closed,2025-05-02,2025-05-14,0.46
+314,17,34,Delivery Delay,In Progress,2025-01-03,,0.22
+315,27,15,Technical Issue,Closed,2022-12-18,2022-12-28,0.36
+316,62,30,Technical Issue,Open,2024-01-11,,0.36
+317,7,21,Damaged Product,Open,2023-09-30,,0.33
+318,62,8,Product Inquiry,Resolved,2024-12-31,2025-01-02,0.06
+319,26,7,Product Inquiry,Closed,2025-05-06,2025-05-16,0.46
+320,39,37,Technical Issue,Open,2024-11-18,,0.3
+321,56,8,Damaged Product,Resolved,2025-03-22,2025-04-04,0.0
+322,76,41,Refund Request,Resolved,2024-12-15,2024-12-16,1.0
+323,97,27,Product Inquiry,In Progress,2025-01-05,,0.88
+324,81,12,Technical Issue,In Progress,2024-11-19,,0.37
+325,62,33,Refund Request,In Progress,2023-08-19,,0.51
+326,34,35,Refund Request,Closed,2025-04-13,2025-04-19,0.09
+327,87,36,Product Inquiry,In Progress,2024-04-23,,1.0
+328,15,12,Refund Request,Resolved,2024-08-15,2024-08-16,1.0
+329,66,31,Damaged Product,Resolved,2025-03-13,2025-03-16,0.55
+330,9,28,Delivery Delay,In Progress,2025-01-28,,0.86
+331,57,22,Delivery Delay,Closed,2024-03-14,2024-03-18,0.56
+332,98,15,Technical Issue,Closed,2025-01-22,2025-01-27,0.03
+333,40,21,Refund Request,Resolved,2024-08-29,2024-08-31,0.36
+334,79,14,Damaged Product,Closed,2023-08-27,2023-09-02,0.55
+335,25,26,Damaged Product,Closed,2023-06-10,2023-06-24,0.34
+336,79,43,Technical Issue,Closed,2024-06-07,2024-06-13,0.42
+337,61,42,Refund Request,Resolved,2024-07-01,2024-07-14,0.47
+338,30,17,Refund Request,Resolved,2025-04-03,2025-04-18,0.47
+339,48,10,Refund Request,In Progress,2024-05-22,,0.52
+340,94,23,Product Inquiry,In Progress,2024-10-07,,0.13
+341,40,28,Product Inquiry,Resolved,2023-08-05,2023-08-18,0.25
+342,1,26,Product Inquiry,Open,2024-10-20,,0.05
+343,46,42,Refund Request,Closed,2025-01-01,2025-01-09,0.84
+344,3,13,Refund Request,Closed,2024-11-19,2024-11-30,0.0
+345,38,24,Refund Request,Open,2022-10-04,,0.9
+346,55,25,Technical Issue,In Progress,2025-01-28,,0.99
+347,72,13,Technical Issue,Closed,2025-03-04,2025-03-14,0.39
+348,57,18,Delivery Delay,Open,2023-02-14,,0.0
+349,32,11,Product Inquiry,In Progress,2024-12-27,,0.37
+350,93,38,Product Inquiry,Resolved,2025-01-02,2025-01-03,0.48
+351,89,32,Technical Issue,Closed,2025-01-18,2025-01-23,0.15
+352,76,25,Delivery Delay,Open,2024-12-28,,0.32
+353,8,41,Refund Request,In Progress,2023-12-12,,1.0
+354,69,24,Refund Request,Resolved,2024-11-05,2024-11-20,0.73
+355,15,31,Delivery Delay,Closed,2025-01-20,2025-02-04,0.18
+356,42,27,Damaged Product,Closed,2025-04-09,2025-04-23,0.0
+357,76,20,Delivery Delay,Closed,2025-01-23,2025-02-01,0.39
+358,57,16,Technical Issue,In Progress,2024-07-14,,0.43
+359,70,43,Technical Issue,In Progress,2024-06-06,,0.67
+360,68,19,Damaged Product,Open,2025-05-14,,0.31
+361,99,5,Refund Request,In Progress,2024-06-23,,0.68
+362,99,29,Refund Request,Closed,2024-11-10,2024-11-13,1.0
+363,60,15,Refund Request,Resolved,2024-07-24,2024-07-30,0.79
+364,26,44,Refund Request,In Progress,2025-04-16,,0.48
+365,78,2,Product Inquiry,Closed,2024-05-18,2024-05-20,0.44
+366,55,26,Delivery Delay,Resolved,2025-02-10,2025-02-23,0.38
+367,68,4,Delivery Delay,In Progress,2025-04-29,,0.91
+368,73,28,Technical Issue,Open,2025-04-12,,0.28
+369,42,35,Technical Issue,Resolved,2025-03-19,2025-03-24,0.52
+370,43,41,Delivery Delay,Open,2024-11-03,,0.52
+371,73,6,Technical Issue,Open,2025-05-03,,0.32
+372,21,33,Technical Issue,Open,2024-09-21,,0.02
+373,60,40,Delivery Delay,Closed,2024-08-12,2024-08-25,0.61
+374,99,44,Refund Request,Resolved,2025-04-12,2025-04-26,0.48
+375,60,29,Refund Request,Closed,2024-11-09,2024-11-20,0.68
+376,10,12,Product Inquiry,In Progress,2023-11-27,,0.31
+377,68,45,Delivery Delay,Resolved,2025-05-03,2025-05-18,0.93
+378,52,37,Delivery Delay,In Progress,2025-01-09,,0.19
+379,80,25,Delivery Delay,Open,2023-08-28,,1.0
+380,29,21,Refund Request,Resolved,2023-08-19,2023-08-22,0.0
+381,29,38,Technical Issue,In Progress,2023-09-17,,0.65
+382,59,42,Technical Issue,Closed,2024-08-26,2024-09-08,0.67
+383,46,37,Damaged Product,Closed,2025-01-29,2025-02-02,0.22
+384,27,20,Delivery Delay,Closed,2023-10-25,2023-10-27,0.65
+385,69,39,Damaged Product,Open,2024-06-10,,0.95
+386,70,23,Refund Request,Open,2024-02-17,,0.0
+387,41,15,Refund Request,Closed,2024-05-01,2024-05-05,0.68
+388,21,28,Damaged Product,In Progress,2024-12-19,,0.0
+389,28,23,Damaged Product,Open,2024-04-29,,0.16
+390,57,8,Product Inquiry,Resolved,2024-08-13,2024-08-14,1.0
+391,96,14,Product Inquiry,Resolved,2024-12-16,2024-12-17,0.3
+392,57,26,Product Inquiry,Closed,2023-02-14,2023-02-18,0.09
+393,76,8,Damaged Product,Open,2025-02-11,,0.43
+394,65,38,Damaged Product,Open,2024-07-27,,1.0
+395,97,14,Product Inquiry,Open,2025-05-09,,0.0
+396,95,39,Refund Request,In Progress,2023-08-21,,0.13
+397,54,13,Technical Issue,Closed,2025-03-15,2025-03-17,1.0
+398,47,31,Technical Issue,In Progress,2024-08-23,,1.0
+399,15,30,Delivery Delay,Open,2024-11-11,,0.46
+400,49,27,Delivery Delay,Resolved,2025-05-02,2025-05-16,0.07
+401,46,24,Delivery Delay,In Progress,2025-05-11,,1.0
+402,56,42,Damaged Product,In Progress,2024-12-17,,1.0
+403,90,6,Product Inquiry,Resolved,2024-09-28,2024-10-13,0.74
+404,3,18,Delivery Delay,In Progress,2025-03-27,,0.22
+405,19,16,Delivery Delay,Closed,2024-06-09,2024-06-19,0.48
+406,17,34,Product Inquiry,Closed,2025-05-05,2025-05-08,0.44
+407,98,3,Technical Issue,Open,2024-08-13,,0.62
+408,27,43,Refund Request,In Progress,2023-02-06,,1.0
+409,80,27,Damaged Product,Closed,2022-12-12,2022-12-19,0.81
+410,23,34,Damaged Product,Closed,2025-03-22,2025-04-03,0.12
+411,47,8,Product Inquiry,Closed,2025-01-15,2025-01-16,0.98
+412,27,20,Refund Request,Resolved,2025-01-27,2025-02-07,0.61
+413,34,40,Delivery Delay,In Progress,2024-03-12,,0.74
+414,4,22,Product Inquiry,Open,2025-04-06,,1.0
+415,5,10,Technical Issue,Resolved,2023-07-01,2023-07-02,0.11
+416,49,39,Delivery Delay,Closed,2025-03-24,2025-03-27,0.49
+417,2,23,Product Inquiry,Closed,2023-10-26,2023-10-28,0.31
+418,9,8,Product Inquiry,Resolved,2024-09-06,2024-09-14,0.0
+419,69,29,Technical Issue,Closed,2024-06-25,2024-07-09,0.62
+420,82,1,Product Inquiry,In Progress,2024-11-28,,1.0
+421,61,17,Technical Issue,Closed,2024-10-16,2024-10-22,0.0
+422,47,40,Product Inquiry,Open,2024-03-26,,0.49
+423,64,37,Damaged Product,Closed,2025-01-15,2025-01-18,0.72
+424,66,9,Delivery Delay,Closed,2025-03-02,2025-03-06,0.54
+425,96,7,Technical Issue,Resolved,2025-03-06,2025-03-11,0.46
+426,14,16,Damaged Product,Closed,2025-05-08,2025-05-13,0.05
+427,94,43,Refund Request,In Progress,2024-11-17,,0.58
+428,91,30,Damaged Product,In Progress,2025-04-30,,0.24
+429,42,28,Damaged Product,In Progress,2025-01-19,,0.0
+430,75,3,Delivery Delay,Resolved,2024-10-09,2024-10-20,0.92
+431,26,12,Damaged Product,Open,2025-05-10,,0.84
+432,82,3,Product Inquiry,Closed,2024-08-28,2024-08-31,0.52
+433,42,1,Refund Request,Resolved,2025-04-08,2025-04-16,0.58
+434,25,41,Damaged Product,Resolved,2023-07-30,2023-08-07,0.88
+435,59,40,Technical Issue,In Progress,2025-01-02,,0.58
+436,57,8,Technical Issue,In Progress,2023-12-21,,0.82
+437,44,22,Refund Request,Closed,2023-10-18,2023-10-23,0.4
+438,63,36,Delivery Delay,Resolved,2025-03-30,2025-04-10,0.96
+439,86,22,Delivery Delay,In Progress,2024-04-02,,0.61
+440,47,28,Technical Issue,Open,2024-09-05,,0.57
+441,17,7,Delivery Delay,Closed,2025-03-01,2025-03-09,0.06
+442,16,36,Damaged Product,In Progress,2025-04-17,,0.6
+443,45,20,Technical Issue,Resolved,2024-09-07,2024-09-14,0.21
+444,11,33,Technical Issue,Closed,2025-01-23,2025-01-30,0.28
+445,25,10,Delivery Delay,Closed,2025-05-04,2025-05-17,0.21
+446,26,23,Technical Issue,Closed,2025-05-05,2025-05-15,0.13
+447,68,4,Technical Issue,In Progress,2025-04-28,,1.0
+448,30,45,Damaged Product,Closed,2025-02-22,2025-02-28,0.97
+449,13,44,Technical Issue,Closed,2025-05-09,2025-05-20,1.0
+450,29,10,Damaged Product,Resolved,2023-02-12,2023-02-26,0.07
+451,36,4,Product Inquiry,Resolved,2025-04-02,2025-04-07,0.52
+452,67,27,Refund Request,Resolved,2025-04-30,2025-05-08,0.05
+453,18,20,Delivery Delay,Open,2025-03-11,,0.26
+454,33,36,Damaged Product,In Progress,2025-05-05,,0.18
+455,94,40,Delivery Delay,Open,2025-02-26,,0.93
+456,97,27,Product Inquiry,Closed,2025-01-23,2025-01-26,0.36
+457,21,16,Damaged Product,Resolved,2025-05-01,2025-05-14,0.87
+458,83,27,Damaged Product,Resolved,2023-05-21,2023-05-31,0.71
+459,32,23,Damaged Product,Open,2025-03-28,,1.0
+460,36,9,Technical Issue,Resolved,2025-03-25,2025-03-27,0.0
+461,87,10,Damaged Product,Closed,2024-12-13,2024-12-21,0.94
+462,87,18,Delivery Delay,In Progress,2024-10-04,,0.9
+463,82,8,Technical Issue,In Progress,2025-02-21,,0.16
+464,14,41,Product Inquiry,Resolved,2025-05-13,2025-05-17,0.85
+465,39,8,Delivery Delay,Resolved,2024-12-12,2024-12-15,0.62
+466,97,22,Delivery Delay,In Progress,2023-04-16,,0.42
+467,49,17,Product Inquiry,Open,2025-03-03,,0.21
+468,55,38,Product Inquiry,Closed,2025-03-20,2025-04-04,0.25
+469,98,19,Delivery Delay,Closed,2024-02-28,2024-03-08,1.0
+470,12,39,Damaged Product,In Progress,2023-08-01,,0.5
+471,86,32,Delivery Delay,Resolved,2025-03-29,2025-04-05,0.77
+472,82,7,Refund Request,In Progress,2024-12-27,,0.22
+473,33,41,Product Inquiry,In Progress,2025-02-27,,0.23
+474,86,17,Delivery Delay,In Progress,2025-04-18,,0.88
+475,2,7,Technical Issue,Resolved,2024-06-17,2024-06-21,0.03
+476,64,15,Refund Request,Resolved,2024-07-17,2024-07-28,0.35
+477,14,32,Technical Issue,Resolved,2025-04-20,2025-04-30,0.51
+478,86,25,Technical Issue,Open,2024-09-05,,0.54
+479,14,38,Technical Issue,Open,2025-04-24,,0.44
+480,13,8,Technical Issue,Closed,2025-04-26,2025-05-02,0.64
+481,87,39,Product Inquiry,Resolved,2024-07-07,2024-07-21,0.74
+482,92,3,Product Inquiry,In Progress,2024-11-18,,0.76
+483,59,37,Product Inquiry,Open,2024-12-20,,0.15
+484,81,28,Damaged Product,Open,2025-05-09,,0.4
+485,73,12,Refund Request,Open,2025-05-02,,0.92
+486,13,19,Delivery Delay,Resolved,2025-01-29,2025-02-11,0.81
+487,94,30,Refund Request,In Progress,2025-04-03,,0.02
+488,88,23,Damaged Product,In Progress,2024-10-12,,0.62
+489,36,29,Refund Request,Open,2025-03-28,,0.0
+490,59,45,Damaged Product,In Progress,2024-09-28,,0.52
+491,27,36,Product Inquiry,In Progress,2023-07-06,,1.0
+492,97,23,Product Inquiry,Closed,2024-12-14,2024-12-28,0.17
+493,12,22,Technical Issue,In Progress,2024-09-17,,0.21
+494,69,15,Refund Request,In Progress,2024-12-24,,0.77
+495,13,6,Technical Issue,Resolved,2025-01-27,2025-02-02,0.0
+496,64,41,Product Inquiry,Closed,2025-01-31,2025-02-13,0.28
+497,26,17,Refund Request,Resolved,2025-04-18,2025-04-24,0.71
+498,57,24,Refund Request,Closed,2023-01-31,2023-02-03,0.28
+499,3,8,Refund Request,Closed,2025-04-26,2025-05-06,0.42
+500,65,45,Technical Issue,In Progress,2025-03-27,,0.76
+501,69,12,Delivery Delay,Resolved,2024-12-19,2024-12-29,0.65
+502,26,6,Technical Issue,Open,2025-04-26,,0.59
+503,85,26,Damaged Product,In Progress,2024-04-20,,0.38
+504,92,22,Product Inquiry,In Progress,2024-08-07,,0.63
+505,18,25,Refund Request,Open,2024-10-25,,0.46
+506,79,37,Refund Request,Open,2025-03-20,,0.66
+507,29,29,Damaged Product,Open,2023-05-18,,0.33
+508,71,10,Delivery Delay,In Progress,2024-04-13,,0.44
+509,64,15,Damaged Product,Closed,2024-10-28,2024-11-01,0.15
+510,57,42,Delivery Delay,Closed,2023-08-12,2023-08-15,0.49
+511,38,16,Technical Issue,Open,2025-04-10,,0.22
+512,62,29,Technical Issue,Resolved,2025-01-24,2025-02-02,0.11
+513,73,13,Technical Issue,Resolved,2025-05-12,2025-05-15,0.59
+514,75,26,Refund Request,Resolved,2024-01-25,2024-02-06,0.57
+515,91,24,Product Inquiry,In Progress,2024-09-04,,0.77
+516,48,24,Technical Issue,Closed,2025-02-14,2025-02-20,0.35
+517,46,5,Damaged Product,Closed,2025-02-16,2025-02-22,0.64
+518,69,38,Technical Issue,Closed,2024-02-14,2024-02-16,0.69
+519,91,31,Delivery Delay,In Progress,2024-12-17,,0.66
+520,78,15,Technical Issue,In Progress,2024-02-10,,0.21
+521,29,30,Technical Issue,In Progress,2023-06-29,,0.55
+522,7,30,Technical Issue,Resolved,2024-07-18,2024-07-26,0.63
+523,56,5,Technical Issue,Closed,2024-12-22,2024-12-23,0.5
+524,58,36,Refund Request,Open,2024-05-30,,0.0
+525,62,10,Refund Request,Open,2024-04-30,,0.56
+526,9,18,Delivery Delay,In Progress,2025-03-06,,1.0
+527,92,39,Damaged Product,Resolved,2024-07-07,2024-07-14,0.37
+528,51,14,Technical Issue,Resolved,2022-10-16,2022-10-21,0.25
+529,90,44,Refund Request,In Progress,2025-04-24,,0.63
+530,30,37,Technical Issue,Resolved,2024-09-25,2024-09-28,0.61
+531,88,38,Delivery Delay,In Progress,2024-03-16,,0.92
+532,79,4,Technical Issue,In Progress,2024-10-23,,0.06
+533,16,5,Technical Issue,Open,2023-01-27,,0.76
+534,53,11,Technical Issue,Closed,2023-12-01,2023-12-05,0.71
+535,100,12,Product Inquiry,Closed,2025-05-11,2025-05-12,0.45
+536,94,8,Delivery Delay,In Progress,2025-03-22,,0.62
+537,13,26,Product Inquiry,Resolved,2025-05-06,2025-05-19,0.86
+538,49,45,Refund Request,Resolved,2025-05-08,2025-05-11,0.81
+539,24,7,Refund Request,In Progress,2024-08-03,,0.1
+540,23,28,Product Inquiry,In Progress,2024-09-23,,0.79
+541,12,12,Product Inquiry,In Progress,2023-06-14,,0.48
+542,26,15,Delivery Delay,In Progress,2025-04-21,,0.53
+543,44,29,Technical Issue,Open,2022-11-21,,0.53
+544,33,2,Technical Issue,Open,2024-03-07,,0.45
+545,8,44,Delivery Delay,In Progress,2023-12-19,,0.92
+546,22,1,Delivery Delay,Open,2024-12-01,,0.47
+547,42,25,Delivery Delay,In Progress,2025-02-12,,0.11
+548,73,37,Delivery Delay,In Progress,2025-04-02,,0.36
+549,23,13,Technical Issue,Resolved,2024-07-18,2024-07-21,0.56
+550,28,23,Damaged Product,Open,2024-04-08,,0.93
+551,77,24,Product Inquiry,Closed,2024-06-23,2024-07-08,0.71
+552,91,12,Product Inquiry,Closed,2022-12-10,2022-12-24,0.2
+553,4,40,Technical Issue,Open,2024-11-11,,1.0
+554,16,20,Delivery Delay,In Progress,2024-11-29,,0.59
+555,45,44,Technical Issue,Closed,2025-03-08,2025-03-18,0.95
+556,22,7,Technical Issue,Resolved,2025-01-04,2025-01-08,0.45
+557,20,40,Product Inquiry,In Progress,2025-04-15,,0.69
+558,85,36,Product Inquiry,Resolved,2024-07-23,2024-08-05,0.79
+559,15,43,Refund Request,Open,2024-06-02,,0.93
+560,32,24,Product Inquiry,Closed,2024-11-21,2024-11-25,0.87
+561,25,26,Refund Request,Open,2024-10-04,,0.81
+562,8,31,Technical Issue,Open,2024-12-03,,0.39
+563,12,43,Technical Issue,In Progress,2025-02-12,,0.3
+564,73,37,Technical Issue,Resolved,2025-04-09,2025-04-22,0.62
+565,83,13,Refund Request,In Progress,2023-07-13,,0.83
+566,18,29,Product Inquiry,Closed,2024-12-11,2024-12-16,0.42
+567,52,28,Product Inquiry,Resolved,2024-05-21,2024-05-23,0.87
+568,4,32,Refund Request,Open,2024-12-11,,1.0
+569,72,31,Product Inquiry,Resolved,2024-04-22,2024-04-27,0.18
+570,99,19,Technical Issue,Open,2025-05-12,,0.21
+571,6,13,Refund Request,Open,2023-10-03,,0.45
+572,76,37,Refund Request,Closed,2025-01-15,2025-01-26,0.61
+573,95,4,Delivery Delay,Open,2024-10-17,,0.32
+574,39,25,Technical Issue,Closed,2024-08-25,2024-08-31,0.97
+575,7,44,Technical Issue,Resolved,2024-01-18,2024-01-30,0.65
+576,68,12,Delivery Delay,In Progress,2025-03-24,,0.51
+577,28,7,Damaged Product,Resolved,2022-08-17,2022-08-20,0.0
+578,92,21,Damaged Product,Open,2024-10-24,,0.04
+579,64,14,Delivery Delay,Open,2025-03-17,,0.6
+580,49,14,Refund Request,Open,2025-03-03,,0.0
+581,1,16,Damaged Product,In Progress,2024-10-15,,0.85
+582,50,15,Product Inquiry,In Progress,2025-01-05,,0.44
+583,6,10,Damaged Product,Closed,2022-10-27,2022-11-06,1.0
+584,80,43,Product Inquiry,In Progress,2023-08-09,,1.0
+585,88,37,Damaged Product,In Progress,2024-07-05,,0.44
+586,84,18,Delivery Delay,Resolved,2024-09-26,2024-10-08,0.46
+587,54,27,Damaged Product,Resolved,2025-01-18,2025-01-23,0.85
+588,100,32,Technical Issue,In Progress,2025-05-13,,1.0
+589,2,41,Product Inquiry,Resolved,2024-09-11,2024-09-12,0.0
+590,17,43,Delivery Delay,Closed,2025-03-21,2025-03-23,0.0
+591,15,11,Damaged Product,Resolved,2024-05-18,2024-05-20,0.28
+592,69,21,Refund Request,Closed,2024-02-11,2024-02-23,0.7
+593,88,45,Technical Issue,Resolved,2024-09-04,2024-09-09,0.67
+594,37,19,Delivery Delay,In Progress,2024-04-04,,0.87
+595,98,8,Damaged Product,Resolved,2024-11-26,2024-12-10,0.08
+596,12,36,Damaged Product,Resolved,2024-07-14,2024-07-18,0.0
+597,67,3,Delivery Delay,Resolved,2025-05-10,2025-05-18,0.8
+598,15,15,Product Inquiry,Open,2025-01-27,,0.21
+599,24,6,Damaged Product,Open,2022-11-29,,0.0
+600,56,40,Product Inquiry,In Progress,2025-01-18,,0.55
+601,95,10,Delivery Delay,Resolved,2025-04-16,2025-04-26,0.78
+602,85,33,Damaged Product,Closed,2023-06-21,2023-07-04,0.46
+603,93,21,Technical Issue,Open,2024-08-11,,0.34
+604,2,10,Refund Request,In Progress,2024-01-02,,0.44
+605,23,23,Delivery Delay,Resolved,2025-04-22,2025-04-26,0.37
+606,51,25,Technical Issue,Closed,2025-03-16,2025-03-21,0.03
+607,9,15,Damaged Product,Closed,2024-11-21,2024-12-02,0.25
+608,43,43,Product Inquiry,Resolved,2024-09-21,2024-09-22,0.68
+609,9,16,Technical Issue,In Progress,2024-10-11,,0.61
+610,21,10,Delivery Delay,In Progress,2025-02-05,,0.56
+611,15,44,Product Inquiry,Open,2024-01-19,,0.15
+612,67,35,Technical Issue,Open,2025-04-13,,0.44
+613,93,11,Refund Request,In Progress,2024-06-22,,0.0
+614,5,10,Damaged Product,Open,2024-10-05,,0.56
+615,1,25,Technical Issue,Open,2023-09-07,,1.0
+616,8,25,Damaged Product,Open,2025-04-06,,0.0
+617,98,41,Technical Issue,Open,2024-01-15,,0.29
+618,70,5,Product Inquiry,Open,2022-09-15,,0.62
+619,74,42,Technical Issue,Resolved,2025-05-09,2025-05-14,0.94
+620,50,29,Product Inquiry,Closed,2024-10-03,2024-10-14,0.34
+621,79,17,Product Inquiry,In Progress,2022-12-07,,0.26
+622,62,10,Refund Request,Resolved,2023-02-28,2023-03-09,0.0
+623,29,10,Damaged Product,In Progress,2025-05-14,,0.54
+624,50,17,Delivery Delay,Closed,2025-03-08,2025-03-14,1.0
+625,56,20,Product Inquiry,Closed,2024-12-22,2024-12-23,0.6
+626,53,35,Damaged Product,Closed,2024-08-25,2024-09-01,0.49
+627,81,23,Product Inquiry,Closed,2025-03-01,2025-03-08,0.61
+628,54,30,Product Inquiry,Resolved,2024-11-09,2024-11-17,0.5
+629,60,24,Refund Request,In Progress,2025-04-26,,0.22
+630,86,26,Technical Issue,Closed,2024-07-29,2024-08-10,0.79
+631,27,16,Damaged Product,Closed,2024-02-12,2024-02-24,0.58
+632,73,13,Product Inquiry,In Progress,2025-05-09,,0.51
+633,71,27,Refund Request,In Progress,2024-10-07,,0.16
+634,28,26,Delivery Delay,Closed,2023-07-27,2023-08-04,0.96
+635,70,42,Technical Issue,Resolved,2023-11-10,2023-11-15,0.73
+636,53,4,Refund Request,Closed,2024-10-06,2024-10-10,0.31
+637,71,11,Technical Issue,Resolved,2025-03-12,2025-03-27,0.85
+638,56,12,Damaged Product,Resolved,2024-12-30,2024-12-31,0.33
+639,50,37,Technical Issue,Closed,2024-05-19,2024-05-24,0.23
+640,99,10,Damaged Product,Resolved,2023-10-31,2023-11-10,0.23
+641,20,27,Product Inquiry,In Progress,2025-03-23,,0.0
+642,32,9,Technical Issue,Resolved,2025-01-28,2025-02-03,0.67
+643,98,40,Delivery Delay,Open,2024-11-14,,0.0
+644,9,6,Delivery Delay,Open,2025-02-15,,0.07
+645,7,22,Refund Request,Open,2025-02-25,,0.0
+646,46,13,Refund Request,Closed,2024-12-04,2024-12-08,0.47
+647,9,24,Technical Issue,In Progress,2025-04-26,,0.45
+648,58,31,Damaged Product,In Progress,2024-09-22,,0.39
+649,38,20,Technical Issue,Open,2022-12-13,,0.14
+650,21,10,Delivery Delay,Closed,2025-03-18,2025-03-25,0.09
+651,69,40,Technical Issue,Resolved,2024-07-12,2024-07-15,0.66
+652,71,41,Refund Request,Resolved,2024-08-17,2024-08-29,0.31
+653,89,16,Damaged Product,Open,2024-09-14,,0.61
+654,57,7,Damaged Product,Open,2022-10-15,,0.19
+655,49,31,Damaged Product,Resolved,2025-05-03,2025-05-11,0.56
+656,99,2,Product Inquiry,In Progress,2024-10-06,,0.96
+657,75,37,Delivery Delay,Closed,2023-11-22,2023-11-30,0.71
+658,63,43,Refund Request,In Progress,2025-05-04,,0.36
+659,11,24,Damaged Product,Open,2025-02-12,,0.59
+660,18,40,Product Inquiry,In Progress,2025-02-20,,0.42
+661,20,8,Refund Request,Closed,2025-05-14,2025-05-25,0.5
+662,38,6,Technical Issue,In Progress,2023-04-06,,0.39
+663,64,2,Refund Request,Resolved,2024-07-22,2024-07-25,0.44
+664,33,13,Technical Issue,In Progress,2025-05-07,,0.57
+665,4,32,Damaged Product,In Progress,2024-08-17,,0.15
+666,7,42,Refund Request,Closed,2023-09-16,2023-09-28,0.14
+667,34,29,Delivery Delay,Resolved,2024-04-29,2024-05-05,0.01
+668,35,43,Delivery Delay,Resolved,2024-03-09,2024-03-20,0.0
+669,43,36,Damaged Product,Open,2024-09-11,,0.07
+670,80,1,Refund Request,Open,2024-10-01,,0.56
+671,49,13,Product Inquiry,Resolved,2025-05-13,2025-05-20,0.19
+672,5,45,Product Inquiry,In Progress,2025-03-31,,0.68
+673,43,24,Refund Request,Resolved,2023-11-29,2023-12-06,0.51
+674,17,23,Technical Issue,In Progress,2025-04-26,,0.0
+675,25,32,Refund Request,In Progress,2024-10-10,,0.73
+676,11,29,Refund Request,Open,2025-01-26,,0.78
+677,66,8,Damaged Product,Open,2025-05-08,,0.15
+678,98,7,Damaged Product,Closed,2024-10-03,2024-10-05,0.65
+679,48,5,Damaged Product,Closed,2024-05-31,2024-06-10,0.2
+680,100,6,Delivery Delay,Open,2025-05-14,,0.53
+681,93,1,Technical Issue,In Progress,2024-09-21,,0.06
+682,10,10,Refund Request,Resolved,2024-05-15,2024-05-26,0.0
+683,86,7,Delivery Delay,Open,2024-05-06,,0.37
+684,91,9,Delivery Delay,Closed,2024-09-06,2024-09-21,0.46
+685,24,6,Delivery Delay,Open,2023-03-28,,0.36
+686,56,44,Delivery Delay,Closed,2025-05-02,2025-05-06,0.09
+687,92,6,Technical Issue,Resolved,2025-01-07,2025-01-13,0.36
+688,25,31,Product Inquiry,Closed,2024-07-04,2024-07-16,0.59
+689,78,12,Technical Issue,Resolved,2024-03-02,2024-03-07,0.48
+690,8,29,Delivery Delay,Closed,2024-10-22,2024-10-31,0.56
+691,11,12,Damaged Product,Closed,2025-01-06,2025-01-11,0.27
+692,70,37,Delivery Delay,Closed,2023-12-07,2023-12-19,0.91
+693,90,5,Refund Request,Closed,2024-11-25,2024-11-28,0.09
+694,97,15,Technical Issue,Closed,2023-11-16,2023-11-23,0.67
+695,38,39,Refund Request,Resolved,2025-04-17,2025-04-26,0.91
+696,28,28,Refund Request,In Progress,2023-08-31,,0.67
+697,95,16,Refund Request,Open,2024-01-13,,0.43
+698,37,11,Delivery Delay,Open,2025-02-21,,0.32
+699,9,32,Delivery Delay,In Progress,2024-09-28,,0.86
+700,80,28,Product Inquiry,Open,2023-07-09,,0.0
+701,2,44,Refund Request,Open,2024-03-01,,0.16
+702,76,24,Technical Issue,Open,2025-03-16,,0.36
+703,34,21,Product Inquiry,Resolved,2023-12-25,2023-12-31,0.93
+704,48,32,Product Inquiry,In Progress,2025-02-16,,0.63
+705,41,35,Technical Issue,Closed,2024-12-22,2024-12-26,0.16
+706,22,3,Product Inquiry,In Progress,2024-11-07,,0.39
+707,60,30,Product Inquiry,In Progress,2024-08-26,,0.28
+708,60,30,Damaged Product,Resolved,2025-01-30,2025-02-02,0.25
+709,95,25,Damaged Product,Resolved,2024-09-06,2024-09-07,0.84
+710,41,25,Refund Request,Closed,2023-09-28,2023-10-05,0.02
+711,2,28,Technical Issue,Closed,2024-05-17,2024-05-20,1.0
+712,24,14,Delivery Delay,Open,2023-06-18,,0.79
+713,51,31,Refund Request,Closed,2024-06-25,2024-06-30,0.88
+714,26,2,Damaged Product,Resolved,2025-05-12,2025-05-19,0.34
+715,39,36,Damaged Product,In Progress,2024-06-08,,0.45
+716,25,32,Product Inquiry,Resolved,2023-05-05,2023-05-12,0.0
+717,21,32,Refund Request,Open,2025-04-28,,0.32
+718,14,5,Product Inquiry,In Progress,2025-05-03,,0.67
+719,78,19,Technical Issue,Closed,2024-01-28,2024-02-01,0.95
+720,64,14,Delivery Delay,Resolved,2025-01-06,2025-01-14,0.11
+721,40,41,Refund Request,Closed,2024-11-04,2024-11-10,0.37
+722,88,40,Delivery Delay,Resolved,2024-07-15,2024-07-25,0.45
+723,77,9,Refund Request,In Progress,2025-04-01,,0.01
+724,93,24,Technical Issue,Closed,2025-04-01,2025-04-07,0.71
+725,61,5,Product Inquiry,Open,2025-03-10,,0.25
+726,48,27,Refund Request,Closed,2025-04-30,2025-05-04,0.43
+727,89,15,Product Inquiry,In Progress,2024-09-29,,0.34
+728,36,36,Technical Issue,In Progress,2025-05-08,,0.22
+729,43,45,Damaged Product,Closed,2023-08-03,2023-08-18,0.5
+730,42,41,Technical Issue,Closed,2025-04-13,2025-04-25,0.42
+731,79,16,Technical Issue,Closed,2023-09-22,2023-09-30,0.37
+732,61,2,Technical Issue,In Progress,2024-05-02,,0.25
+733,13,25,Refund Request,Closed,2025-02-09,2025-02-19,0.61
+734,11,34,Technical Issue,Resolved,2025-01-23,2025-01-31,1.0
+735,94,18,Product Inquiry,Open,2025-01-04,,0.55
+736,50,13,Damaged Product,In Progress,2024-09-26,,0.85
+737,47,4,Damaged Product,Resolved,2024-09-18,2024-09-22,0.01
+738,82,1,Refund Request,In Progress,2024-12-04,,0.56
+739,80,31,Refund Request,Closed,2025-05-08,2025-05-21,0.12
+740,41,32,Technical Issue,In Progress,2024-04-15,,0.0
+741,69,13,Technical Issue,Closed,2024-01-30,2024-02-14,0.24
+742,78,8,Delivery Delay,In Progress,2024-08-11,,0.92
+743,95,13,Damaged Product,In Progress,2023-07-18,,0.83
+744,49,28,Refund Request,Open,2025-03-18,,0.59
+745,34,14,Delivery Delay,Closed,2024-12-11,2024-12-16,0.0
+746,4,42,Refund Request,Resolved,2024-11-14,2024-11-16,0.43
+747,60,10,Product Inquiry,Resolved,2024-09-25,2024-10-06,0.61
+748,72,11,Refund Request,Resolved,2025-01-11,2025-01-24,0.56
+749,14,18,Damaged Product,Resolved,2025-04-29,2025-05-04,0.0
+750,91,39,Damaged Product,Resolved,2024-05-01,2024-05-06,0.19
+751,76,9,Delivery Delay,In Progress,2024-11-24,,0.48
+752,16,4,Technical Issue,In Progress,2023-11-29,,0.69
+753,62,24,Product Inquiry,Closed,2022-10-03,2022-10-09,0.0
+754,71,2,Refund Request,Resolved,2023-10-19,2023-10-30,0.44
+755,51,12,Technical Issue,In Progress,2025-03-03,,0.55
+756,98,3,Refund Request,In Progress,2024-11-15,,0.8
+757,73,37,Technical Issue,Open,2025-05-11,,0.74
+758,8,9,Delivery Delay,Resolved,2024-07-07,2024-07-09,0.7
+759,18,10,Technical Issue,Open,2025-05-10,,0.22
+760,21,16,Refund Request,Open,2024-08-13,,0.0
+761,46,22,Product Inquiry,Open,2025-04-22,,0.36
+762,44,5,Technical Issue,Resolved,2024-04-20,2024-04-27,0.85
+763,8,34,Product Inquiry,Resolved,2025-01-06,2025-01-17,0.99
+764,89,10,Damaged Product,Open,2024-12-14,,0.75
+765,58,11,Refund Request,Open,2025-01-31,,0.65
+766,30,16,Technical Issue,Open,2025-01-05,,0.63
+767,4,4,Delivery Delay,Closed,2024-10-23,2024-10-31,0.31
+768,6,15,Damaged Product,Closed,2022-09-17,2022-09-20,0.45
+769,65,21,Product Inquiry,In Progress,2024-03-31,,1.0
+770,97,41,Technical Issue,Resolved,2024-06-17,2024-06-18,0.17
+771,98,19,Product Inquiry,Resolved,2024-11-08,2024-11-09,1.0
+772,71,5,Damaged Product,Open,2024-11-19,,0.39
+773,76,3,Technical Issue,Closed,2024-12-22,2024-12-26,0.96
+774,63,1,Delivery Delay,In Progress,2024-08-07,,0.01
+775,75,24,Damaged Product,Closed,2024-06-26,2024-07-03,0.71
+776,20,35,Technical Issue,Open,2025-03-26,,0.24
+777,37,18,Technical Issue,In Progress,2024-03-19,,0.0
+778,50,11,Technical Issue,Closed,2025-02-06,2025-02-19,0.58
+779,33,22,Refund Request,Closed,2024-11-09,2024-11-15,0.85
+780,51,8,Product Inquiry,In Progress,2024-10-29,,0.2
+781,4,29,Damaged Product,Resolved,2024-12-25,2024-12-29,0.0
+782,15,3,Delivery Delay,Resolved,2024-06-26,2024-07-09,0.47
+783,96,14,Technical Issue,Closed,2024-07-03,2024-07-16,0.47
+784,95,20,Technical Issue,Closed,2025-01-01,2025-01-16,0.69
+785,39,24,Damaged Product,Resolved,2023-08-28,2023-08-29,0.83
+786,73,17,Delivery Delay,Closed,2025-05-07,2025-05-16,0.48
+787,40,1,Damaged Product,Closed,2023-07-14,2023-07-28,1.0
+788,43,14,Product Inquiry,Resolved,2024-03-02,2024-03-14,0.58
+789,93,21,Technical Issue,Resolved,2024-11-21,2024-11-28,0.38
+790,97,11,Technical Issue,Resolved,2024-08-23,2024-08-31,0.0
+791,77,19,Technical Issue,Closed,2024-05-01,2024-05-03,0.41
+792,14,1,Technical Issue,Open,2025-04-30,,0.38
+793,7,1,Delivery Delay,In Progress,2024-09-06,,0.84
+794,39,29,Technical Issue,Resolved,2025-02-23,2025-03-07,0.66
+795,21,7,Refund Request,Open,2025-04-17,,0.09
+796,28,42,Refund Request,Closed,2023-07-14,2023-07-21,0.56
+797,10,18,Delivery Delay,Resolved,2022-08-16,2022-08-27,0.74
+798,39,3,Refund Request,Open,2025-01-28,,1.0
+799,19,17,Damaged Product,Resolved,2025-03-10,2025-03-25,0.81
+800,16,41,Product Inquiry,Open,2024-10-01,,0.77
+801,23,1,Delivery Delay,Open,2024-08-31,,0.52
+802,93,16,Technical Issue,Resolved,2024-09-24,2024-10-08,0.64
+803,89,36,Refund Request,In Progress,2024-12-16,,0.94
+804,3,45,Damaged Product,Resolved,2024-12-20,2024-12-22,0.03
+805,28,5,Product Inquiry,Resolved,2024-06-17,2024-06-28,0.38
+806,4,3,Product Inquiry,Resolved,2024-11-19,2024-11-26,0.23
+807,53,12,Technical Issue,Open,2024-10-30,,0.63
+808,6,43,Refund Request,Open,2023-04-15,,0.93
+809,91,19,Refund Request,Resolved,2022-11-24,2022-11-28,0.29
+810,4,43,Damaged Product,In Progress,2025-01-24,,0.0
+811,31,45,Delivery Delay,Resolved,2023-12-15,2023-12-28,0.36
+812,84,3,Product Inquiry,Resolved,2023-12-10,2023-12-19,0.82
+813,30,4,Refund Request,In Progress,2025-04-02,,0.69
+814,12,39,Product Inquiry,In Progress,2025-02-04,,0.65
+815,61,35,Refund Request,Closed,2024-03-22,2024-03-28,0.4
+816,93,36,Refund Request,Closed,2025-03-18,2025-03-24,0.05
+817,53,12,Product Inquiry,Resolved,2023-09-17,2023-09-23,0.68
+818,45,19,Product Inquiry,Closed,2023-12-15,2023-12-29,0.21
+819,87,35,Product Inquiry,Resolved,2024-08-11,2024-08-17,1.0
+820,12,39,Damaged Product,In Progress,2025-02-17,,0.7
+821,43,23,Technical Issue,Resolved,2025-01-15,2025-01-23,0.3
+822,88,11,Refund Request,Open,2024-08-04,,0.29
+823,65,41,Refund Request,Closed,2024-04-22,2024-05-02,0.47
+824,70,41,Technical Issue,Closed,2023-04-11,2023-04-25,0.42
+825,18,14,Product Inquiry,Resolved,2025-03-20,2025-03-22,0.89
+826,15,33,Technical Issue,Open,2025-05-14,,0.57
+827,14,37,Refund Request,Open,2025-05-11,,0.24
+828,71,43,Damaged Product,Closed,2024-03-17,2024-03-29,1.0
+829,88,22,Refund Request,Resolved,2024-08-23,2024-08-25,0.52
+830,94,24,Product Inquiry,Resolved,2025-03-01,2025-03-10,0.77
+831,29,37,Product Inquiry,In Progress,2024-11-10,,0.29
+832,89,7,Product Inquiry,Closed,2024-09-01,2024-09-12,0.63
+833,20,45,Delivery Delay,Closed,2025-04-29,2025-05-11,0.61
+834,65,7,Delivery Delay,Resolved,2023-08-14,2023-08-17,0.0
+835,89,20,Product Inquiry,Closed,2025-05-05,2025-05-18,1.0
+836,39,14,Damaged Product,Open,2025-04-19,,0.95
+837,4,2,Refund Request,Open,2024-08-15,,0.36
+838,16,14,Delivery Delay,Closed,2024-03-18,2024-04-01,0.11
+839,9,17,Product Inquiry,Resolved,2024-12-21,2024-12-23,0.62
+840,46,43,Technical Issue,Resolved,2024-12-21,2024-12-22,0.53
+841,39,22,Damaged Product,Resolved,2023-05-30,2023-06-05,0.62
+842,39,28,Technical Issue,Resolved,2024-12-12,2024-12-23,0.57
+843,76,3,Product Inquiry,Resolved,2025-02-16,2025-02-17,0.68
+844,41,23,Refund Request,Open,2025-03-05,,1.0
+845,90,31,Technical Issue,Resolved,2024-12-28,2025-01-10,0.7
+846,99,7,Technical Issue,Resolved,2024-04-13,2024-04-25,0.13
+847,80,23,Product Inquiry,Resolved,2024-08-31,2024-09-01,0.98
+848,5,32,Product Inquiry,Open,2025-02-19,,1.0
+849,33,35,Delivery Delay,Open,2024-06-25,,1.0
+850,32,41,Product Inquiry,Open,2025-05-04,,0.11
+851,49,22,Product Inquiry,Closed,2025-03-07,2025-03-17,0.59
+852,5,21,Technical Issue,In Progress,2022-12-13,,0.0
+853,100,29,Product Inquiry,Closed,2025-05-13,2025-05-23,0.69
+854,13,1,Delivery Delay,Closed,2025-04-14,2025-04-24,0.31
+855,65,29,Technical Issue,Open,2024-11-15,,1.0
+856,24,30,Technical Issue,In Progress,2024-08-11,,0.23
+857,50,35,Refund Request,Open,2025-03-15,,0.0
+858,75,8,Product Inquiry,Resolved,2023-11-19,2023-11-22,0.34
+859,38,11,Refund Request,Open,2024-03-25,,0.0
+860,77,22,Damaged Product,Resolved,2024-07-20,2024-07-22,0.76
+861,10,13,Damaged Product,Resolved,2023-02-04,2023-02-12,0.0
+862,1,25,Product Inquiry,Closed,2024-11-07,2024-11-20,0.51
+863,6,20,Refund Request,Closed,2022-12-11,2022-12-15,0.0
+864,88,38,Product Inquiry,Resolved,2024-08-15,2024-08-19,0.39
+865,90,8,Damaged Product,Open,2024-01-19,,1.0
+866,18,9,Product Inquiry,Open,2025-02-02,,0.63
+867,64,24,Technical Issue,Resolved,2024-11-13,2024-11-14,0.2
+868,89,24,Product Inquiry,Open,2024-08-26,,0.49
+869,61,3,Product Inquiry,In Progress,2024-12-01,,0.51
+870,72,45,Delivery Delay,Resolved,2024-06-19,2024-06-21,0.67
+871,12,17,Product Inquiry,In Progress,2024-09-11,,0.02
+872,52,33,Damaged Product,Closed,2024-04-26,2024-05-11,0.71
+873,16,2,Technical Issue,Closed,2023-09-02,2023-09-04,0.0
+874,24,43,Technical Issue,Closed,2024-03-13,2024-03-21,0.28
+875,48,36,Product Inquiry,In Progress,2025-04-30,,0.33
+876,9,43,Product Inquiry,Closed,2024-09-22,2024-10-02,0.72
+877,15,36,Damaged Product,Open,2024-11-29,,0.51
+878,26,10,Damaged Product,In Progress,2025-04-20,,0.01
+879,96,45,Refund Request,Resolved,2025-05-04,2025-05-05,0.16
+880,8,33,Delivery Delay,Open,2025-03-07,,0.57
+881,68,43,Technical Issue,In Progress,2025-04-01,,0.47
+882,68,1,Damaged Product,In Progress,2025-04-18,,0.3
+883,41,16,Damaged Product,Resolved,2024-06-18,2024-07-01,0.33
+884,25,43,Product Inquiry,Resolved,2024-04-21,2024-04-29,0.74
+885,28,7,Technical Issue,Closed,2022-09-16,2022-09-23,0.32
+886,82,41,Damaged Product,Open,2024-08-07,,0.47
+887,86,9,Delivery Delay,Closed,2025-02-27,2025-03-13,1.0
+888,62,33,Technical Issue,Open,2025-02-08,,0.0
+889,22,16,Refund Request,Resolved,2023-07-21,2023-08-04,0.0
+890,29,17,Product Inquiry,Resolved,2024-02-15,2024-02-16,0.77
+891,6,21,Damaged Product,Resolved,2023-05-16,2023-05-17,0.26
+892,86,24,Technical Issue,Resolved,2024-09-15,2024-09-23,0.39
+893,29,9,Technical Issue,Resolved,2024-11-17,2024-11-27,0.23
+894,53,42,Technical Issue,Closed,2024-09-10,2024-09-14,0.41
+895,67,19,Delivery Delay,Resolved,2025-03-08,2025-03-21,1.0
+896,56,39,Product Inquiry,Open,2025-02-03,,0.78
+897,9,36,Damaged Product,Open,2025-02-17,,0.8
+898,99,42,Refund Request,Open,2025-05-10,,0.0
+899,36,26,Product Inquiry,In Progress,2025-04-22,,0.1
+900,84,22,Technical Issue,In Progress,2024-02-07,,0.0
+901,78,21,Product Inquiry,In Progress,2025-03-17,,0.22
+902,66,32,Technical Issue,Resolved,2024-09-12,2024-09-25,0.83
+903,89,36,Refund Request,Closed,2024-11-20,2024-11-28,0.68
+904,12,45,Technical Issue,Resolved,2023-09-13,2023-09-19,0.42
+905,67,40,Refund Request,Open,2025-03-05,,0.49
+906,81,18,Refund Request,In Progress,2024-08-31,,0.26
+907,77,33,Refund Request,Closed,2024-08-11,2024-08-17,0.57
+908,31,37,Refund Request,Closed,2023-11-13,2023-11-19,0.77
+909,25,22,Refund Request,Resolved,2024-05-08,2024-05-13,0.0
+910,77,28,Technical Issue,Closed,2024-04-03,2024-04-16,0.6
+911,18,45,Damaged Product,In Progress,2024-10-29,,0.83
+912,88,44,Technical Issue,In Progress,2024-10-15,,0.35
+913,71,21,Product Inquiry,Closed,2025-04-12,2025-04-25,0.75
+914,75,34,Refund Request,Closed,2025-04-08,2025-04-10,1.0
+915,82,16,Refund Request,Closed,2025-01-15,2025-01-25,0.46
+916,24,42,Damaged Product,Resolved,2023-06-27,2023-07-03,0.64
+917,51,31,Technical Issue,In Progress,2022-10-10,,0.24
+918,59,35,Damaged Product,In Progress,2024-11-17,,0.56
+919,33,39,Refund Request,Open,2024-02-21,,0.66
+920,16,25,Delivery Delay,Resolved,2023-05-29,2023-05-30,0.57
+921,25,17,Technical Issue,Resolved,2023-04-15,2023-04-23,0.14
+922,75,18,Refund Request,Resolved,2025-01-17,2025-01-21,0.57
+923,7,28,Delivery Delay,Resolved,2024-06-21,2024-07-01,1.0
+924,61,28,Delivery Delay,Resolved,2024-08-27,2024-09-02,0.66
+925,18,12,Refund Request,Open,2024-10-31,,0.84
+926,98,4,Delivery Delay,Open,2024-01-19,,0.42
+927,36,7,Damaged Product,In Progress,2025-04-14,,0.76
+928,13,44,Delivery Delay,Resolved,2024-12-29,2025-01-02,0.6
+929,85,37,Delivery Delay,Open,2024-06-16,,0.17
+930,15,22,Refund Request,In Progress,2024-11-13,,0.61
+931,56,16,Technical Issue,Closed,2025-01-21,2025-01-25,0.15
+932,78,37,Technical Issue,In Progress,2024-12-13,,0.28
+933,46,16,Technical Issue,Closed,2025-04-20,2025-04-21,0.57
+934,75,21,Product Inquiry,Closed,2024-08-06,2024-08-09,0.6
+935,27,35,Damaged Product,Open,2022-10-07,,0.08
+936,12,37,Product Inquiry,In Progress,2025-02-26,,0.87
+937,16,7,Product Inquiry,Closed,2025-03-27,2025-04-10,0.7
+938,29,16,Damaged Product,Resolved,2023-11-04,2023-11-14,0.25
+939,23,15,Delivery Delay,In Progress,2023-10-27,,0.0
+940,1,16,Product Inquiry,In Progress,2023-07-16,,0.45
+941,75,39,Damaged Product,Resolved,2024-12-12,2024-12-20,0.34
+942,30,7,Product Inquiry,Open,2025-01-31,,0.54
+943,92,29,Product Inquiry,Resolved,2025-04-03,2025-04-06,0.37
+944,79,25,Technical Issue,Open,2022-12-29,,0.0
+945,98,18,Product Inquiry,Closed,2024-11-05,2024-11-20,0.36
+946,56,34,Refund Request,In Progress,2025-02-27,,0.39
+947,3,32,Product Inquiry,Resolved,2025-01-14,2025-01-28,0.72
+948,78,14,Damaged Product,In Progress,2025-03-12,,0.26
+949,91,5,Product Inquiry,Resolved,2023-02-24,2023-02-27,1.0
+950,27,14,Refund Request,In Progress,2022-10-03,,0.0
+951,52,18,Refund Request,Closed,2024-05-05,2024-05-17,0.96
+952,30,25,Technical Issue,Resolved,2024-12-11,2024-12-12,0.42
+953,32,42,Product Inquiry,Open,2025-01-11,,0.8
+954,92,2,Refund Request,Resolved,2024-05-30,2024-06-09,0.53
+955,47,25,Product Inquiry,Open,2024-02-23,,0.9
+956,56,29,Product Inquiry,Resolved,2024-12-24,2024-12-26,0.36
+957,33,23,Refund Request,Closed,2024-12-03,2024-12-08,0.12
+958,34,31,Damaged Product,Closed,2025-05-02,2025-05-05,1.0
+959,75,42,Delivery Delay,Closed,2024-10-25,2024-11-08,0.46
+960,49,24,Damaged Product,Open,2025-04-11,,0.58
+961,12,11,Technical Issue,Open,2024-08-31,,0.93
+962,90,36,Refund Request,Open,2023-11-22,,0.14
+963,11,34,Product Inquiry,In Progress,2025-03-05,,0.71
+964,20,19,Product Inquiry,Closed,2025-04-22,2025-05-06,0.29
+965,36,12,Refund Request,Closed,2025-04-04,2025-04-11,0.45
+966,22,34,Damaged Product,Open,2024-01-01,,0.53
+967,12,40,Technical Issue,Open,2024-09-14,,0.0
+968,84,12,Technical Issue,In Progress,2023-12-04,,0.23
+969,61,28,Delivery Delay,Closed,2024-05-24,2024-05-28,0.97
+970,26,39,Delivery Delay,Open,2025-04-19,,0.81
+971,99,7,Damaged Product,In Progress,2024-01-27,,0.48
+972,69,8,Refund Request,Resolved,2025-01-27,2025-02-05,0.59
+973,93,12,Damaged Product,Closed,2025-04-16,2025-04-25,0.4
+974,32,1,Damaged Product,In Progress,2025-02-11,,0.97
+975,99,18,Technical Issue,Open,2024-09-21,,0.43
+976,65,4,Damaged Product,Resolved,2024-05-07,2024-05-10,0.58
+977,7,31,Damaged Product,Closed,2024-07-06,2024-07-20,0.9
+978,31,39,Technical Issue,In Progress,2023-11-11,,0.23
+979,36,30,Damaged Product,Closed,2025-04-22,2025-04-30,1.0
+980,91,8,Technical Issue,Closed,2024-08-25,2024-08-28,0.0
+981,97,3,Product Inquiry,Open,2024-05-08,,1.0
+982,18,1,Product Inquiry,In Progress,2024-12-23,,0.37
+983,68,32,Technical Issue,Resolved,2025-05-14,2025-05-23,0.42
+984,93,26,Technical Issue,Resolved,2024-08-15,2024-08-26,0.0
+985,46,39,Refund Request,Resolved,2024-12-12,2024-12-25,0.34
+986,68,27,Product Inquiry,Closed,2025-04-04,2025-04-13,0.14
+987,17,3,Technical Issue,Closed,2025-01-25,2025-01-27,0.29
+988,48,20,Technical Issue,Open,2024-10-21,,0.45
+989,53,25,Refund Request,Resolved,2024-04-08,2024-04-13,0.84
+990,4,21,Delivery Delay,Resolved,2024-09-23,2024-09-27,0.57
+991,28,28,Technical Issue,Closed,2025-01-11,2025-01-19,0.61
+992,98,9,Product Inquiry,In Progress,2024-02-14,,0.12
+993,32,10,Damaged Product,Open,2024-11-26,,0.19
+994,57,17,Product Inquiry,Resolved,2023-12-15,2023-12-22,1.0
+995,92,30,Damaged Product,In Progress,2024-11-21,,0.24
+996,60,9,Damaged Product,Resolved,2025-02-06,2025-02-07,1.0
+997,19,41,Refund Request,Open,2024-03-12,,0.41
+998,48,4,Product Inquiry,In Progress,2024-06-25,,0.5
+999,50,42,Technical Issue,Resolved,2025-03-12,2025-03-14,0.87
+1000,38,23,Product Inquiry,Resolved,2024-08-01,2024-08-02,0.95
+1001,9,23,Damaged Product,In Progress,2025-01-25,,0.46
+1002,40,33,Delivery Delay,Closed,2024-06-07,2024-06-08,0.36
+1003,19,36,Delivery Delay,In Progress,2024-08-11,,0.48
+1004,4,33,Technical Issue,Closed,2025-04-21,2025-05-02,0.62
+1005,48,2,Refund Request,Resolved,2024-08-20,2024-08-27,0.81
+1006,79,30,Technical Issue,In Progress,2025-03-04,,0.5
+1007,42,19,Delivery Delay,In Progress,2025-01-21,,0.72
+1008,67,38,Product Inquiry,Open,2025-04-04,,1.0
+1009,98,32,Technical Issue,Resolved,2024-10-23,2024-11-05,0.63
+1010,5,43,Damaged Product,Open,2023-06-09,,0.61
+1011,49,22,Refund Request,Resolved,2025-04-22,2025-05-04,0.0
+1012,19,10,Technical Issue,Closed,2023-03-07,2023-03-09,0.0
+1013,50,18,Delivery Delay,Resolved,2024-10-13,2024-10-17,0.64
+1014,6,20,Damaged Product,Open,2023-08-18,,0.47
+1015,25,27,Damaged Product,Closed,2023-04-27,2023-05-04,0.32
+1016,55,36,Damaged Product,In Progress,2025-03-26,,0.59
+1017,1,5,Delivery Delay,Closed,2024-10-08,2024-10-22,0.48
+1018,34,31,Damaged Product,Open,2025-04-12,,0.89
+1019,60,11,Delivery Delay,Resolved,2024-08-22,2024-08-24,0.53
+1020,86,30,Technical Issue,In Progress,2025-04-08,,0.24
+1021,94,24,Technical Issue,Resolved,2024-11-04,2024-11-09,0.85
+1022,72,36,Refund Request,In Progress,2025-05-11,,0.42
+1023,68,10,Technical Issue,In Progress,2025-04-12,,0.68
+1024,100,16,Delivery Delay,Closed,2025-05-12,2025-05-26,0.33
+1025,56,31,Refund Request,In Progress,2025-04-17,,0.27
+1026,66,20,Product Inquiry,Resolved,2025-03-22,2025-04-03,0.53
+1027,7,38,Refund Request,In Progress,2024-11-19,,0.5
+1028,14,10,Damaged Product,Closed,2025-05-13,2025-05-27,0.67
+1029,32,30,Delivery Delay,Closed,2025-03-31,2025-04-15,0.41
+1030,90,35,Product Inquiry,In Progress,2024-01-20,,0.0
+1031,96,26,Refund Request,Resolved,2025-01-21,2025-01-31,0.35
+1032,39,6,Technical Issue,Closed,2025-05-04,2025-05-07,0.78
+1033,62,43,Refund Request,Open,2023-02-09,,0.4
+1034,8,28,Product Inquiry,Resolved,2024-09-03,2024-09-17,0.41
+1035,20,27,Refund Request,Resolved,2025-03-31,2025-04-01,0.85
+1036,48,8,Damaged Product,In Progress,2024-12-16,,0.25
+1037,63,32,Damaged Product,Resolved,2025-03-12,2025-03-22,0.0
+1038,52,28,Damaged Product,Closed,2023-12-15,2023-12-20,0.44
+1039,79,11,Damaged Product,In Progress,2024-11-14,,0.33
+1040,77,21,Delivery Delay,Resolved,2024-08-12,2024-08-26,0.16
+1041,13,6,Delivery Delay,Open,2025-05-03,,0.44
+1042,20,35,Delivery Delay,Resolved,2025-04-25,2025-05-03,0.67
+1043,90,42,Delivery Delay,Closed,2023-09-26,2023-09-27,0.5
+1044,61,12,Damaged Product,Open,2024-11-11,,0.61
+1045,38,24,Technical Issue,In Progress,2023-04-04,,1.0
+1046,12,3,Refund Request,Closed,2024-11-09,2024-11-24,0.38
+1047,43,7,Technical Issue,Open,2024-06-16,,0.6
+1048,11,3,Damaged Product,Open,2025-03-24,,0.32
+1049,22,26,Refund Request,Resolved,2023-12-28,2023-12-30,0.2
+1050,76,19,Technical Issue,Open,2025-04-22,,0.3
+1051,37,9,Product Inquiry,Open,2023-09-23,,0.33
+1052,78,17,Technical Issue,Closed,2024-08-31,2024-09-11,0.63
+1053,13,32,Refund Request,Closed,2025-01-01,2025-01-13,1.0
+1054,5,26,Damaged Product,In Progress,2024-09-16,,0.25
+1055,89,31,Technical Issue,Resolved,2024-10-29,2024-11-04,0.35
+1056,40,19,Damaged Product,Resolved,2023-08-22,2023-08-29,0.48
+1057,40,43,Damaged Product,In Progress,2024-07-11,,0.64
+1058,31,30,Damaged Product,Closed,2024-10-06,2024-10-18,0.59
+1059,5,6,Technical Issue,Open,2024-03-25,,0.95
+1060,16,10,Product Inquiry,Open,2025-04-25,,0.0
+1061,17,10,Refund Request,Open,2025-05-06,,0.0
+1062,99,22,Technical Issue,In Progress,2024-12-06,,0.33
+1063,31,31,Delivery Delay,Resolved,2024-05-22,2024-05-29,0.88
+1064,83,43,Damaged Product,In Progress,2025-02-10,,0.0
+1065,61,42,Refund Request,Open,2024-05-23,,0.0
+1066,21,26,Delivery Delay,Closed,2024-11-11,2024-11-17,0.7
+1067,7,3,Product Inquiry,In Progress,2025-04-11,,0.59
+1068,24,32,Product Inquiry,Resolved,2023-06-24,2023-07-05,0.12
+1069,91,21,Refund Request,Resolved,2024-05-29,2024-06-01,0.16
+1070,96,28,Technical Issue,In Progress,2023-12-14,,0.16
+1071,90,12,Damaged Product,Open,2025-03-19,,0.54
+1072,33,27,Product Inquiry,Open,2025-04-06,,0.28
+1073,43,10,Damaged Product,Open,2023-08-28,,0.67
+1074,31,33,Damaged Product,Resolved,2023-05-16,2023-05-21,0.0
+1075,93,12,Delivery Delay,Resolved,2024-09-28,2024-09-29,0.2
+1076,81,24,Technical Issue,In Progress,2024-09-09,,0.11
+1077,48,22,Delivery Delay,Open,2024-10-31,,0.41
+1078,62,33,Damaged Product,Closed,2023-02-08,2023-02-12,0.31
+1079,43,44,Technical Issue,In Progress,2024-04-27,,0.78
+1080,51,34,Delivery Delay,Closed,2023-03-09,2023-03-16,0.0
+1081,59,38,Technical Issue,In Progress,2024-11-21,,0.52
+1082,97,30,Refund Request,Open,2023-05-19,,0.7
+1083,43,2,Delivery Delay,Resolved,2023-09-02,2023-09-12,1.0
+1084,61,27,Technical Issue,Resolved,2024-12-30,2025-01-14,0.33
+1085,74,15,Technical Issue,In Progress,2025-05-02,,0.61
+1086,29,29,Refund Request,In Progress,2024-06-26,,0.0
+1087,84,3,Technical Issue,Closed,2024-12-04,2024-12-15,0.0
+1088,33,26,Delivery Delay,In Progress,2024-07-30,,0.8
+1089,68,15,Damaged Product,Open,2025-04-05,,0.5
+1090,58,16,Product Inquiry,Resolved,2024-07-08,2024-07-09,0.91
+1091,7,5,Technical Issue,In Progress,2025-03-14,,0.02
+1092,70,27,Technical Issue,Open,2024-05-25,,0.68
+1093,94,41,Technical Issue,In Progress,2025-02-23,,1.0
+1094,85,4,Damaged Product,Resolved,2023-09-22,2023-10-02,0.65
+1095,69,43,Delivery Delay,In Progress,2025-02-28,,0.6
+1096,31,25,Damaged Product,In Progress,2023-12-27,,0.5
+1097,70,42,Product Inquiry,Closed,2024-08-24,2024-08-25,0.0
+1098,11,22,Delivery Delay,Closed,2025-04-04,2025-04-12,0.97
+1099,13,9,Damaged Product,In Progress,2025-05-01,,0.29
+1100,85,19,Product Inquiry,In Progress,2025-04-01,,0.68
+1101,21,28,Damaged Product,Closed,2025-03-26,2025-04-07,0.0
+1102,47,7,Refund Request,In Progress,2024-11-01,,0.09
+1103,70,45,Delivery Delay,Open,2024-02-15,,1.0
+1104,20,8,Damaged Product,Open,2025-05-11,,0.38
+1105,9,18,Product Inquiry,Closed,2025-03-13,2025-03-15,1.0
+1106,44,8,Delivery Delay,Resolved,2023-04-24,2023-05-03,0.47
+1107,62,43,Delivery Delay,In Progress,2024-08-17,,0.0
+1108,46,6,Damaged Product,In Progress,2025-01-25,,0.81
+1109,50,13,Delivery Delay,In Progress,2024-05-27,,0.29
+1110,80,6,Damaged Product,Open,2023-10-07,,0.74
+1111,19,22,Technical Issue,Closed,2022-06-24,2022-07-03,0.51
+1112,25,31,Delivery Delay,In Progress,2025-04-11,,0.0
+1113,44,25,Technical Issue,Resolved,2024-08-03,2024-08-05,0.56
+1114,100,26,Damaged Product,Closed,2025-05-12,2025-05-15,1.0
+1115,80,41,Technical Issue,Resolved,2024-03-12,2024-03-25,0.67
+1116,96,45,Damaged Product,Open,2024-03-09,,0.48
+1117,85,32,Refund Request,Resolved,2024-07-19,2024-07-26,0.88
+1118,83,24,Delivery Delay,Closed,2023-06-29,2023-07-14,0.57
+1119,5,29,Technical Issue,Closed,2023-06-07,2023-06-08,0.57
+1120,46,2,Refund Request,In Progress,2025-02-02,,0.12
+1121,54,1,Product Inquiry,In Progress,2025-05-14,,0.58
+1122,11,9,Technical Issue,Open,2025-01-23,,0.86
+1123,67,36,Technical Issue,Open,2025-04-21,,0.21
+1124,18,31,Technical Issue,Resolved,2025-04-09,2025-04-18,1.0
+1125,93,22,Technical Issue,Open,2024-11-23,,0.47
+1126,5,41,Damaged Product,In Progress,2022-11-30,,0.19
+1127,40,35,Delivery Delay,Resolved,2024-10-14,2024-10-19,0.85
+1128,14,4,Damaged Product,In Progress,2025-05-05,,0.4
+1129,90,17,Refund Request,Resolved,2025-03-10,2025-03-13,0.77
+1130,44,27,Technical Issue,Open,2024-05-23,,0.4
+1131,47,5,Refund Request,Resolved,2024-08-06,2024-08-11,0.48
+1132,53,2,Refund Request,Open,2024-05-27,,0.67
+1133,42,12,Damaged Product,Open,2025-04-15,,0.6
+1134,68,39,Refund Request,Open,2025-04-27,,0.0
+1135,15,7,Refund Request,In Progress,2024-06-03,,0.11
+1136,41,8,Damaged Product,Closed,2023-10-13,2023-10-23,0.83
+1137,75,6,Refund Request,Closed,2024-02-03,2024-02-04,0.45
+1138,40,36,Technical Issue,Open,2024-08-10,,0.32
+1139,74,45,Technical Issue,In Progress,2025-05-03,,0.02
+1140,85,20,Product Inquiry,Open,2023-06-27,,0.12
+1141,97,3,Product Inquiry,In Progress,2024-07-10,,0.0
+1142,12,43,Refund Request,In Progress,2023-06-17,,0.46
+1143,95,4,Delivery Delay,Closed,2024-07-13,2024-07-15,0.29
+1144,76,1,Product Inquiry,Open,2025-05-05,,0.16
+1145,6,31,Product Inquiry,In Progress,2023-10-04,,0.48
+1146,70,7,Damaged Product,In Progress,2024-10-15,,0.63
+1147,76,36,Refund Request,Closed,2024-12-02,2024-12-04,1.0
+1148,22,12,Delivery Delay,Open,2024-04-27,,0.0
+1149,61,14,Technical Issue,Closed,2024-08-12,2024-08-15,0.91
+1150,31,27,Technical Issue,Open,2023-06-22,,0.84
+1151,35,37,Technical Issue,Closed,2024-05-27,2024-06-04,0.23
+1152,31,4,Technical Issue,Resolved,2024-03-25,2024-03-29,0.57
+1153,86,25,Technical Issue,Closed,2025-02-20,2025-03-06,0.34
+1154,38,23,Technical Issue,Closed,2024-07-14,2024-07-21,0.56
+1155,53,38,Refund Request,In Progress,2023-04-04,,1.0
+1156,32,40,Product Inquiry,Open,2025-04-08,,0.71
+1157,33,42,Delivery Delay,Resolved,2024-04-29,2024-04-30,0.68
+1158,52,38,Refund Request,Closed,2024-07-19,2024-07-31,0.35
+1159,89,9,Technical Issue,Closed,2025-04-30,2025-05-14,0.0
+1160,16,43,Delivery Delay,Closed,2025-05-13,2025-05-16,0.43
+1161,30,16,Delivery Delay,Open,2024-09-15,,0.92
+1162,88,26,Refund Request,Closed,2024-10-04,2024-10-08,0.0
+1163,15,37,Damaged Product,Open,2024-09-30,,0.13
+1164,92,8,Product Inquiry,Open,2025-03-08,,0.54
+1165,14,22,Damaged Product,Closed,2025-05-11,2025-05-19,0.16
+1166,19,42,Refund Request,Open,2022-07-23,,0.22
+1167,42,27,Technical Issue,Resolved,2025-03-11,2025-03-22,0.35
+1168,88,18,Damaged Product,Resolved,2025-02-12,2025-02-23,0.02
+1169,82,10,Refund Request,Closed,2025-03-21,2025-03-28,0.16
+1170,25,43,Product Inquiry,Closed,2024-11-25,2024-12-03,0.75
+1171,36,28,Refund Request,Open,2025-03-13,,0.04
+1172,1,28,Delivery Delay,Resolved,2024-09-16,2024-09-19,0.0
+1173,8,30,Damaged Product,In Progress,2024-05-03,,0.28
+1174,53,8,Damaged Product,In Progress,2025-04-06,,0.76
+1175,37,18,Delivery Delay,Closed,2024-03-05,2024-03-12,0.43
+1176,61,34,Technical Issue,Open,2024-04-07,,0.34
+1177,59,23,Damaged Product,In Progress,2024-09-12,,0.52
+1178,58,13,Product Inquiry,In Progress,2024-10-22,,0.0
+1179,50,18,Damaged Product,Closed,2025-02-16,2025-02-24,0.67
+1180,57,9,Damaged Product,Open,2024-12-23,,0.63
+1181,83,32,Technical Issue,Resolved,2024-02-08,2024-02-12,0.36
+1182,66,42,Refund Request,Closed,2024-05-27,2024-05-29,0.85
+1183,93,24,Delivery Delay,In Progress,2024-07-06,,0.11
+1184,35,43,Product Inquiry,In Progress,2022-11-03,,0.89
+1185,3,5,Damaged Product,Open,2025-04-01,,0.55
+1186,37,17,Technical Issue,Closed,2024-02-16,2024-02-29,0.38
+1187,79,37,Product Inquiry,Closed,2025-01-16,2025-01-27,0.49
+1188,68,1,Refund Request,Closed,2025-05-03,2025-05-04,0.46
+1189,99,45,Refund Request,Resolved,2024-06-12,2024-06-22,0.93
+1190,1,31,Delivery Delay,Closed,2023-10-06,2023-10-09,0.12
+1191,94,20,Refund Request,Resolved,2025-04-23,2025-04-28,0.23
+1192,76,13,Technical Issue,Resolved,2024-11-20,2024-12-01,0.86
+1193,73,37,Delivery Delay,In Progress,2025-04-21,,0.29
+1194,49,31,Damaged Product,Closed,2025-03-07,2025-03-22,0.82
+1195,42,3,Refund Request,In Progress,2025-04-07,,1.0
+1196,61,16,Product Inquiry,In Progress,2024-08-31,,0.36
+1197,30,28,Delivery Delay,Open,2024-08-17,,0.74
+1198,14,37,Product Inquiry,Closed,2025-05-14,2025-05-18,0.1
+1199,6,14,Technical Issue,Resolved,2024-08-09,2024-08-16,0.76
+1200,95,5,Technical Issue,Open,2023-02-11,,0.57
+1201,57,9,Damaged Product,Closed,2022-12-22,2023-01-03,0.67
+1202,28,24,Delivery Delay,Open,2024-12-29,,0.27
+1203,33,1,Refund Request,Resolved,2024-04-24,2024-04-26,0.0
+1204,83,38,Damaged Product,Resolved,2024-05-01,2024-05-16,0.68
+1205,12,22,Delivery Delay,Closed,2024-05-17,2024-05-27,0.0
+1206,12,17,Product Inquiry,Closed,2024-06-28,2024-06-29,0.39
+1207,89,18,Delivery Delay,Closed,2024-10-09,2024-10-20,0.83
+1208,63,14,Refund Request,Resolved,2024-11-17,2024-12-02,0.57
+1209,13,6,Technical Issue,Closed,2025-01-26,2025-02-10,1.0
+1210,36,1,Refund Request,Resolved,2025-04-10,2025-04-22,0.86
+1211,46,29,Delivery Delay,Closed,2024-11-28,2024-11-29,0.27
+1212,81,37,Refund Request,Open,2024-10-20,,0.51
+1213,25,12,Delivery Delay,Closed,2023-11-16,2023-11-20,0.48
+1214,94,12,Damaged Product,Closed,2025-04-23,2025-05-07,0.0
+1215,26,9,Product Inquiry,In Progress,2025-04-22,,0.17
+1216,8,43,Technical Issue,Resolved,2024-05-15,2024-05-19,0.3
+1217,18,3,Damaged Product,Open,2024-10-04,,0.0
+1218,47,41,Product Inquiry,In Progress,2025-03-27,,0.52
+1219,20,45,Damaged Product,Open,2025-03-29,,0.41
+1220,61,25,Damaged Product,Open,2024-09-29,,0.0
+1221,48,3,Product Inquiry,Closed,2024-12-09,2024-12-20,0.64
+1222,14,6,Delivery Delay,Closed,2025-05-11,2025-05-15,0.75
+1223,20,27,Product Inquiry,Open,2025-05-04,,0.58
+1224,30,45,Technical Issue,Closed,2025-03-01,2025-03-06,0.39
+1225,92,36,Product Inquiry,In Progress,2024-07-29,,0.71
+1226,21,39,Product Inquiry,Closed,2024-09-30,2024-10-08,0.74
+1227,23,40,Refund Request,Resolved,2024-08-30,2024-09-04,0.61
+1228,34,39,Delivery Delay,Closed,2024-06-29,2024-07-14,0.21
+1229,26,26,Product Inquiry,In Progress,2025-04-16,,0.6
+1230,99,35,Delivery Delay,Resolved,2024-02-03,2024-02-18,0.92
+1231,75,8,Delivery Delay,Closed,2023-10-10,2023-10-25,0.29
+1232,30,45,Technical Issue,Open,2024-12-31,,1.0
+1233,62,26,Technical Issue,Closed,2024-12-19,2024-12-20,0.32
+1234,24,35,Damaged Product,Closed,2024-12-03,2024-12-16,0.51
+1235,31,4,Damaged Product,Open,2023-03-03,,0.26
+1236,69,36,Refund Request,Open,2024-03-15,,0.58
+1237,68,35,Refund Request,Open,2025-05-02,,0.0
+1238,34,22,Damaged Product,Closed,2024-08-11,2024-08-25,0.31
+1239,6,28,Damaged Product,Resolved,2023-12-25,2024-01-08,0.12
+1240,18,15,Technical Issue,Open,2024-10-11,,0.55
+1241,19,40,Product Inquiry,Resolved,2024-07-23,2024-07-25,0.85
+1242,93,41,Refund Request,Open,2025-02-03,,0.73
+1243,59,11,Refund Request,In Progress,2024-09-22,,0.0
+1244,4,3,Delivery Delay,Open,2025-02-15,,1.0
+1245,100,43,Delivery Delay,Open,2025-05-11,,0.6
+1246,11,21,Technical Issue,Closed,2025-04-18,2025-05-01,0.23
+1247,11,6,Delivery Delay,Closed,2025-03-21,2025-03-29,0.55
+1248,57,35,Delivery Delay,In Progress,2023-02-02,,0.56
+1249,81,39,Damaged Product,Open,2024-08-28,,0.27
+1250,46,21,Delivery Delay,Resolved,2025-01-08,2025-01-19,0.57
+1251,65,42,Refund Request,In Progress,2024-08-31,,0.29
+1252,34,11,Technical Issue,Open,2025-01-07,,0.36
+1253,19,39,Product Inquiry,Resolved,2022-10-24,2022-10-29,0.26
+1254,67,5,Refund Request,Closed,2025-03-29,2025-04-01,0.0
+1255,65,40,Refund Request,Open,2024-03-08,,0.55
+1256,49,31,Technical Issue,Open,2025-04-23,,0.7
+1257,56,30,Delivery Delay,Open,2025-04-04,,0.68
+1258,77,4,Refund Request,Open,2024-06-24,,0.79
+1259,32,25,Refund Request,In Progress,2025-01-29,,0.61
+1260,12,24,Technical Issue,In Progress,2023-08-18,,0.31
+1261,20,26,Delivery Delay,Resolved,2025-05-05,2025-05-15,0.79
+1262,31,27,Refund Request,Closed,2023-09-29,2023-10-12,0.02
+1263,66,15,Refund Request,In Progress,2024-04-30,,0.18
+1264,85,4,Refund Request,In Progress,2023-02-25,,0.16
+1265,22,37,Delivery Delay,Resolved,2024-12-03,2024-12-15,0.88
+1266,71,3,Product Inquiry,Resolved,2024-03-31,2024-04-01,0.83
+1267,27,16,Technical Issue,Resolved,2023-03-16,2023-03-26,0.67
+1268,72,30,Delivery Delay,In Progress,2025-02-13,,0.88
+1269,99,40,Delivery Delay,Closed,2024-05-12,2024-05-15,0.19
+1270,8,18,Delivery Delay,Open,2024-02-15,,0.62
+1271,51,17,Technical Issue,Open,2024-11-08,,0.46
+1272,68,1,Refund Request,In Progress,2025-04-07,,0.8
+1273,83,12,Damaged Product,Resolved,2024-10-01,2024-10-09,0.46
+1274,67,13,Damaged Product,Resolved,2025-03-30,2025-04-11,0.37
+1275,68,42,Product Inquiry,Open,2025-04-06,,0.69
+1276,35,16,Delivery Delay,Closed,2023-04-11,2023-04-22,0.81
+1277,19,45,Refund Request,Resolved,2024-10-29,2024-11-08,0.27
+1278,93,11,Product Inquiry,In Progress,2025-04-09,,0.48
+1279,39,11,Damaged Product,Open,2024-10-19,,0.13
+1280,54,9,Technical Issue,In Progress,2024-09-12,,0.0
+1281,56,14,Refund Request,Open,2025-03-16,,0.57
+1282,100,17,Product Inquiry,Open,2025-05-10,,0.71
+1283,6,25,Product Inquiry,In Progress,2024-04-17,,0.59
+1284,21,23,Refund Request,In Progress,2024-07-11,,0.0
+1285,6,12,Damaged Product,Resolved,2023-04-02,2023-04-15,0.38
+1286,93,44,Refund Request,In Progress,2025-04-25,,0.0
+1287,70,44,Damaged Product,Closed,2024-03-13,2024-03-18,0.98
+1288,94,2,Product Inquiry,Open,2025-02-06,,0.12
+1289,49,20,Refund Request,Resolved,2025-03-08,2025-03-21,0.94
+1290,38,33,Damaged Product,Open,2022-09-19,,0.83
+1291,94,7,Damaged Product,In Progress,2024-10-08,,0.18
+1292,72,45,Refund Request,Closed,2024-02-21,2024-03-06,0.1
+1293,43,9,Delivery Delay,Resolved,2023-12-16,2023-12-26,0.62
+1294,87,45,Delivery Delay,In Progress,2024-08-03,,0.2
+1295,38,44,Refund Request,Open,2023-06-21,,0.54
+1296,31,14,Refund Request,Closed,2024-05-06,2024-05-10,0.33
+1297,25,34,Technical Issue,In Progress,2025-04-09,,0.0
+1298,41,8,Damaged Product,Resolved,2024-06-22,2024-07-04,0.0
+1299,19,7,Delivery Delay,Open,2022-11-23,,0.58
+1300,92,39,Product Inquiry,Resolved,2024-09-10,2024-09-19,0.3
+1301,93,8,Technical Issue,Open,2025-05-02,,0.31
+1302,26,16,Damaged Product,Open,2025-04-25,,0.74
+1303,64,14,Refund Request,Closed,2024-12-18,2024-12-25,0.91
+1304,29,3,Delivery Delay,Resolved,2024-09-17,2024-10-01,0.4
+1305,93,5,Technical Issue,Open,2025-01-14,,0.38
+1306,98,33,Refund Request,Resolved,2024-01-19,2024-02-01,0.68
+1307,50,7,Product Inquiry,Resolved,2024-08-11,2024-08-20,0.03
+1308,100,36,Delivery Delay,Open,2025-05-10,,0.58
+1309,24,14,Delivery Delay,Open,2024-07-08,,0.69
+1310,76,7,Product Inquiry,In Progress,2025-01-22,,0.74
+1311,15,36,Technical Issue,Closed,2024-02-24,2024-03-09,0.0
+1312,68,1,Product Inquiry,Closed,2025-05-12,2025-05-24,0.23
+1313,43,31,Refund Request,Resolved,2024-01-23,2024-01-28,0.19
+1314,77,8,Delivery Delay,Resolved,2024-12-13,2024-12-28,0.53
+1315,80,44,Refund Request,Closed,2023-03-28,2023-04-04,0.67
+1316,79,23,Delivery Delay,Closed,2023-03-10,2023-03-25,1.0
+1317,10,20,Delivery Delay,Open,2023-11-30,,0.33
+1318,68,41,Delivery Delay,In Progress,2025-05-08,,0.33
+1319,70,19,Product Inquiry,Closed,2024-08-28,2024-09-01,0.9
+1320,68,31,Delivery Delay,In Progress,2025-04-30,,0.6
+1321,76,9,Damaged Product,Resolved,2024-12-30,2025-01-03,0.94
+1322,93,11,Technical Issue,Closed,2025-01-20,2025-01-30,0.6
+1323,65,10,Damaged Product,Open,2024-10-18,,0.1
+1324,58,18,Refund Request,In Progress,2025-01-21,,0.03
+1325,54,5,Refund Request,Open,2025-01-05,,0.0
+1326,5,45,Damaged Product,In Progress,2024-12-31,,0.73
+1327,67,35,Delivery Delay,Resolved,2025-03-15,2025-03-27,0.92
+1328,47,41,Refund Request,Open,2024-01-31,,1.0
+1329,31,32,Product Inquiry,Resolved,2025-01-22,2025-01-29,0.8
+1330,96,3,Delivery Delay,Open,2024-06-26,,0.91
+1331,96,9,Delivery Delay,Resolved,2023-09-04,2023-09-17,0.3
+1332,6,13,Technical Issue,Open,2023-05-30,,0.1
+1333,27,24,Technical Issue,Resolved,2024-03-15,2024-03-22,0.8
+1334,12,2,Product Inquiry,Resolved,2023-06-13,2023-06-16,0.65
+1335,10,21,Damaged Product,Closed,2022-12-13,2022-12-15,0.54
+1336,99,14,Refund Request,In Progress,2025-04-08,,0.64
+1337,46,4,Technical Issue,Resolved,2024-12-12,2024-12-21,0.61
+1338,24,28,Product Inquiry,Open,2024-03-09,,0.95
+1339,81,32,Technical Issue,Resolved,2025-04-21,2025-05-04,0.95
+1340,83,10,Refund Request,Closed,2023-04-18,2023-04-27,0.69
+1341,38,3,Damaged Product,Open,2023-11-06,,0.8
+1342,39,36,Technical Issue,Open,2024-01-27,,0.68
+1343,58,13,Refund Request,In Progress,2025-02-22,,0.34
+1344,31,31,Delivery Delay,Closed,2023-02-16,2023-02-23,0.76
+1345,28,15,Technical Issue,In Progress,2024-03-03,,0.01
+1346,93,8,Delivery Delay,Open,2024-12-26,,0.87
+1347,86,24,Delivery Delay,Resolved,2024-12-04,2024-12-16,0.08
+1348,78,4,Technical Issue,In Progress,2024-01-01,,0.6
+1349,75,5,Refund Request,In Progress,2025-04-26,,0.2
+1350,74,12,Product Inquiry,Open,2025-05-13,,0.69
+1351,33,38,Technical Issue,Closed,2025-04-10,2025-04-17,0.49
+1352,91,37,Technical Issue,Resolved,2025-02-17,2025-03-02,0.0
+1353,74,25,Technical Issue,In Progress,2025-04-30,,0.65
+1354,83,39,Technical Issue,Resolved,2024-10-29,2024-10-31,0.3
+1355,38,10,Technical Issue,In Progress,2024-06-27,,0.81
+1356,50,41,Refund Request,Closed,2024-07-24,2024-07-27,0.5
+1357,73,7,Delivery Delay,In Progress,2025-04-26,,0.64
+1358,99,33,Technical Issue,In Progress,2024-08-18,,0.16
+1359,80,13,Damaged Product,Closed,2022-12-13,2022-12-28,0.29
+1360,14,12,Damaged Product,Closed,2025-05-06,2025-05-11,0.34
+1361,100,28,Technical Issue,Resolved,2025-05-12,2025-05-22,0.8
+1362,8,27,Technical Issue,Open,2024-11-03,,1.0
+1363,61,10,Delivery Delay,Resolved,2024-12-25,2025-01-05,0.22
+1364,59,27,Product Inquiry,Open,2025-02-24,,0.88
+1365,23,14,Technical Issue,In Progress,2024-01-31,,0.0
+1366,93,15,Technical Issue,Closed,2025-04-18,2025-04-24,0.08
+1367,47,42,Technical Issue,Closed,2025-05-03,2025-05-18,0.16
+1368,18,43,Refund Request,Open,2025-03-13,,0.03
+1369,1,23,Delivery Delay,Resolved,2024-06-05,2024-06-20,0.0
+1370,19,45,Delivery Delay,Resolved,2024-05-19,2024-05-25,0.64
+1371,71,10,Refund Request,Resolved,2023-10-02,2023-10-12,0.43
+1372,70,44,Refund Request,Closed,2023-01-31,2023-02-07,0.63
+1373,12,36,Product Inquiry,Resolved,2024-08-14,2024-08-24,0.74
+1374,45,27,Damaged Product,Open,2024-11-16,,0.59
+1375,2,36,Product Inquiry,Resolved,2023-11-27,2023-12-10,0.73
+1376,13,44,Damaged Product,Closed,2025-02-24,2025-03-09,0.48
+1377,68,21,Delivery Delay,In Progress,2025-05-05,,0.08
+1378,33,13,Product Inquiry,In Progress,2024-01-01,,0.87
+1379,70,10,Refund Request,Closed,2025-03-31,2025-04-10,0.29
+1380,66,18,Delivery Delay,Open,2024-10-30,,0.17
+1381,22,31,Delivery Delay,Closed,2024-05-04,2024-05-05,0.44
+1382,86,33,Product Inquiry,Resolved,2024-11-25,2024-12-05,0.18
+1383,50,5,Delivery Delay,Open,2025-04-14,,0.35
+1384,98,25,Delivery Delay,Closed,2025-03-11,2025-03-13,0.62
+1385,86,13,Delivery Delay,In Progress,2024-08-18,,0.62
+1386,7,5,Delivery Delay,Resolved,2023-10-27,2023-11-05,0.19
+1387,79,42,Delivery Delay,In Progress,2025-04-17,,0.33
+1388,38,41,Refund Request,Open,2024-01-03,,0.88
+1389,7,30,Damaged Product,Resolved,2024-02-24,2024-03-08,0.67
+1390,81,34,Technical Issue,Closed,2024-10-02,2024-10-16,1.0
+1391,57,42,Damaged Product,Resolved,2022-07-25,2022-08-05,0.91
+1392,7,24,Refund Request,Closed,2024-07-05,2024-07-16,0.9
+1393,35,2,Product Inquiry,Resolved,2023-11-29,2023-12-07,0.01
+1394,77,19,Delivery Delay,Resolved,2024-11-10,2024-11-13,0.77
+1395,92,29,Product Inquiry,Closed,2024-03-30,2024-04-11,0.48
+1396,98,27,Damaged Product,Closed,2024-12-12,2024-12-22,0.31
+1397,45,2,Product Inquiry,Open,2025-03-21,,0.56
+1398,93,41,Product Inquiry,Resolved,2025-01-30,2025-02-14,0.83
+1399,7,11,Refund Request,Open,2023-09-18,,0.68
+1400,3,26,Delivery Delay,In Progress,2025-03-09,,0.19
+1401,25,13,Damaged Product,Closed,2024-10-18,2024-10-26,0.76
+1402,12,9,Refund Request,In Progress,2024-05-07,,0.28
+1403,92,11,Product Inquiry,Closed,2024-07-19,2024-07-25,0.58
+1404,14,30,Product Inquiry,Open,2025-05-08,,0.39
+1405,2,14,Delivery Delay,Closed,2024-08-08,2024-08-19,0.42
+1406,11,39,Product Inquiry,Closed,2025-03-03,2025-03-04,0.77
+1407,15,15,Technical Issue,Resolved,2024-05-22,2024-05-26,0.14
+1408,86,21,Product Inquiry,Closed,2024-08-01,2024-08-09,1.0
+1409,70,37,Product Inquiry,In Progress,2022-09-25,,0.0
+1410,16,13,Delivery Delay,Closed,2024-06-17,2024-06-25,0.29
+1411,86,35,Refund Request,In Progress,2024-07-12,,0.63
+1412,34,38,Damaged Product,Open,2025-03-18,,0.7
+1413,75,21,Damaged Product,Open,2024-08-25,,0.46
+1414,51,19,Delivery Delay,Open,2024-11-23,,0.48
+1415,56,18,Delivery Delay,In Progress,2025-02-04,,0.64
+1416,31,29,Refund Request,Closed,2025-04-15,2025-04-26,0.42
+1417,14,26,Delivery Delay,Resolved,2025-05-06,2025-05-15,0.99
+1418,19,30,Technical Issue,Resolved,2024-09-17,2024-09-28,0.79
+1419,22,12,Delivery Delay,Open,2024-12-02,,0.81
+1420,21,41,Product Inquiry,Open,2025-02-19,,0.16
+1421,76,35,Damaged Product,Closed,2025-01-19,2025-01-21,0.47
+1422,34,34,Technical Issue,Resolved,2025-02-04,2025-02-07,0.39
+1423,70,22,Technical Issue,Resolved,2023-05-09,2023-05-22,0.15
+1424,57,15,Damaged Product,Resolved,2022-10-07,2022-10-21,0.63
+1425,70,16,Technical Issue,Open,2023-10-15,,0.31
+1426,23,35,Product Inquiry,In Progress,2024-04-18,,0.73
+1427,4,22,Product Inquiry,Closed,2024-12-06,2024-12-16,0.13
+1428,95,2,Technical Issue,Resolved,2023-05-22,2023-06-04,1.0
+1429,70,41,Delivery Delay,Resolved,2023-02-05,2023-02-12,0.19
+1430,59,31,Product Inquiry,Open,2025-02-21,,0.58
+1431,64,16,Damaged Product,Resolved,2024-10-08,2024-10-17,0.78
+1432,2,24,Product Inquiry,Open,2025-02-01,,0.3
+1433,70,10,Damaged Product,Open,2024-12-18,,0.8
+1434,24,15,Refund Request,In Progress,2024-11-08,,0.07
+1435,87,11,Product Inquiry,Open,2024-04-17,,1.0
+1436,87,43,Delivery Delay,In Progress,2025-04-14,,0.5
+1437,100,22,Delivery Delay,Resolved,2025-05-12,2025-05-27,0.29
+1438,88,17,Damaged Product,Resolved,2025-02-19,2025-03-01,0.4
+1439,94,5,Technical Issue,Closed,2025-01-19,2025-01-21,0.78
+1440,18,21,Technical Issue,Resolved,2024-10-08,2024-10-16,0.3
+1441,6,36,Damaged Product,In Progress,2024-02-15,,0.24
+1442,56,40,Technical Issue,In Progress,2025-05-06,,0.42
+1443,3,11,Delivery Delay,Closed,2024-11-20,2024-12-05,0.09
+1444,43,3,Technical Issue,Closed,2024-11-28,2024-12-09,1.0
+1445,56,39,Technical Issue,In Progress,2025-03-08,,0.3
+1446,38,42,Technical Issue,Closed,2022-08-27,2022-09-01,0.79
+1447,44,40,Delivery Delay,Open,2023-04-30,,0.57
+1448,37,23,Technical Issue,Resolved,2024-01-15,2024-01-26,0.16
+1449,65,30,Product Inquiry,Open,2023-07-25,,0.5
+1450,12,23,Technical Issue,Closed,2025-01-30,2025-02-03,0.77
+1451,52,29,Damaged Product,Resolved,2025-03-29,2025-04-06,0.43
+1452,70,43,Technical Issue,Closed,2023-12-22,2023-12-23,0.92
+1453,58,18,Delivery Delay,Resolved,2025-01-10,2025-01-23,0.86
+1454,79,5,Technical Issue,Resolved,2023-09-03,2023-09-11,0.82
+1455,69,32,Damaged Product,Resolved,2024-03-01,2024-03-10,0.34
+1456,80,37,Product Inquiry,Resolved,2023-03-09,2023-03-18,0.12
+1457,92,10,Technical Issue,Closed,2024-02-13,2024-02-19,0.29
+1458,74,13,Delivery Delay,Resolved,2025-04-14,2025-04-26,0.57
+1459,83,35,Technical Issue,In Progress,2025-01-23,,0.69
+1460,1,26,Damaged Product,Closed,2024-08-15,2024-08-26,0.0
+1461,48,4,Delivery Delay,In Progress,2024-07-14,,0.5
+1462,85,24,Technical Issue,Resolved,2023-04-14,2023-04-21,0.56
+1463,43,44,Delivery Delay,Resolved,2024-06-20,2024-06-30,0.4
+1464,4,44,Damaged Product,Open,2024-08-16,,0.95
+1465,36,35,Refund Request,Closed,2025-04-14,2025-04-27,0.65
+1466,48,18,Damaged Product,In Progress,2025-01-05,,0.96
+1467,68,26,Product Inquiry,Resolved,2025-04-02,2025-04-12,0.42
+1468,26,9,Technical Issue,In Progress,2025-05-12,,0.83
+1469,38,12,Damaged Product,Closed,2023-06-03,2023-06-14,1.0
+1470,88,35,Product Inquiry,In Progress,2025-03-09,,0.96
+1471,29,13,Refund Request,Open,2024-06-29,,0.12
+1472,52,11,Delivery Delay,In Progress,2025-01-15,,0.41
+1473,88,44,Damaged Product,In Progress,2025-04-15,,0.38
+1474,69,22,Refund Request,Resolved,2024-06-06,2024-06-09,0.67
+1475,50,11,Technical Issue,Closed,2024-09-14,2024-09-21,0.74
+1476,29,45,Technical Issue,Closed,2024-06-20,2024-06-26,0.21
+1477,78,44,Delivery Delay,In Progress,2024-02-28,,0.52
+1478,29,33,Technical Issue,Open,2024-02-08,,0.0
+1479,91,26,Refund Request,In Progress,2022-12-04,,1.0
+1480,4,42,Refund Request,Resolved,2025-02-20,2025-03-01,0.32
+1481,50,36,Delivery Delay,In Progress,2025-01-26,,0.52
+1482,79,21,Refund Request,Resolved,2022-12-27,2023-01-09,0.39
+1483,34,15,Damaged Product,Open,2024-12-22,,0.9
+1484,40,41,Technical Issue,Open,2025-01-22,,0.0
+1485,74,5,Product Inquiry,Open,2025-04-18,,0.49
+1486,77,31,Damaged Product,Closed,2025-03-19,2025-03-20,0.46
+1487,67,22,Delivery Delay,Closed,2025-04-03,2025-04-08,0.34
+1488,12,24,Refund Request,Closed,2023-06-06,2023-06-13,1.0
+1489,12,21,Product Inquiry,In Progress,2024-08-20,,0.19
+1490,14,21,Damaged Product,In Progress,2025-05-11,,0.77
+1491,14,14,Technical Issue,Closed,2025-05-03,2025-05-09,0.62
+1492,28,27,Technical Issue,Resolved,2023-11-21,2023-12-03,0.94
+1493,13,16,Refund Request,Resolved,2025-02-27,2025-03-07,0.27
+1494,6,2,Damaged Product,In Progress,2023-01-31,,0.24
+1495,90,42,Refund Request,Open,2024-05-22,,0.88
+1496,99,6,Refund Request,Open,2025-04-11,,0.65
+1497,23,30,Technical Issue,Resolved,2024-09-02,2024-09-12,0.0
+1498,16,45,Delivery Delay,Resolved,2024-09-08,2024-09-17,0.31
+1499,78,9,Refund Request,Resolved,2024-04-21,2024-04-22,0.64
+1500,47,9,Technical Issue,Closed,2024-03-14,2024-03-28,0.79

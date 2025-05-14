@@ -69,7 +69,7 @@ class InsightService:
         anomalies = negative_counts[negative_counts["z_score"] > z_threshold]
         return anomalies.sort_values("z_score", ascending=False).to_dict(orient="records")
 
-    def highlight_trending_products(self, threshold: float = 0.5):
+    def highlight_trending_products(self, threshold: float = 0.6):
         """
         Highlight products with rapidly increasing or decreasing sales trends.
         """

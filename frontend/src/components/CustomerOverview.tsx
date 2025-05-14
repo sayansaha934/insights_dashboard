@@ -1,7 +1,10 @@
 import React from "react";
 import StatCard from "./StatCard";
+import { useNavigate } from "react-router-dom"; // Import useNavigate
 
 export default function CustomerOverview({ data }: { data: any }) {
+  const navigate = useNavigate(); // Initialize navigate
+
   return (
     <div className="space-y-4">
       <h2 className="text-2xl font-semibold">Customer Overview</h2>
@@ -19,7 +22,11 @@ export default function CustomerOverview({ data }: { data: any }) {
         </thead>
         <tbody>
           {data.top_customers.map((customer: any) => (
-            <tr key={customer.customer_id} className="hover:bg-blue-50">
+            <tr
+              key={customer.customer_id}
+              className="hover:bg-blue-50 cursor-pointer"
+              onClick={() => navigate(`/customer/${customer.customer_id}`)} // Navigate to customer profile
+            >
               <td className="border border-gray-300 px-4 py-2">{customer.customer_name}</td>
               <td className="border border-gray-300 px-4 py-2">${customer.total_spent.toFixed(2)}</td>
             </tr>

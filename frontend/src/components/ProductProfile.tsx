@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
   LineChart,
   Line,
@@ -11,19 +11,41 @@ import {
   Cell,
 } from "recharts";
 import { IoArrowBack } from "react-icons/io5";
+import { useNavigate, useParams } from "react-router-dom"; // Import useParams
 
 const COLORS = ["#3b82f6", "#f97316", "#10b981", "#ef4444"];
 
-export default function ProductProfile({
-  productDetails,
-  onBack,
-}: {
-  productDetails: any;
-  onBack: () => void;
-}) {
+export default function ProductProfile() {
+  const navigate = useNavigate(); // Initialize navigate
+  const { id } = useParams(); // Get the product ID from the route
+  const [productDetails, setProductDetails] = useState<any>(null);
+
+  useEffect(() => {
+    // Fetch product details using the ID
+    async function fetchProductDetails() {
+      try {
+        const response = await fetch(`${import.meta.env.VITE_API_URL}products/${id}`);
+        const data = await response.json();
+        setProductDetails(data);
+      } catch (error) {
+        console.error("Error fetching product details:", error);
+      }
+    }
+
+    fetchProductDetails();
+  }, [id]);
+
+  if (!productDetails) {
+    return (
+      <div className="text-center mt-10">
+        <p>Loading product details...</p>
+      </div>
+    );
+  }
+
   return (
-    <div className="space-y-6">
-      <button onClick={onBack} className="flex items-center text-blue-500">
+    <div className="space-y-6 pl-6"> {/* Added padding-left */}
+      <button onClick={() => navigate(-1)} className="flex items-center text-blue-500">
         <IoArrowBack className="mr-2" />
         Back
       </button>
@@ -120,7 +142,11 @@ export default function ProductProfile({
           </thead>
           <tbody>
             {productDetails.top_customers.map((customer: any) => (
-              <tr key={customer.customer_id} className="hover:bg-blue-50">
+              <tr
+                key={customer.customer_id}
+                className="hover:bg-blue-50 cursor-pointer"
+                onClick={() => navigate(`/customer/${customer.customer_id}`)} // Navigate to customer profile
+              >
                 <td className="border border-gray-300 px-4 py-2">{customer.customer_name}</td>
                 <td className="border border-gray-300 px-4 py-2">{customer.purchase_count}</td>
               </tr>
@@ -142,7 +168,11 @@ export default function ProductProfile({
           </thead>
           <tbody>
             {productDetails.frequently_bought_together.map((product: any) => (
-              <tr key={product.product_id} className="hover:bg-blue-50">
+              <tr
+                key={product.product_id}
+                className="hover:bg-blue-50 cursor-pointer"
+                onClick={() => navigate(`/product/${product.product_id}`)} // Navigate to product profile
+              >
                 <td className="border border-gray-300 px-4 py-2">{product.product_name}</td>
                 <td className="border border-gray-300 px-4 py-2">{product.category}</td>
                 <td className="border border-gray-300 px-4 py-2">${product.sales_price}</td>

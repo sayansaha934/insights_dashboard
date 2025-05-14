@@ -1,101 +1,101 @@
 customer_id,customer_name,region,join_date,industry
-1,Kelley and Sons,North America,2023-02-20,Retail
-2,"Wolf, Gutierrez and Ray",Asia-Pacific,2024-04-24,Finance
-3,Hart and Sons,Europe,2022-10-19,Healthcare
-4,Miller and Sons,North America,2024-01-27,Technology
-5,"Baker, Smith and Butler",Africa,2024-07-03,Hospitality
-6,Hamilton PLC,North America,2024-11-05,Retail
-7,White Group,North America,2023-06-12,Finance
-8,Hunt and Sons,Europe,2022-12-10,Retail
-9,"Carroll, Burke and Johnson",Africa,2024-06-21,Finance
-10,Thompson Inc,Africa,2025-03-23,Hospitality
-11,"Lewis, Guerra and Sullivan",Europe,2023-07-19,Transportation
-12,Mann Ltd,Africa,2024-01-11,Education
-13,Byrd-Gutierrez,North America,2023-06-08,Healthcare
-14,Hopkins PLC,South America,2025-01-16,Manufacturing
-15,"Gibson, Martinez and Price",Asia-Pacific,2023-12-02,Healthcare
-16,Levine-Simmons,Europe,2023-02-17,Manufacturing
-17,Daniel LLC,North America,2022-11-11,Technology
-18,Cole-Fernandez,South America,2024-09-14,Technology
-19,"Gibson, Stevenson and Wise",Asia-Pacific,2025-02-18,Manufacturing
-20,"Gilbert, Joyce and Krause",Africa,2024-09-30,Education
-21,"Singleton, Duarte and Smith",North America,2022-10-04,Transportation
-22,Bennett-Miller,Africa,2024-09-21,Technology
-23,"Hunt, Peters and Yang",South America,2022-07-01,Technology
-24,Hobbs-Mayer,Africa,2024-09-09,Education
-25,"Goodman, Robinson and Callahan",Africa,2025-05-02,Manufacturing
-26,Jackson Ltd,Africa,2024-10-16,Finance
-27,Gonzales-Hamilton,North America,2024-07-01,Retail
-28,Bell-Murphy,Europe,2024-06-04,Education
-29,Smith-Oliver,North America,2023-09-30,Finance
-30,Welch PLC,North America,2024-11-14,Hospitality
-31,"Wolfe, Anderson and Rodriguez",Asia-Pacific,2025-01-09,Transportation
-32,"Morales, Miller and Jones",Asia-Pacific,2024-08-17,Healthcare
-33,Hall-Decker,Asia-Pacific,2023-08-03,Manufacturing
-34,"Anderson, Hendrix and Parker",Europe,2023-01-03,Education
-35,Ramirez-Brown,North America,2022-11-14,Healthcare
-36,"Campbell, Byrd and Beltran",Africa,2022-09-04,Finance
-37,Jacobson-Taylor,Europe,2024-09-02,Transportation
-38,Mitchell-Espinoza,South America,2025-01-29,Education
-39,Sawyer-Webb,Africa,2022-06-15,Finance
-40,Berry-Ray,Asia-Pacific,2025-01-06,Retail
-41,Jimenez-Moore,Europe,2024-02-25,Retail
-42,Franco LLC,Asia-Pacific,2025-01-17,Hospitality
-43,"Randall, Green and Wright",Asia-Pacific,2023-06-12,Technology
-44,Smith-Harris,Europe,2023-05-03,Manufacturing
-45,"Logan, Whitaker and Craig",Europe,2025-04-27,Transportation
-46,Zimmerman-Cobb,South America,2022-11-16,Transportation
-47,"Graves, Rogers and Stephens",Europe,2024-12-30,Education
-48,"Rodriguez, Patel and Roberts",Europe,2022-10-07,Finance
-49,Riley-Chavez,Africa,2022-07-20,Education
-50,Singleton PLC,Africa,2024-04-09,Hospitality
-51,Wiley-Howard,Africa,2022-06-18,Hospitality
-52,Mason Inc,Asia-Pacific,2024-12-18,Finance
-53,Richardson-Williams,Europe,2023-08-17,Transportation
-54,Hodges-Walker,North America,2023-08-14,Retail
-55,Fields-Stephenson,North America,2022-12-03,Healthcare
-56,"Stephens, Mora and Moyer",Europe,2022-06-25,Hospitality
-57,Oconnell-Morris,Africa,2024-04-05,Technology
-58,Ferguson Inc,South America,2022-11-13,Hospitality
-59,Rodgers PLC,Africa,2022-11-29,Transportation
-60,Knox-Phillips,Africa,2024-03-23,Education
-61,"Golden, Zimmerman and Garcia",Africa,2023-03-03,Retail
-62,Duffy PLC,North America,2024-05-20,Education
-63,"Gutierrez, Miller and Stafford",Asia-Pacific,2023-08-29,Technology
-64,Norman and Sons,Asia-Pacific,2022-06-26,Hospitality
-65,"Mcclain, Russell and Fritz",Europe,2023-09-07,Transportation
-66,Rivera LLC,North America,2023-09-19,Education
-67,Simmons and Sons,Africa,2024-08-21,Healthcare
-68,Carroll-Morgan,Africa,2023-06-01,Technology
-69,"Anderson, Allen and Mitchell",Asia-Pacific,2023-07-31,Finance
-70,Reyes Ltd,Europe,2025-04-21,Manufacturing
-71,Rodriguez and Sons,Europe,2024-10-27,Retail
-72,"Nelson, Holloway and Jackson",Africa,2023-03-07,Manufacturing
-73,Murray-Hunt,South America,2025-01-19,Retail
-74,Bailey Ltd,North America,2022-05-23,Manufacturing
-75,Nunez Ltd,Asia-Pacific,2024-12-27,Finance
-76,Pugh LLC,North America,2023-01-30,Finance
-77,Taylor-Day,Africa,2025-01-03,Technology
-78,Solomon-Garcia,North America,2024-04-29,Transportation
-79,Booker-Salazar,North America,2022-09-16,Healthcare
-80,Chen-Hall,Europe,2022-11-08,Transportation
-81,Williams-Delacruz,Africa,2024-08-22,Healthcare
-82,"Morse, Horton and Guerrero",Asia-Pacific,2025-02-12,Hospitality
-83,Smith-Jimenez,Europe,2023-07-11,Finance
-84,Fleming Inc,Asia-Pacific,2024-11-02,Hospitality
-85,Schroeder-Love,Asia-Pacific,2022-10-30,Transportation
-86,Tran-Smith,Africa,2023-06-12,Transportation
-87,Duncan Ltd,North America,2023-06-29,Finance
-88,Holt-Brooks,Europe,2024-02-11,Technology
-89,Burns-Massey,Asia-Pacific,2022-05-18,Retail
-90,Perez LLC,Africa,2023-06-23,Finance
-91,White LLC,Africa,2023-01-09,Finance
-92,Alexander-Fuentes,North America,2024-12-06,Technology
-93,Neal Inc,North America,2022-08-23,Finance
-94,Porter-Freeman,North America,2025-02-03,Retail
-95,"Webb, Young and Martin",Asia-Pacific,2023-09-13,Technology
-96,"Andrade, Jimenez and Cook",Africa,2024-01-25,Finance
-97,"Cruz, Thompson and Sullivan",Asia-Pacific,2024-06-11,Transportation
-98,"Melendez, Hunt and Hernandez",Europe,2024-02-26,Healthcare
-99,Brown-Fleming,Africa,2025-05-12,Transportation
-100,Wilkinson PLC,Europe,2022-07-20,Transportation
+1,"Barrett, Freeman and Sanchez",North America,2023-06-02,Retail
+2,"Mcmillan, Martin and Ingram",Asia-Pacific,2023-07-30,Finance
+3,"Singh, Tran and Mata",Europe,2024-11-13,Healthcare
+4,"Anderson, Guzman and Garcia",North America,2024-06-19,Technology
+5,Young-Williamson,Africa,2022-11-16,Hospitality
+6,"Downs, Wilkerson and Pope",North America,2022-09-07,Retail
+7,Gomez PLC,North America,2023-07-18,Finance
+8,Weiss Group,Europe,2023-11-14,Retail
+9,"Lopez, Ward and Robinson",Africa,2024-09-04,Finance
+10,Wells LLC,Africa,2022-05-22,Hospitality
+11,Ray PLC,Europe,2024-12-05,Transportation
+12,Stone and Sons,Africa,2023-05-22,Education
+13,Bell Inc,North America,2024-12-20,Healthcare
+14,Pineda-Anderson,South America,2025-04-20,Manufacturing
+15,Gates-Brown,Asia-Pacific,2024-01-14,Healthcare
+16,"Gomez, Thompson and Cook",Europe,2022-05-18,Manufacturing
+17,Erickson Group,North America,2024-12-15,Technology
+18,Anderson Inc,South America,2024-09-04,Technology
+19,Baker-Hunt,Asia-Pacific,2022-06-21,Manufacturing
+20,Jennings Group,Africa,2025-03-14,Education
+21,Schneider-Barrera,North America,2024-06-09,Transportation
+22,Allen Group,Africa,2023-06-29,Technology
+23,Weaver-Ramirez,South America,2023-09-29,Technology
+24,Johnson-Collins,Africa,2022-10-05,Education
+25,Skinner-Friedman,Africa,2023-04-15,Manufacturing
+26,"Villanueva, Avila and Carrillo",Africa,2025-04-13,Finance
+27,"Thornton, Franklin and Walton",North America,2022-08-24,Retail
+28,Reyes Ltd,Europe,2022-08-10,Education
+29,Hampton-Mullen,North America,2022-12-12,Finance
+30,Williams and Sons,North America,2024-04-07,Hospitality
+31,Joseph Group,Asia-Pacific,2022-12-22,Transportation
+32,Carpenter-Fisher,Asia-Pacific,2024-11-16,Healthcare
+33,Zimmerman Group,Asia-Pacific,2023-11-28,Manufacturing
+34,"Maynard, Hull and Johnson",Europe,2023-12-16,Education
+35,Mcpherson LLC,North America,2022-10-08,Healthcare
+36,Roman-Conley,Africa,2025-03-12,Finance
+37,Smith LLC,Europe,2023-07-23,Transportation
+38,Elliott-Bradley,South America,2022-08-07,Education
+39,Blevins-Jacobs,Africa,2023-03-25,Finance
+40,White LLC,Asia-Pacific,2023-04-27,Retail
+41,"Brewer, Silva and Russell",Europe,2023-09-03,Retail
+42,Shepherd-Hogan,Asia-Pacific,2025-01-11,Hospitality
+43,Mejia-Murphy,Asia-Pacific,2023-07-04,Technology
+44,Potter-Wright,Europe,2022-10-31,Manufacturing
+45,Rogers PLC,Europe,2022-11-08,Transportation
+46,Sanchez-Mcfarland,South America,2024-11-14,Transportation
+47,Huber PLC,Europe,2024-01-19,Education
+48,"Brown, Kelley and Patel",Europe,2024-05-16,Finance
+49,"Singh, Brooks and Trevino",Africa,2025-02-26,Education
+50,Murray-Hall,Africa,2024-04-28,Hospitality
+51,Fry-Garza,Africa,2022-08-17,Hospitality
+52,"Chapman, Norris and Page",Asia-Pacific,2023-08-04,Finance
+53,Clarke LLC,Europe,2023-03-24,Transportation
+54,Rojas PLC,North America,2024-08-11,Retail
+55,Key PLC,North America,2025-01-10,Healthcare
+56,Gregory-Garcia,Europe,2024-12-16,Hospitality
+57,Grant-Walters,Africa,2022-07-24,Technology
+58,"Tran, Garcia and West",South America,2024-05-30,Hospitality
+59,Bowers Ltd,Africa,2024-07-25,Transportation
+60,Perez-Kennedy,Africa,2024-05-09,Education
+61,"Waters, White and Perkins",Africa,2024-03-13,Retail
+62,Armstrong LLC,North America,2022-09-15,Education
+63,Schmidt Group,Asia-Pacific,2024-08-02,Technology
+64,Zavala Group,Asia-Pacific,2024-03-24,Hospitality
+65,Holland-Morris,Europe,2023-02-10,Transportation
+66,Tran-Rocha,North America,2024-01-24,Education
+67,"Wilson, Fischer and Jones",Africa,2025-02-27,Healthcare
+68,Carter PLC,Africa,2025-03-24,Technology
+69,"Fitzgerald, Lynch and Bailey",Asia-Pacific,2024-01-14,Finance
+70,"Mahoney, Allen and Moore",Europe,2022-09-05,Manufacturing
+71,Bradshaw LLC,Europe,2023-08-03,Retail
+72,"Cox, Hoffman and Collins",Africa,2023-11-12,Manufacturing
+73,Hart Ltd,South America,2025-03-29,Retail
+74,Smith-Cook,North America,2025-04-13,Manufacturing
+75,"Chung, Fleming and Thomas",Asia-Pacific,2023-10-05,Finance
+76,Hansen and Sons,North America,2024-11-15,Finance
+77,Burns-Vance,Africa,2024-02-24,Technology
+78,"Lloyd, Zuniga and Key",North America,2023-12-06,Transportation
+79,Saunders-Holland,North America,2022-11-26,Healthcare
+80,Wilson Ltd,Europe,2022-07-31,Transportation
+81,Shaw Inc,Africa,2024-08-15,Healthcare
+82,Pruitt-Clark,Asia-Pacific,2024-07-09,Hospitality
+83,Pena Group,Europe,2023-02-19,Finance
+84,Jackson Ltd,Asia-Pacific,2023-05-04,Hospitality
+85,Cole-Owens,Asia-Pacific,2023-02-19,Transportation
+86,Zamora-Schmidt,Africa,2024-03-27,Transportation
+87,Griffin PLC,North America,2024-04-04,Finance
+88,Shepherd-Chen,Europe,2024-03-11,Technology
+89,Hamilton LLC,Asia-Pacific,2024-07-12,Retail
+90,"Hale, Walker and Davis",Africa,2023-06-29,Finance
+91,Ryan-Sanchez,Africa,2022-09-16,Finance
+92,Patel Ltd,North America,2023-12-21,Technology
+93,Howard and Sons,North America,2024-06-10,Finance
+94,"Lopez, Allen and Ortiz",North America,2024-10-01,Retail
+95,Salazar Inc,Asia-Pacific,2022-11-25,Technology
+96,"Bruce, Farmer and Brown",Africa,2023-08-09,Finance
+97,Lee-Khan,Asia-Pacific,2022-10-30,Transportation
+98,Miller-Hicks,Europe,2023-12-05,Healthcare
+99,Lee and Sons,Africa,2023-08-17,Transportation
+100,Smith PLC,Europe,2025-05-09,Transportation

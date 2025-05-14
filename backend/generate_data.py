@@ -114,15 +114,15 @@ def generate_products():
 def generate_sales(customers, products, n=2000, trend_bias=0):
     sales = []
     frequently_bought_together = [
-        (1, 2),  # Wireless Earbuds and Smartphone
-        (3, 4),  # Laptop and Gaming Console
-        (5, 6),  # Bluetooth Speaker and Smartwatch
-        (21, 22),  # Organic Coffee and Protein Bars
-        (23, 24),  # Gourmet Chocolate and Cooking Oil
-        (31, 32),  # Office Chair and Study Desk
-        (33, 34),  # Bookshelf and Sofa Set
-        (47, 48),  # Electric Kettle and Microwave Oven
-        (49, 50),  # Air Purifier and Vacuum Cleaner
+        (1, 2),  # Wireless Earbuds and Smartphone (Electronics)
+        (3, 4),  # Laptop and Gaming Console (Electronics)
+        (5, 6),  # Bluetooth Speaker and Smartwatch (Electronics)
+        (21, 22),  # Organic Coffee and Protein Bars (Food)
+        (23, 24),  # Gourmet Chocolate and Cooking Oil (Food)
+        (31, 32),  # Office Chair and Study Desk (Furniture)
+        (33, 34),  # Bookshelf and Sofa Set (Furniture)
+        (47, 48),  # Electric Kettle and Microwave Oven (Home Appliances)
+        (49, 50),  # Air Purifier and Vacuum Cleaner (Home Appliances)
     ]
     
     # Assign positive or negative trend to products
@@ -174,14 +174,16 @@ def generate_sales(customers, products, n=2000, trend_bias=0):
                 paired_product_price = products.loc[
                     products["product_id"] == paired_product, "sales_price"
                 ].values[0]
+                paired_quantity = max(1, round(adjusted_quantity * random.uniform(0.8, 1.2)))  # Correlated quantity
+                paired_transaction_date = transaction_date + timedelta(days=random.randint(0, 2))  # Correlated date
                 sales.append(
                     {
                         "transaction_id": n + i,  # Unique transaction ID
                         "customer_id": customer,
                         "product_id": paired_product,
-                        "quantity": adjusted_quantity,
-                        "sale_amount": round(paired_product_price * adjusted_quantity, 2),
-                        "transaction_date": transaction_date,
+                        "quantity": paired_quantity,
+                        "sale_amount": round(paired_product_price * paired_quantity, 2),
+                        "transaction_date": paired_transaction_date,
                         "sentiment_score": round(
                             min(max(np.random.normal(0.5, 0.35), 0), 1), 2
                         ),
@@ -206,7 +208,10 @@ def generate_support_tickets(customers, products, n=500):
     for i in range(1, n + 1):
         customer = random.choice(customers["customer_id"].tolist())
         product = random.choice(products["product_id"].tolist())
-        creation_date = fake.date_between(start_date="-1y", end_date="today")
+        customer_join_date = customers.loc[
+            customers["customer_id"] == customer, "join_date"
+        ].values[0]
+        creation_date = fake.date_between(start_date=customer_join_date, end_date="today")  # Ensure after join date
         status = random.choice(statuses)
         resolution_date = None
         if status in ["Closed", "Resolved"]:
@@ -253,7 +258,7 @@ def generate_suppliers(products, n=20):
 if __name__ == "__main__":
     customers_df = generate_customers(n=100)  # 100 customers
     products_df = generate_products()  # 50 products
-    generate_sales(customers_df, products_df, n=2000, trend_bias=0.2)  # Adjust trend_bias for positive trends
+    generate_sales(customers_df, products_df, n=3000, trend_bias=0.6)  # Adjust trend_bias for positive trends
     generate_support_tickets(customers_df, products_df, n=1500)  # 1500 tickets
     generate_suppliers(products_df, n=20)  # 20 suppliers
     print("✅Synthetic data generated in /data folder.")

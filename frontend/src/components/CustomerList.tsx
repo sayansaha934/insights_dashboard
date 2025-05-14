@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom"; // Import useNavigate
 
 type Customer = {
   customer_id: string;
@@ -18,6 +19,8 @@ export default function CustomerList({
   setSearch: (value: string) => void;
   onSelect: (id: string) => void;
 }) {
+  const navigate = useNavigate(); // Initialize navigate
+
   return (
     <div>
       <input
@@ -40,7 +43,7 @@ export default function CustomerList({
             <tr
               key={c.customer_id}
               className="hover:bg-blue-50 cursor-pointer"
-              onClick={() => onSelect(c.customer_id)}
+              onClick={() => navigate(`/customer/${c.customer_id}`)} // Navigate on click
             >
               <td className="border border-gray-300 px-4 py-2">{c.customer_name}</td>
               <td className="border border-gray-300 px-4 py-2">{c.industry}</td>
