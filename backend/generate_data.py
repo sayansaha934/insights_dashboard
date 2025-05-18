@@ -161,10 +161,7 @@ def generate_sales(customers, products, n=2000, trend_bias=0):
                 "product_id": product,
                 "quantity": adjusted_quantity,
                 "sale_amount": round(product_price * adjusted_quantity, 2),
-                "transaction_date": transaction_date,
-                "sentiment_score": round(
-                    min(max(np.random.normal(0.5, 0.35), 0), 1), 2
-                ),  # Balanced sentiment
+                "transaction_date": transaction_date
             }
         )
         # Simulate frequently bought together products
@@ -184,9 +181,6 @@ def generate_sales(customers, products, n=2000, trend_bias=0):
                         "quantity": paired_quantity,
                         "sale_amount": round(paired_product_price * paired_quantity, 2),
                         "transaction_date": paired_transaction_date,
-                        "sentiment_score": round(
-                            min(max(np.random.normal(0.5, 0.35), 0), 1), 2
-                        ),
                     }
                 )
     df = pd.DataFrame(sales)
